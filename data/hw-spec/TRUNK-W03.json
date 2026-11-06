@@ -1,0 +1,131 @@
+{
+ "key": "TRUNK-W03",
+ "quiz_id": 69,
+ "question_id": 342,
+ "course": "TRUNK",
+ "week": 3,
+ "title": "Week 3: Topic - Education",
+ "family": "T2-doan",
+ "pham_vi": "1 đoạn văn thân bài 100–120 từ nêu cái HẠI của việc đi làm thêm đối với sinh viên; topic sentence và 2 core idea đề cho sẵn.",
+ "yeu_cau": [
+  "Viết 1 đoạn thân bài nêu cái HẠI của việc sinh viên đi làm thêm, 100–120 từ.",
+  "Topic sentence đề cho sẵn.",
+  "Đề cho sẵn 2 core idea: SI 1 khó cân bằng giữa việc học và việc làm (ý TRUNG GIAN), SI 2 vấn đề sức khoẻ như kiệt sức, trầm cảm (ý ĐÍCH).",
+  "Em nộp kèm khung brainstorm và tự chọn cách phát triển REASON hay IMPACT cho từng supporting idea.",
+  "Mỗi supporting idea ít nhất 2 câu và ít nhất 40 chữ."
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Framework viết 1 đoạn thân bài: Bước 1 xác định ý tưởng (đề dạng Should we do X or not?, xác định X, chọn ý chính, vd viết về cái LỢI của X). Bước 2 tìm 2 supporting ideas (2 cái LỢI của X là 2 core ideas; core idea ĐỦ LỢI thì phát triển bằng REASON, CHƯA ĐỦ LỢI thì phát triển bằng IMPACT; được take note tiếng Việt). Bước 3 viết bài hoàn chỉnh. Topic sentence: cách viết câu này học ở tuần sau (tuần này đề cho sẵn).",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-doan",
+   "label": "1 đoạn thân bài: cái HẠI của việc đi làm thêm",
+   "instruction_vi": "Viết 1 đoạn thân bài (100–120 từ) nêu cái HẠI của việc đi làm thêm đối với sinh viên. Topic sentence và 2 core idea đề cho sẵn; em tự chọn REASON hay IMPACT để phát triển, nộp kèm khung brainstorm.",
+   "instruction_marked": "Viết 1 đoạn thân bài (100–120 từ) nêu cái HẠI của việc đi làm thêm đối với sinh viên. Topic sentence và 2 core idea đề cho sẵn; em tự chọn REASON hay IMPACT để phát triển, nộp kèm khung brainstorm.",
+   "goi_y_marked": "<b>Topic sentence</b>\n<b>Doing part-time jobs while studying in universities could have many negative impacts on students.</b>\n<b>Supporting idea 1</b> · Core idea: gặp khó khăn trong việc cân bằng giữa việc học và việc làm\n<b>Supporting idea 2</b> · Core idea: các vấn đề sức khoẻ như kiệt sức, trầm cảm",
+   "answer_format": "1 đoạn",
+   "topic_ids": [
+    "t1"
+   ],
+   "paragraph_brief": {
+    "side": "HẠI",
+    "allow_own_ideas": true,
+    "allow_opposite_side": false,
+    "given_topic_sentence": "Doing part-time jobs while studying in universities could have many negative impacts on students.",
+    "given_ideas": [
+     {
+      "si": 1,
+      "core_idea_vi": "gặp khó khăn trong việc cân bằng giữa việc học và việc làm",
+      "loai_y": "TRUNG GIAN",
+      "development_hint": null
+     },
+     {
+      "si": 2,
+      "core_idea_vi": "các vấn đề sức khoẻ như kiệt sức, trầm cảm",
+      "loai_y": "ĐÍCH",
+      "development_hint": null
+     }
+    ],
+    "word_limit": {
+     "min": 100,
+     "max": 120,
+     "source": "file bàn giao chị Linh 08/10"
+    }
+   },
+   "ngan_hang_y": "Ngân hàng ý của giáo viên (chỉ để chấm, học sinh không thấy; em viết ý khác mà hợp lý vẫn được). Nhãn: ĐÍCH = ý đã là cái lợi / hại cuối cùng (tiền, sức khoẻ, việc làm, kết quả học tập…), phát triển bằng REASON; TRUNG GIAN = ý chưa đủ lợi / hại, phát triển bằng IMPACT dẫn tới một ĐÍCH.\nNgân hàng ý (bản LFM — nhãn ĐÍCH / TRUNG GIAN và cách phát triển đạt):\n• Khó cân bằng giữa học và làm (SI 1 cho sẵn) [TRUNG GIAN]: Impact tới kết quả học tập hoặc sự nghiệp: không tập trung học → kết quả kém → khó xin việc tốt. Reason (giải thích vì sao khó cân bằng) → sai loại.\n• Vấn đề sức khoẻ: kiệt sức, trầm cảm (SI 2 cho sẵn) [ĐÍCH]: Reason: làm ca đêm, thiếu ngủ, áp lực vừa học vừa làm. Impact tới giá trị lớn hơn cũng đạt: sức khoẻ kém → phải nghỉ học.\n• Ít thời gian cho gia đình, bạn bè [TRUNG GIAN]: Impact tới quan hệ gia đình, xã hội hoặc sức khoẻ tinh thần.\n• Coi trọng tiền hơn việc học [TRUNG GIAN]: Impact: bỏ bê việc học → bỏ học → hạn chế sự nghiệp về sau.\n• Bị trả lương thấp, bị bóc lột [ĐÍCH]: Reason: thiếu kinh nghiệm, làm việc không hợp đồng."
+  }
+ ],
+ "topics": [
+  {
+   "id": "t1",
+   "text": "Many students take part-time jobs while studying in universities. Is this a positive or a negative development?",
+   "question_type": "pos_neg",
+   "where": "text",
+   "note": null,
+   "part_id": "p1",
+   "lua_chon": false
+  }
+ ],
+ "paragraph_brief": {
+  "part_id": "p1",
+  "side": "HẠI",
+  "allow_own_ideas": true,
+  "allow_opposite_side": false,
+  "given_topic_sentence": "Doing part-time jobs while studying in universities could have many negative impacts on students.",
+  "given_ideas": [
+   {
+    "si": 1,
+    "core_idea_vi": "gặp khó khăn trong việc cân bằng giữa việc học và việc làm",
+    "loai_y": "TRUNG GIAN",
+    "development_hint": null
+   },
+   {
+    "si": 2,
+    "core_idea_vi": "các vấn đề sức khoẻ như kiệt sức, trầm cảm",
+    "loai_y": "ĐÍCH",
+    "development_hint": null
+   }
+  ],
+  "word_limit": {
+   "min": 100,
+   "max": 120,
+   "source": "file bàn giao chị Linh 08/10"
+  }
+ },
+ "images": [],
+ "image_check": "không có ảnh đề.",
+ "source_notes": [
+  "08/10: yêu cầu thay theo file bàn giao của chị Linh (Yêu cầu chính (mới)); bản trước ở data/hw-spec/_truoc-de-linh-0810/."
+ ],
+ "platform": {
+  "quiz_title": "Writing Week 3",
+  "question_id": 342,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": null,
+  "max_words": 120,
+  "limit_submit": 2,
+  "time_minutes": 60,
+  "graph_type": null,
+  "quiz_code": "{{trunk-writing-week-3}}",
+  "date_updated": "2026-03-23T14:46:58.722+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › TRUNK-W03 › questions[0].content_html",
+  "md": "data/homeworks/TRUNK-W03.md"
+ },
+ "yeu_cau_cu": [
+  "Viết 1 đoạn văn thân bài theo cấu trúc đã học (Topic sentence + 2 supporting ideas, mỗi supporting idea có core idea + development)",
+  "Đoạn văn đưa ra những cái HẠI của việc đi làm thêm đối với sinh viên",
+  "Dùng topic sentence đề cho sẵn",
+  "Supporting idea 1: phát triển bằng IMPACT theo chuỗi gợi ý, tự viết tiếp \"dẫn tới vấn đề gì trong tương lai?\"",
+  "Supporting idea 2: tự chọn REASON hay IMPACT và tự phát triển",
+  "Được viết theo ideas riêng"
+ ],
+ "lo": [
+  "T3.3 — Diễn đạt reason / impact đúng collocation",
+  "T3.1 — Viết được đoạn thân bài đúng cấu trúc theo LF: topic sentence + 2 supporting idea; mỗi supporting idea = core idea + development",
+  "T3.2 — Phát triển core idea đúng loại: reason khi core idea đã đủ lợi/hại, impact khi chưa đủ"
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "key": "TRUNK-W04",
+ "quiz_id": 70,
+ "question_id": 343,
+ "course": "TRUNK",
+ "week": 4,
+ "title": "Week 4: Topic - Work (freelance)",
+ "family": "T2-doan",
+ "pham_vi": "1 đoạn văn thân bài 100–120 từ nêu cái LỢI của việc người trẻ làm freelance; em tự viết topic sentence, 2 core idea đề cho sẵn.",
+ "yeu_cau": [
+  "Viết 1 đoạn thân bài nêu cái LỢI của việc người trẻ làm freelance thay vì làm toàn thời gian cho một công ty, 100–120 từ.",
+  "Em tự viết topic sentence (cấu trúc danh từ hoặc tính từ).",
+  "Đề cho sẵn 2 core idea: SI 1 làm freelance cho phép người trẻ chủ động sắp xếp thời gian làm việc (ý TRUNG GIAN, phát triển bằng IMPACT tới sức khoẻ / quan hệ gia đình / kết quả học tập); SI 2 người làm freelance có thể kiếm được thu nhập cao hơn (ý ĐÍCH: tiền, phát triển bằng REASON: nhận nhiều dự án cùng lúc, tự đặt giá).",
+  "Em nộp kèm khung brainstorm.",
+  "Supporting idea 2 mở bằng từ nối bổ sung; dùng ít nhất 1 lần this / do so.",
+  "Mỗi supporting idea ít nhất 2 câu và ít nhất 40 chữ."
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Trước khi làm, xem lại feedback của giáo viên tuần trước. Framework viết 1 đoạn thân bài: Bước 1 xác định ý tưởng (đề dạng Should we do X or not?, xác định X, chọn ý chính, vd viết về cái LỢI của X). Bước 2 tìm 2 supporting ideas (2 cái LỢI của X là 2 core ideas; core idea ĐỦ LỢI thì phát triển bằng REASON, CHƯA ĐỦ LỢI thì phát triển bằng IMPACT; được take note tiếng Việt). Bước 3 viết bài hoàn chỉnh. Nội dung mới tuần 4 (Bước 3): viết Topic sentence (X mang lại nhiều lợi/hại); kiểm soát ngữ pháp, tra công thức động từ / collocation; dùng linking devices giữa các supporting idea (Firstly, S-FV | Secondly, S-FV) và giữa core idea với development (lưu ý quan hệ Reason / Impact).",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-doan",
+   "label": "1 đoạn thân bài: cái LỢI của việc làm freelance",
+   "instruction_vi": "Viết 1 đoạn thân bài (100–120 từ) nêu cái LỢI của việc người trẻ làm freelance. Em tự viết topic sentence; 2 core idea đề cho sẵn; nộp kèm khung brainstorm.",
+   "instruction_marked": "Viết 1 đoạn thân bài (100–120 từ) nêu cái LỢI của việc người trẻ làm freelance. Em tự viết topic sentence; 2 core idea đề cho sẵn; nộp kèm khung brainstorm.",
+   "goi_y_marked": "<b>Topic sentence</b>\n[ĐỎ]Em tự viết topic sentence (cấu trúc danh từ hoặc tính từ).[/ĐỎ]\n<b>Supporting idea 1</b> · Core idea: làm freelance cho phép người trẻ chủ động sắp xếp thời gian làm việc\n<b>Supporting idea 2</b> · Core idea: người làm freelance có thể kiếm được thu nhập cao hơn",
+   "answer_format": "1 đoạn",
+   "topic_ids": [
+    "t1"
+   ],
+   "paragraph_brief": {
+    "side": "LỢI",
+    "allow_own_ideas": true,
+    "allow_opposite_side": false,
+    "given_topic_sentence": null,
+    "topic_sentence_note": "em tự viết (cấu trúc danh từ hoặc tính từ)",
+    "given_ideas": [
+     {
+      "si": 1,
+      "core_idea_vi": "làm freelance cho phép người trẻ chủ động sắp xếp thời gian làm việc",
+      "loai_y": "TRUNG GIAN",
+      "development_hint": "IMPACT"
+     },
+     {
+      "si": 2,
+      "core_idea_vi": "người làm freelance có thể kiếm được thu nhập cao hơn",
+      "loai_y": "ĐÍCH",
+      "development_hint": "REASON"
+     }
+    ],
+    "word_limit": {
+     "min": 100,
+     "max": 120,
+     "source": "file bàn giao chị Linh 08/10"
+    }
+   },
+   "ngan_hang_y": "Ngân hàng ý của giáo viên (chỉ để chấm, học sinh không thấy; em viết ý khác mà hợp lý vẫn được). Nhãn: ĐÍCH = ý đã là cái lợi / hại cuối cùng (tiền, sức khoẻ, việc làm, kết quả học tập…), phát triển bằng REASON; TRUNG GIAN = ý chưa đủ lợi / hại, phát triển bằng IMPACT dẫn tới một ĐÍCH.\nĐoạn LỢI:\n• SI 1 — Chủ động sắp xếp thời gian làm việc [TRUNG GIAN → IMPACT]: tự quyết giờ làm → cân bằng công việc và gia đình / có thời gian nghỉ ngơi → giảm căng thẳng (sức khoẻ tinh thần).\n• SI 2 — Thu nhập cao hơn [ĐÍCH: tiền → REASON]: nhận nhiều dự án cùng lúc, tự đặt mức giá, không phải chia lợi nhuận cho công ty.\n• Ý khác: học được nhiều kỹ năng qua nhiều dự án [TRUNG GIAN → sự nghiệp] · làm việc ở bất cứ đâu [TRUNG GIAN → tiết kiệm chi phí, thời gian đi lại].\nTopic sentence gợi ý: Working as a freelancer brings several benefits to young people. / Freelancing is beneficial to young people in several ways."
+  }
+ ],
+ "topics": [
+  {
+   "id": "t1",
+   "text": "Nowadays, many young people choose to work as freelancers instead of working full-time for a company. Is this a positive or negative development?",
+   "question_type": "pos_neg",
+   "where": "text",
+   "note": "đề mới 08/10; đề cũ (high salary is the most important factor) là dạng tuyệt đối nhưng bài chỉ yêu cầu viết cái LỢI",
+   "part_id": "p1",
+   "lua_chon": false
+  }
+ ],
+ "paragraph_brief": {
+  "part_id": "p1",
+  "side": "LỢI",
+  "allow_own_ideas": true,
+  "allow_opposite_side": false,
+  "given_topic_sentence": null,
+  "topic_sentence_note": "em tự viết (cấu trúc danh từ hoặc tính từ)",
+  "given_ideas": [
+   {
+    "si": 1,
+    "core_idea_vi": "làm freelance cho phép người trẻ chủ động sắp xếp thời gian làm việc",
+    "loai_y": "TRUNG GIAN",
+    "development_hint": "IMPACT"
+   },
+   {
+    "si": 2,
+    "core_idea_vi": "người làm freelance có thể kiếm được thu nhập cao hơn",
+    "loai_y": "ĐÍCH",
+    "development_hint": "REASON"
+   }
+  ],
+  "word_limit": {
+   "min": 100,
+   "max": 120,
+   "source": "file bàn giao chị Linh 08/10"
+  }
+ },
+ "images": [],
+ "image_check": "ảnh đề trên nền tảng là đề cũ; đề mới chưa lên nền tảng (08/10).",
+ "source_notes": [
+  "08/10: yêu cầu thay theo file bàn giao của chị Linh (Yêu cầu chính (mới)); bản trước ở data/hw-spec/_truoc-de-linh-0810/. Đề đổi (đề mới 08/10)."
+ ],
+ "platform": {
+  "quiz_title": "Writing  Week 4",
+  "question_id": 343,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 120,
+  "limit_submit": 2,
+  "time_minutes": 60,
+  "graph_type": null,
+  "quiz_code": "{{trunk-writing-week-4}}",
+  "date_updated": "2026-03-23T15:55:24.766+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › TRUNK-W04 › questions[0].content_html",
+  "md": "data/homeworks/TRUNK-W04.md"
+ },
+ "yeu_cau_cu": [
+  "Viết 1 đoạn văn thân bài theo cấu trúc đã học",
+  "Đoạn văn nói về những cái LỢI của việc có được một công việc lương cao",
+  "Tự viết topic sentence bằng kiến thức đã học trên lớp (X mang lại nhiều lợi)",
+  "Hai supporting idea: tự chọn phát triển bằng REASON hay IMPACT",
+  "Dùng linking devices: giữa các supporting idea (Firstly, S-FV | Secondly, S-FV) và giữa core idea với development (đúng quan hệ Reason / Impact)",
+  "Kiểm soát ngữ pháp, tra công thức động từ / collocation",
+  "Được viết theo ideas riêng"
+ ],
+ "lo": [
+  "T4.2 — Diễn đạt lợi / hại đúng collocation",
+  "T4.1 — Topic sentence nêu đúng main idea của đoạn: X + lợi/hại, cùng chiều với 2 supporting idea",
+  "T4.3 — Có dùng đúng linking devices giữa các supporting idea",
+  "T4.4 — Có dùng linking device đúng quan hệ ý giữa các câu trong supporting idea",
+  "T4.5 — Có dùng this / do so trỏ lại ý phía trước"
+ ]
+}

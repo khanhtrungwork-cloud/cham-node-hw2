@@ -1,0 +1,425 @@
+{
+ "key": "ROOT-W09",
+ "quiz_id": 84,
+ "question_id": 357,
+ "course": "ROOT",
+ "week": 9,
+ "title": "Week 9: Final test (TEST CUỐI KHÓA ROOT)",
+ "family": "T2-cau",
+ "pham_vi": "10 câu dịch Việt sang Anh (final test, 40 phút, 100 điểm); mỗi câu viết 1 câu tiếng Anh.",
+ "yeu_cau": [
+  "Final test cuối khoá: viết 10 câu tiếng Anh từ câu tiếng Việt, 40 phút, 100 điểm (10 câu × 10 điểm). Dùng từ gợi ý của đề.",
+  "Trọng tâm tuần: Adverbial clause + Final test · tổng hợp cả khoá",
+  "LO chấm của tuần: Toàn bộ 16 LO chấm ứng dụng của khoá: R1.2; R1.3; R2.2; R2.3; R3.2; R4.1; R4.2; R5.1; R6.1; R6.2; R7.1; R7.2; R8.1; R8.2; R9.1; R9.2"
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Test cuối khóa: 40 phút, 10 câu, 100 điểm (theo đề).",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-cau",
+   "label": "Viết 10 câu (Homework tuần 9 = Final test — tích luỹ bài 1–9)",
+   "instruction_vi": "Final test cuối khoá: viết 10 câu tiếng Anh từ câu tiếng Việt, 40 phút, 100 điểm (10 câu × 10 điểm). Dùng từ gợi ý của đề.",
+   "instruction_marked": "Final test cuối khoá: viết 10 câu tiếng Anh từ câu tiếng Việt, 40 phút, 100 điểm (10 câu × 10 điểm). Dùng từ gợi ý của đề.",
+   "answer_format": "mỗi câu một dòng",
+   "items": [
+    {
+     "n": 1,
+     "label": "1",
+     "prompt_vi": "Ngày càng nhiều người trẻ muốn làm việc ở nước ngoài để tích luỹ kinh nghiệm thực tế, điều này cũng giúp họ cải thiện đáng kể kỹ năng ngoại ngữ.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Ngày càng nhiều người trẻ muốn làm việc ở nước ngoài để tích luỹ kinh nghiệm thực tế, điều này cũng giúp họ cải thiện đáng kể kỹ năng ngoại ngữ.",
+     "hints": [
+      "work abroad"
+     ],
+     "hints_raw": "(work abroad)",
+     "hints_marked": "(work abroad)",
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Vế “, which” bổ nghĩa cả mệnh đề (bài 7) và trạng từ significantly đặt đúng vị trí",
+      "Lỗi dễ mắc: which help; want working; improve significantly their skills.",
+      "Câu gợi ý của giáo viên: More and more young people want to work abroad to gain practical experience, which also helps them significantly improve their language skills."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": null,
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "1",
+     "dap_an_goi_y": "More and more young people want to work abroad to gain practical experience, which also helps them significantly improve their language skills.",
+     "cach_viet_khac": [
+      "An increasing number of young people want to work abroad to get real work experience, which also helps them improve their foreign language skills considerably."
+     ]
+    },
+    {
+     "n": 2,
+     "label": "2",
+     "prompt_vi": "Công nghệ hiện đại đã làm cho việc giao tiếp trở nên dễ dàng và nhanh chóng hơn nhiều, điều này giúp các gia đình sống xa nhau vẫn giữ liên lạc thường xuyên.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Công nghệ hiện đại đã làm cho việc giao tiếp trở nên dễ dàng và nhanh chóng hơn nhiều, điều này giúp các gia đình sống xa nhau vẫn giữ liên lạc thường xuyên.",
+     "hints": [
+      "Modern technology",
+      "communication"
+     ],
+     "hints_raw": "(Modern technology / communication)",
+     "hints_marked": "(Modern technology / communication)",
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Hiện tại hoàn thành (bài 3) và vế “, which”. make sth + adj (bài 2)",
+      "Lỗi dễ mắc: Modern technologies has; made communication to be easier.",
+      "Câu gợi ý của giáo viên: Modern technology has made communication much easier and faster, which helps families living far apart keep in touch regularly."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": null,
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "2",
+     "dap_an_goi_y": "Modern technology has made communication much easier and faster, which helps families living far apart keep in touch regularly.",
+     "cach_viet_khac": [
+      "Modern technology has made communication much faster and easier, which allows families who live far away from each other to stay in touch regularly."
+     ]
+    },
+    {
+     "n": 3,
+     "label": "3",
+     "prompt_vi": "Vì tình trạng tắc nghẽn giao thông ngày càng nghiêm trọng, người dân ở nhiều thành phố lớn được khuyến khích sử dụng phương tiện công cộng.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Vì tình trạng tắc nghẽn giao thông ngày càng nghiêm trọng, người dân ở nhiều thành phố lớn được khuyến khích sử dụng phương tiện công cộng.",
+     "hints": [
+      "traffic congestion",
+      "encourage",
+      "public transport"
+     ],
+     "hints_raw": "(traffic congestion/ encourage/ public transport)",
+     "hints_marked": "(traffic congestion/ encourage/ public transport)",
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Vế “Vì…” là mệnh đề (because + S–FV, bài 9); vế sau ở bị động (are encouraged to use, bài 8)",
+      "Lỗi dễ mắc: Because of traffic congestion is…; are encouraged using.",
+      "Câu gợi ý của giáo viên: Because traffic congestion is becoming more and more serious, people in many big cities are encouraged to use public transport."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": null,
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "3",
+     "dap_an_goi_y": "Because traffic congestion is becoming more and more serious, people in many big cities are encouraged to use public transport.",
+     "cach_viet_khac": [
+      "As traffic congestion is getting worse and worse, people in many large cities are encouraged to travel by public transport."
+     ]
+    },
+    {
+     "n": 4,
+     "label": "4",
+     "prompt_vi": "Ô nhiễm không khí | gây hại nghiêm trọng cho sức khoẻ của người dân | đang là một vấn đề đáng lo ngại ở các thành phố lớn.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Ô nhiễm không khí | gây hại nghiêm trọng cho sức khoẻ của người dân | đang là một vấn đề đáng lo ngại ở các thành phố lớn.",
+     "hints": [
+      "air pollution",
+      "harm"
+     ],
+     "hints_raw": "(air pollution / harm)",
+     "hints_marked": "(air pollution / harm)",
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Trạng từ “nghiêm trọng” (seriously) và participle “đáng lo ngại” (worrying, bài 8). Non-restrictive vì air pollution là khái niệm chung",
+      "Câu gợi ý của giáo viên: Air pollution, which seriously harms people's health, is a worrying problem in big cities."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": null,
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "4",
+     "dap_an_goi_y": "Air pollution, which seriously harms people's health, is a worrying problem in big cities.",
+     "cach_viet_khac": [
+      "Air pollution, which does serious harm to people's health, is becoming a worrying problem in large cities."
+     ]
+    },
+    {
+     "n": 5,
+     "label": "5",
+     "prompt_vi": "Trò chơi điện tử rất gây nghiện, vì vậy nhiều học sinh dành quá nhiều thời gian chơi game và không còn thời gian làm bài tập về nhà, điều này khiến kết quả học tập của các em ngày càng kém đi.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Trò chơi điện tử rất gây nghiện, vì vậy nhiều học sinh dành quá nhiều thời gian chơi game và không còn thời gian làm bài tập về nhà, điều này khiến kết quả học tập của các em ngày càng kém đi.",
+     "hints": [
+      "addictive (ADJ)",
+      "academic results"
+     ],
+     "hints_raw": "(addictive (ADJ) / academic results)",
+     "hints_marked": "(addictive (ADJ) / academic results)",
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "spend time doing · make sth + adj (bài 2) · so / and / , which",
+      "Lỗi dễ mắc: Video games is; spend time to play; which make.",
+      "Câu gợi ý của giáo viên: Video games are very addictive, so many students spend too much time playing them and have no time left for their homework, which makes their academic results worse and worse."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": null,
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "5",
+     "dap_an_goi_y": "Video games are very addictive, so many students spend too much time playing them and have no time left for their homework, which makes their academic results worse and worse.",
+     "cach_viet_khac": [
+      "Because video games are very addictive, many students spend too much time playing them and do not have time to do their homework, which makes their academic results worse and worse."
+     ]
+    },
+    {
+     "n": 6,
+     "label": "6",
+     "prompt_vi": "Mặc dù những người xả rác nơi công cộng đã bị chính quyền phạt nặng, trung tâm thành phố vẫn rất bẩn.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Mặc dù những người xả rác nơi công cộng đã bị chính quyền phạt nặng, trung tâm thành phố vẫn rất bẩn.",
+     "hints": [
+      "authorities",
+      "heavily fine",
+      "litter"
+     ],
+     "hints_raw": "(authorities / heavily fine / litter)",
+     "hints_marked": "(authorities / heavily fine / litter)",
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Bị động (have been heavily fined, bài 8); “những người xả rác” là adj clause (bài 6). Although không đi cùng but (bài 9)",
+      "Lỗi dễ mắc: who litters; have been heavy fined; Although …, but ….",
+      "Câu gợi ý của giáo viên: Although people who litter in public places have been heavily fined by the authorities, the city centre is still very dirty."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": null,
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "6",
+     "dap_an_goi_y": "Although people who litter in public places have been heavily fined by the authorities, the city centre is still very dirty.",
+     "cach_viet_khac": [
+      "The city centre is still very dirty although the authorities have heavily fined people who litter in public places."
+     ]
+    },
+    {
+     "n": 7,
+     "label": "7",
+     "prompt_vi": "Nhiều bác sĩ khuyên bệnh nhân nên tập thể dục thường xuyên vì thói quen này giúp họ có lối sống lành mạnh và giảm nguy cơ mắc bệnh tim mạch.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nhiều bác sĩ khuyên bệnh nhân nên tập thể dục thường xuyên vì thói quen này giúp họ có lối sống lành mạnh và giảm nguy cơ mắc bệnh tim mạch.",
+     "hints": [
+      "advise",
+      "patients",
+      "habit",
+      "healthy lifestyle",
+      "heart disease"
+     ],
+     "hints_raw": "(advise / patients / habit / healthy lifestyle / heart disease)",
+     "hints_marked": "(advise / patients / habit / healthy lifestyle / heart disease)",
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Công thức động từ (advise sb to do · help sb do), collocation và because",
+      "Lỗi dễ mắc: advise patients should; have a healthy lifestyle (nên dùng lead).",
+      "Câu gợi ý của giáo viên: Many doctors advise patients to exercise regularly because this habit helps them lead a healthy lifestyle and reduce the risk of heart disease."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": null,
+     "nguon_cau": "GIỮ",
+     "tu_cau_cu": "7",
+     "dap_an_goi_y": "Many doctors advise patients to exercise regularly because this habit helps them lead a healthy lifestyle and reduce the risk of heart disease.",
+     "cach_viet_khac": [
+      "Many doctors advise their patients to do exercise regularly, as this habit helps them lead a healthy lifestyle and lowers their risk of heart disease."
+     ]
+    },
+    {
+     "n": 8,
+     "label": "8",
+     "prompt_vi": "Vì nhiều công ty yêu cầu nhân viên làm thêm giờ, nhiều người trẻ đã quyết định nghỉ việc, đặc biệt là những người không hài lòng với mức lương và môi trường làm việc căng thẳng.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Vì nhiều công ty yêu cầu nhân viên làm thêm giờ, nhiều người trẻ đã quyết định nghỉ việc, đặc biệt là những người không hài lòng với mức lương và môi trường làm việc căng thẳng.",
+     "hints": [
+      "require",
+      "satisfied (adj)",
+      "work environment"
+     ],
+     "hints_raw": "(require / satisfied (adj) / work environment)",
+     "hints_marked": "(require / satisfied (adj) / work environment)",
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Vế sau là adj clause (those who…, bài 6); hiện tại hoàn thành (bài 3); satisfied (participle, bài 8)",
+      "Lỗi dễ mắc: require employees working; who is not satisfied; satisfying.",
+      "Câu gợi ý của giáo viên: Because many companies require their employees to work overtime, many young people have decided to quit their jobs, especially those who are not satisfied with their salaries and the stressful work environment."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": null,
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "8",
+     "dap_an_goi_y": "Because many companies require their employees to work overtime, many young people have decided to quit their jobs, especially those who are not satisfied with their salaries and the stressful work environment.",
+     "cach_viet_khac": [
+      "As many companies require their staff to work overtime, a lot of young people have decided to leave their jobs, especially those who are not satisfied with their pay and the stressful working environment."
+     ]
+    },
+    {
+     "n": 9,
+     "label": "9",
+     "prompt_vi": "Nếu các trường học khuyến khích học sinh tham gia các hoạt động ngoại khoá thú vị, học sinh sẽ có cơ hội phát triển những kỹ năng giao tiếp mà nhiều nhà tuyển dụng hiện nay đang tìm kiếm.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nếu các trường học khuyến khích học sinh tham gia các hoạt động ngoại khoá thú vị, học sinh sẽ có cơ hội phát triển những kỹ năng giao tiếp mà nhiều nhà tuyển dụng hiện nay đang tìm kiếm.",
+     "hints": [
+      "encourage",
+      "extracurricular activities",
+      "communication skills",
+      "look for"
+     ],
+     "hints_raw": "(encourage / extracurricular activities / communication skills / look for)",
+     "hints_marked": "(encourage / extracurricular activities / communication skills / look for)",
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "“thú vị” = interesting (participle, bài 8). Adj clause tân ngữ: không lặp “them” sau look for (bài 6). if + hiện tại đơn, mệnh đề chính will (bài 3, 9)",
+      "Lỗi dễ mắc: that employers are looking for them; If schools will encourage.",
+      "Câu gợi ý của giáo viên: If schools encourage students to take part in interesting extracurricular activities, students will have the opportunity to develop the communication skills that many employers are looking for today."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": null,
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "9",
+     "dap_an_goi_y": "If schools encourage students to take part in interesting extracurricular activities, students will have the opportunity to develop the communication skills that many employers are looking for today.",
+     "cach_viet_khac": [
+      "If schools encourage students to join interesting extracurricular activities, they will have a chance to develop the communication skills which many employers are looking for nowadays."
+     ]
+    },
+    {
+     "n": 10,
+     "label": "10",
+     "prompt_vi": "Vì thiếu kỹ năng mềm, thứ luôn được các nhà tuyển dụng đánh giá cao, nhiều sinh viên mới ra trường thấy rất khó tìm được việc làm tốt ở các công ty đa quốc gia.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Vì thiếu kỹ năng mềm, thứ luôn được các nhà tuyển dụng đánh giá cao, nhiều sinh viên mới ra trường thấy rất khó tìm được việc làm tốt ở các công ty đa quốc gia.",
+     "hints": [
+      "soft skills",
+      "find it ADJ to do something",
+      "multinational companies"
+     ],
+     "hints_raw": "(soft skills / find it ADJ to do something / multinational companies)",
+     "hints_marked": "(soft skills / find it ADJ to do something / multinational companies)",
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Adj clause bị động bổ nghĩa soft skills (bài 6–8). Vế “Vì thiếu…” là mệnh đề (because + S–FV) hoặc cụm (because of a lack of…), chấm đúng cả hai. lack sth (không có of)",
+      "Lỗi dễ mắc: Because lack of soft skills; which is valued; find very difficult to get.",
+      "Câu gợi ý của giáo viên: Because they lack soft skills, which are always highly valued by employers, many fresh graduates find it very difficult to get good jobs at multinational companies."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": null,
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "10",
+     "dap_an_goi_y": "Because they lack soft skills, which are always highly valued by employers, many fresh graduates find it very difficult to get good jobs at multinational companies.",
+     "cach_viet_khac": [
+      "Because of a lack of soft skills, which are always highly valued by employers, many new graduates find it very hard to find good jobs in multinational companies."
+     ]
+    }
+   ],
+   "instruction_source": "file bàn giao của chị Linh 08/10"
+  }
+ ],
+ "count_check": {
+  "items_in_spec": 10,
+  "nguon": "file bàn giao chị Linh 08/10"
+ },
+ "images": [],
+ "image_check": "ảnh đề trên nền tảng là bản cũ, đề mới chưa lên nền tảng (08/10).",
+ "source_notes": [
+  "Đề cũ (trước 08/10): Đề ghi thang 100 điểm; theo PLAN mục 9 vẫn không cho điểm bài câu (ghi lại để anh xem).",
+  "Đề cũ (trước 08/10): Câu 4 dùng dấu \"|\" để tách 3 phần cần ghép.",
+  "08/10: đề thay theo file bàn giao của chị Linh (Ban-giao-Task2-De-chi-tiet-4-khoa.xlsx). Bản trước ở data/hw-spec/_truoc-de-linh-0810/. Gợi ý giữ theo đề cũ (ghi chú: giữ từ gợi ý của đề cũ).",
+  "11/10: thêm `cach_viet_khac` cho mọi câu (cách viết khác đáp án giáo viên, R&D viết, AI chữa câu của Builder soát sạch) cho nút \"Câu sửa đầy đủ\" của trang chấm; câu chưa có đáp án giáo viên có 2 câu.",
+  "14/10 anh Tùng: đề HW2 theo bản chị Linh (file 08/10). Bộ đề HW2 ROOT của anh Trung là bản cũ hơn, không dùng."
+ ],
+ "platform": {
+  "quiz_title": "Writing  Week 9",
+  "question_id": 357,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 0,
+  "limit_submit": 2,
+  "time_minutes": 600,
+  "graph_type": null,
+  "quiz_code": "{{root-writing-week-9}}",
+  "date_updated": "2026-07-08T13:43:02.602+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › ROOT-W09 › questions[0].content_html",
+  "md": "data/homeworks/ROOT-W09.md"
+ },
+ "lo": [
+  "Toàn bộ 16 LO chấm ứng dụng của khoá: R1.2",
+  "R1.3",
+  "R2.2",
+  "R2.3",
+  "R3.2",
+  "R4.1",
+  "R4.2",
+  "R5.1",
+  "R6.1",
+  "R6.2",
+  "R7.1",
+  "R7.2",
+  "R8.1",
+  "R8.2",
+  "R9.1",
+  "R9.2"
+ ]
+}

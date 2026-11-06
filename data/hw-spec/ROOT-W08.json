@@ -1,0 +1,313 @@
+{
+ "key": "ROOT-W08",
+ "quiz_id": 83,
+ "question_id": 356,
+ "course": "ROOT",
+ "week": 8,
+ "title": "Week 8: Passive voice (Law)",
+ "family": "T2-cau",
+ "pham_vi": "8 câu dịch Việt sang Anh, mỗi câu viết 1 câu tiếng Anh. Đề không giới hạn số từ.",
+ "yeu_cau": [
+  "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+  "Câu chia phần A: câu 1–3, phần B: câu 4–6, phần C: câu 7–8; càng về sau càng khó.",
+  "Trọng tâm tuần: Passive voice & participle",
+  "LO chấm của tuần: R8.1 Viết passive đúng dạng be + V3 và đúng thì + công thức động từ; R8.2 Chọn đúng present hay past participle khi dùng làm tính từ bổ nghĩa cho danh từ"
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Chỉ nhập phần bài làm TIẾNG ANH, không gõ lại đề tiếng Việt.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-cau",
+   "label": "Viết 8 câu (Bài 8 — Passive voice & participle)",
+   "instruction_vi": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "instruction_marked": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "answer_format": "mỗi câu một dòng",
+   "items": [
+    {
+     "n": 1,
+     "label": "1",
+     "prompt_vi": "Ngôi nhà bị bỏ hoang ở quận 1 đã được bán cho một người nước ngoài vào năm ngoái.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Ngôi nhà bị bỏ hoang ở quận 1 đã được bán cho một người nước ngoài vào năm ngoái.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "participle quá khứ 'abandoned' (bị bỏ hoang) làm tính từ; passive 'was sold' thì quá khứ.",
+      "Câu gợi ý của giáo viên: The abandoned house in District 1 was sold to a foreigner last year."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "The abandoned house in District 1 was sold to a foreigner last year.",
+     "cach_viet_khac": [
+      "Last year, the abandoned house in District 1 was sold to a foreign buyer."
+     ]
+    },
+    {
+     "n": 2,
+     "label": "2",
+     "prompt_vi": "Bộ phim gây thất vọng đó đã bị nhiều nhà phê bình chỉ trích nặng nề.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Bộ phim gây thất vọng đó đã bị nhiều nhà phê bình chỉ trích nặng nề.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "participle hiện tại 'disappointing' (phim GÂY thất vọng) — đối lập với 'abandoned' câu 1; passive 'was criticized'.",
+      "Câu gợi ý của giáo viên: The disappointing film was heavily criticized by many critics."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "The disappointing film was heavily criticized by many critics.",
+     "cach_viet_khac": [
+      "That disappointing film was strongly criticized by a lot of critics."
+     ]
+    },
+    {
+     "n": 3,
+     "label": "3",
+     "prompt_vi": "Những nhân viên có tay nghề cao thường được các công ty đa quốc gia tuyển dụng với mức lương hấp dẫn.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Những nhân viên có tay nghề cao thường được các công ty đa quốc gia tuyển dụng với mức lương hấp dẫn.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "participle quá khứ 'skilled'; passive 'are recruited' thì hiện tại. 'often' (bài 4), cụm giới từ 'with...' (bài 5).",
+      "Câu gợi ý của giáo viên: Skilled workers are often recruited by multinational companies with attractive salaries."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Skilled workers are often recruited by multinational companies with attractive salaries.",
+     "cach_viet_khac": [
+      "Highly skilled employees are often hired by multinational companies with attractive salaries."
+     ]
+    },
+    {
+     "n": 4,
+     "label": "4",
+     "prompt_vi": "Cô ấy được kỳ vọng sẽ được thăng chức vào cuối năm nhờ hiệu suất làm việc ấn tượng.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Cô ấy được kỳ vọng sẽ được thăng chức vào cuối năm nhờ hiệu suất làm việc ấn tượng.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Passive với công thức: expect sb to do sth → 'is expected to be promoted' (bị động kép, giữ công thức). adj 'impressive' (adj thường, không phải participle; chọn đúng adj là được). 'thanks to' (bài 5).",
+      "Câu gợi ý của giáo viên: She is expected to be promoted at the end of the year thanks to her impressive performance."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "She is expected to be promoted at the end of the year thanks to her impressive performance.",
+     "cach_viet_khac": [
+      "Thanks to her impressive work performance, she is expected to be promoted at the end of this year."
+     ]
+    },
+    {
+     "n": 5,
+     "label": "5",
+     "prompt_vi": "Những đứa trẻ được khích lệ thường được cha mẹ khen ngợi, điều này khiến chúng tự tin hơn.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Những đứa trẻ được khích lệ thường được cha mẹ khen ngợi, điều này khiến chúng tự tin hơn.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "participle quá khứ 'encouraged'; passive 'are praised'; kèm , which (bài 6).",
+      "Câu gợi ý của giáo viên: Encouraged children are often praised by their parents, which makes them more confident."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Encouraged children are often praised by their parents, which makes them more confident.",
+     "cach_viet_khac": [
+      "Encouraged children are usually praised by their parents, which helps them feel more confident."
+     ]
+    },
+    {
+     "n": 6,
+     "label": "6",
+     "prompt_vi": "Chất thải chưa qua xử lý được nhiều nhà máy đổ ra sông, gây ra những hậu quả tàn khốc cho môi trường.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Chất thải chưa qua xử lý được nhiều nhà máy đổ ra sông, gây ra những hậu quả tàn khốc cho môi trường.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "HAI participle: 'untreated' (quá khứ) + 'devastating' (hiện tại) trong một câu; passive 'is dumped'.",
+      "Câu gợi ý của giáo viên: Untreated waste is dumped into rivers by many factories, causing devastating consequences for the environment."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Untreated waste is dumped into rivers by many factories, causing devastating consequences for the environment.",
+     "cach_viet_khac": [
+      "Untreated waste is released into rivers by many factories, which has devastating effects on the environment."
+     ]
+    },
+    {
+     "n": 7,
+     "label": "7",
+     "prompt_vi": "Bạn thân của tôi đã bị phạt nặng vì một hành vi gây sốc mà bị cấm ở hầu hết các quốc gia.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Bạn thân của tôi đã bị phạt nặng vì một hành vi gây sốc mà bị cấm ở hầu hết các quốc gia.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "HAI passive: 'was fined' + 'is forbidden'; participle hiện tại 'shocking'; clause 'that...' (bài 6).",
+      "Câu gợi ý của giáo viên: My best friend was heavily fined for a shocking act that is forbidden in most countries."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "My best friend was heavily fined for a shocking act that is forbidden in most countries.",
+     "cach_viet_khac": [
+      "My best friend was fined heavily for a shocking act which is banned in most countries."
+     ]
+    },
+    {
+     "n": 8,
+     "label": "8",
+     "prompt_vi": "Kể từ khi luật giao thông mới được thông qua, số vụ tai nạn đáng lo ngại đã giảm đáng kể ở các thành phố lớn.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Kể từ khi luật giao thông mới được thông qua, số vụ tai nạn đáng lo ngại đã giảm đáng kể ở các thành phố lớn.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "HAI thì passive: 'was passed' (quá khứ) + 'has been reduced' (hiện tại hoàn thành); participle hiện tại 'worrying'.",
+      "Câu gợi ý của giáo viên: Since the new traffic law was passed, the worrying number of accidents has been significantly reduced in big cities."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Since the new traffic law was passed, the worrying number of accidents has been significantly reduced in big cities.",
+     "cach_viet_khac": [
+      "Since the new traffic law was approved, the worrying number of road accidents in big cities has been reduced significantly."
+     ]
+    }
+   ],
+   "instruction_source": "file bàn giao của chị Linh 08/10"
+  }
+ ],
+ "count_check": {
+  "items_in_spec": 8,
+  "nguon": "file bàn giao chị Linh 08/10"
+ },
+ "images": [
+  {
+   "kind": "graph",
+   "file": "data/images/ROOT-W08-graph-d97a6e59.jpg",
+   "url": "https://cms.youpass.vn/assets/d97a6e59-b62a-490c-8bb3-dee4b3c55ffe",
+   "noi_dung": "ảnh chụp lại 6 câu đề (đánh số 1–6, câu 1–4 có Active/Passive)"
+  }
+ ],
+ "image_check": "ảnh đề trên nền tảng là bản cũ, đề mới chưa lên nền tảng (08/10).",
+ "source_notes": [
+  "Đề cũ (trước 08/10): Câu 4 đề gõ \"thống thị\" (đúng là \"thống trị\"), gợi ý dominate (v); giữ nguyên văn.",
+  "Đề cũ (trước 08/10): Các động từ in đậm (không màu) ở câu 1, 2, 4 là động từ cần chuyển sang bị động: \"đã bán\", \"huỷ\", \"đã lên kế hoạch\", \"thống thị\".",
+  "Đề cũ (trước 08/10): Đề là 1 danh sách liền; spec tách 2 phần theo dạng trả lời (cặp Active/Passive và 1 câu).",
+  "08/10: đề thay theo file bàn giao của chị Linh (Ban-giao-Task2-De-chi-tiet-4-khoa.xlsx). Bản trước ở data/hw-spec/_truoc-de-linh-0810/. Đề mới không có gợi ý / từ tô màu cho từng câu (anh Tùng chốt 08/10: không cần).",
+  "11/10: thêm `cach_viet_khac` cho mọi câu (cách viết khác đáp án giáo viên, R&D viết, AI chữa câu của Builder soát sạch) cho nút \"Câu sửa đầy đủ\" của trang chấm; câu chưa có đáp án giáo viên có 2 câu.",
+  "14/10 anh Tùng: đề HW2 theo bản chị Linh (file 08/10). Bộ đề HW2 ROOT của anh Trung là bản cũ hơn, không dùng."
+ ],
+ "platform": {
+  "quiz_title": "Writing  Week 8",
+  "question_id": 356,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 0,
+  "limit_submit": 2,
+  "time_minutes": 600,
+  "graph_type": 3,
+  "quiz_code": "{{root-writing-week-8}}",
+  "date_updated": "2026-02-27T11:53:33.247+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › ROOT-W08 › questions[0].content_html",
+  "md": "data/homeworks/ROOT-W08.md"
+ },
+ "lo": [
+  "R8.1 Viết passive đúng dạng be + V3 và đúng thì + công thức động từ",
+  "R8.2 Chọn đúng present hay past participle khi dùng làm tính từ bổ nghĩa cho danh từ"
+ ]
+}

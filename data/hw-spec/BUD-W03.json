@@ -1,0 +1,171 @@
+{
+ "key": "BUD-W03",
+ "quiz_id": 1182,
+ "question_id": 5999,
+ "course": "BUD",
+ "week": 3,
+ "title": "BUD Writing Week 3",
+ "family": "T2-doan",
+ "pham_vi": "2 đoạn văn thân bài (ADVANTAGES và DISADVANTAGES của việc sống xa gia đình vì công việc), mỗi đoạn 100–130 từ.",
+ "yeu_cau": [
+  "Viết 2 đoạn thân bài: ADVANTAGES và DISADVANTAGES của việc sống xa bạn bè, gia đình vì công việc, mỗi đoạn 100–130 từ.",
+  "Em tự viết topic sentence; đề cho sẵn hướng core idea.",
+  "Mỗi supporting idea có chuỗi phát triển ít nhất 3 mắt xích và ít nhất 1 câu phức.",
+  "Supporting idea 2 mở bằng từ nối bổ sung; mỗi đoạn dùng ít nhất 1 lần this / do so."
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-doan",
+   "label": "Exercise 1. Đoạn văn ADVANTAGES",
+   "instruction_vi": "Yêu cầu:\nMình sẽ viết 2 đoạn văn thân bài theo cấu trúc đã học (bạn vẫn có thể dùng ideas riêng của mình nhé).\nMỗi đoạn thân bài trong essay chỉ nên giới hạn trong khoảng 100–120 từ bạn nhé!\nExercise 1. Đoạn văn ADVANTAGES:",
+   "instruction_marked": "[ĐỎ]Yêu cầu:[/ĐỎ]\n<b>Mình sẽ viết</b> [ĐỎ]2 đoạn văn thân bài[/ĐỎ] <b>theo cấu trúc đã học</b> (bạn vẫn có thể dùng ideas riêng của mình nhé).\nMỗi đoạn thân bài trong essay chỉ nên giới hạn trong khoảng 100–120 từ bạn nhé!\n<u><b>Exercise 1. Đoạn văn ADVANTAGES:</b></u>",
+   "goi_y_marked": "<b>(Topic sentence)</b> [ĐỎ]Bạn tự viết nhé.[/ĐỎ] <b>(Supporting idea 1) Thành phố có nhiều công ty và ngành nghề -> có nhiều cơ hội việc làm</b> [ĐỎ]-> Bạn tự develop bằng cách phù hợp[/ĐỎ][XANH LÁ].[/XANH LÁ] <b>(Supporting idea 2) Người trẻ khi sống xa gia đình có thể phát triển các kỹ năng sống quan trọng như ...</b> [ĐỎ]-> Bạn tự develop bằng cách phù hợp.[/ĐỎ]",
+   "answer_format": "1 đoạn",
+   "topic_ids": [
+    "t1"
+   ],
+   "paragraph_brief": {
+    "side": "ADVANTAGES (LỢI)",
+    "allow_own_ideas": true,
+    "allow_opposite_side": false,
+    "given_topic_sentence": null,
+    "topic_sentence_note": "Đề: \"(Topic sentence) Bạn tự viết nhé.\"",
+    "given_ideas": [
+     {
+      "si": 1,
+      "core_idea_vi": "Thành phố có nhiều công ty và ngành nghề -> có nhiều cơ hội việc làm",
+      "development_hint": "tự chọn (đề: \"Bạn tự develop bằng cách phù hợp\")",
+      "note": null
+     },
+     {
+      "si": 2,
+      "core_idea_vi": "Người trẻ khi sống xa gia đình có thể phát triển các kỹ năng sống quan trọng như ...",
+      "development_hint": "tự chọn (đề: \"Bạn tự develop bằng cách phù hợp\")",
+      "note": "Đề để \"...\" cho em tự nêu kỹ năng sống cụ thể."
+     }
+    ],
+    "word_limit": {
+     "min": 100,
+     "max": 130,
+     "source": "file bàn giao chị Linh 08/10"
+    },
+    "applies_to": "t1"
+   },
+   "ngan_hang_y": "Ngân hàng ý của giáo viên (chỉ để chấm, học sinh không thấy; em viết ý khác mà hợp lý vẫn được). Nhãn: ĐÍCH = ý đã là cái lợi / hại cuối cùng (tiền, sức khoẻ, việc làm, kết quả học tập…), phát triển bằng REASON; TRUNG GIAN = ý chưa đủ lợi / hại, phát triển bằng IMPACT dẫn tới một ĐÍCH.\nĐoạn 1 — ADVANTAGES:\n• SI 1 — Nhiều cơ hội việc làm ở thành phố lớn [ĐÍCH: việc làm]: nhiều công ty, đúng chuyên môn → lương cao, thu nhập ổn định → gửi tiền hỗ trợ gia đình ở quê.\n• SI 2 — Trở nên độc lập hơn [TRUNG GIAN]: tự quản lý chi tiêu, tự giải quyết khó khăn → trưởng thành nhanh → tự tin hơn trong công việc → dễ thăng tiến.\nĐoạn 2 — DISADVANTAGES:\n• SI 1 — Dễ cảm thấy cô đơn [ĐÍCH: sức khoẻ tinh thần]: không có người thân chia sẻ áp lực công việc → căng thẳng kéo dài → có thể dẫn tới trầm cảm.\n• SI 2 — Ít thời gian chăm sóc cha mẹ già [TRUNG GIAN]: cha mẹ phải tự xoay xở khi ốm đau → sức khoẻ cha mẹ giảm sút / quan hệ gia đình xa cách.\nCâu phức gợi ý: “…, which allows them to…” · “Because they live far from home, …” · this / do so: “Doing so helps them…”."
+  },
+  {
+   "part_id": "p2",
+   "family": "T2-doan",
+   "label": "Exercise 2. Đoạn văn DISADVANTAGES",
+   "instruction_vi": "Yêu cầu:\nMình sẽ viết 2 đoạn văn thân bài theo cấu trúc đã học (bạn vẫn có thể dùng ideas riêng của mình nhé).\nMỗi đoạn thân bài trong essay chỉ nên giới hạn trong khoảng 100–120 từ bạn nhé!\nExercise 2. Đoạn văn DISADVANTAGES:",
+   "instruction_marked": "[ĐỎ]Yêu cầu:[/ĐỎ]\n<b>Mình sẽ viết</b> [ĐỎ]2 đoạn văn thân bài[/ĐỎ] <b>theo cấu trúc đã học</b> (bạn vẫn có thể dùng ideas riêng của mình nhé).\nMỗi đoạn thân bài trong essay chỉ nên giới hạn trong khoảng 100–120 từ bạn nhé!\n<u><b>Exercise 2. Đoạn văn DISADVANTAGES:</b></u>",
+   "goi_y_marked": "<b>(Topic sentence)</b> [ĐỎ]Bạn tự viết nhé.[/ĐỎ] <b>(Supporting idea 1) Sống xa quê có thể ảnh hưởng đến cảm xúc / khiến họ cảm thấy xa cách với người thân</b> [ĐỎ]-> Bạn tự develop bằng cách phù hợp[/ĐỎ][XANH LÁ].[/XANH LÁ] <b>(Supporting idea 2) Khi di cư ra thành thị, các vùng quê mất đi lực lượng lao động trẻ</b> [ĐỎ]-> Bạn tự develop bằng cách phù hợp.[/ĐỎ]",
+   "answer_format": "1 đoạn",
+   "topic_ids": [
+    "t1"
+   ],
+   "paragraph_brief": {
+    "side": "DISADVANTAGES (HẠI)",
+    "allow_own_ideas": true,
+    "allow_opposite_side": false,
+    "given_topic_sentence": null,
+    "topic_sentence_note": "Đề: \"(Topic sentence) Bạn tự viết nhé.\"",
+    "given_ideas": [
+     {
+      "si": 1,
+      "core_idea_vi": "Sống xa quê có thể ảnh hưởng đến cảm xúc / khiến họ cảm thấy xa cách với người thân",
+      "development_hint": "tự chọn (đề: \"Bạn tự develop bằng cách phù hợp\")",
+      "note": null
+     },
+     {
+      "si": 2,
+      "core_idea_vi": "Khi di cư ra thành thị, các vùng quê mất đi lực lượng lao động trẻ",
+      "development_hint": "tự chọn (đề: \"Bạn tự develop bằng cách phù hợp\")",
+      "note": "Anh Tùng chốt 08/10 giữ cả 2 hướng: ý của đề trên YouPass (vùng quê mất lực lượng lao động trẻ) hoặc ý trong ngân hàng ý của chị Linh (ít thời gian chăm sóc cha mẹ già). Em viết theo hướng nào cũng đúng gợi ý."
+     }
+    ],
+    "word_limit": {
+     "min": 100,
+     "max": 130,
+     "source": "file bàn giao chị Linh 08/10"
+    },
+    "applies_to": "t1"
+   }
+  }
+ ],
+ "topics": [
+  {
+   "id": "t1",
+   "label": "Đề BUD-02",
+   "text": "Nowadays, more people move away from their friends and families for work. Do advantages outweigh the disadvantages?",
+   "question_type": "adv_disadv",
+   "where": "both",
+   "note": "Đề chính (có trong chữ).",
+   "part_id": "p1,p2",
+   "lua_chon": true
+  }
+ ],
+ "paragraph_brief_note": "Bài có 2 phần cùng loại; xem parts[].paragraph_brief",
+ "images": [
+  {
+   "kind": "graph",
+   "file": "data/images/BUD-W03-graph-2bce3aaf.jpg",
+   "url": "https://cms.youpass.vn/assets/2bce3aaf-fba4-47e4-9714-adea0d435189",
+   "noi_dung": "2 đề: Đề BUD-01 (thường xuyên đổi việc) và Đề BUD-02 (sống xa gia đình để đi làm)"
+  }
+ ],
+ "image_check": "lệch: Ảnh đề có 2 đề (nhãn \"Đề BUD-01\" và \"Đề BUD-02\"); phần chữ trên trang chỉ có đề BUD-02. Học sinh nhìn ảnh có thể chọn viết đề BUD-01. Đề BUD-01 trong ảnh: \"Some people say that individuals should regularly change jobs during their working life. To what extent do you agree or disagree with this opinion?\"",
+ "source_notes": [
+  "Mô tả câu hỏi là chữ của bài Reading (\"Choose TWO correct answers.\"): bỏ qua.",
+  "File .md bóc sẵn gắn nhãn [ĐỎ] cho cả câu gợi ý supporting idea; trong HTML các câu đó màu #34495E (xanh xám đậm, nhìn gần như đen), chỉ \"Bạn tự viết nhé\" và \"-> Bạn tự develop bằng cách phù hợp\" là màu đỏ.",
+  "Syllabus BUD 06.26 ghi HW tuần 3 \"2 đoạn body: People moving away from friends & family for work\", khớp đề chữ.",
+  "08/10: yêu cầu thay theo file bàn giao của chị Linh (Yêu cầu chính (mới)); bản trước ở data/hw-spec/_truoc-de-linh-0810/.",
+  "08/10: anh Tùng chốt chỉ lấy đề chính (Đề BUD-02). Đề BUD-01 trong ảnh bỏ khỏi luồng chấm, chép lại ở topics_bo. Ảnh đề trên YouPass vẫn còn đề BUD-01 thì cần gỡ, vì học sinh viết đề đó sẽ bị máy tính là lạc đề."
+ ],
+ "platform": {
+  "quiz_title": "Writing  Week 3",
+  "question_id": 5999,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 300,
+  "limit_submit": 2,
+  "time_minutes": 600,
+  "graph_type": 1,
+  "quiz_code": "{{bud-writing-week-3}}",
+  "date_updated": "2026-07-23T15:42:56.161+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › BUD-W03 › questions[0].content_html",
+  "md": "data/homeworks/BUD-W03.md"
+ },
+ "yeu_cau_cu": [
+  "Viết 2 đoạn văn thân bài theo cấu trúc đã học",
+  "Exercise 1: đoạn ADVANTAGES; Exercise 2: đoạn DISADVANTAGES",
+  "Mỗi đoạn tự viết topic sentence; 2 supporting idea có sẵn ý, em tự develop bằng cách phù hợp",
+  "Mỗi đoạn chỉ nên khoảng 100–120 từ",
+  "Được dùng ideas riêng"
+ ],
+ "lo": [
+  "T5.2 — Đa dạng cấu trúc câu bằng adj clause và adv clause",
+  "T5.1 — Hình thành chuỗi core idea – development không đứt mắt xích và đủ dài",
+  "T4.3 — Có dùng đúng linking devices giữa các supporting idea",
+  "T4.4 — Có dùng linking device đúng quan hệ ý giữa các câu trong supporting idea",
+  "T4.5 — Có dùng this / do so trỏ lại ý phía trước"
+ ],
+ "topics_bo": [
+  {
+   "id": "t2",
+   "label": "Đề BUD-01",
+   "text": "Some people say that individuals should regularly change jobs during their working life. To what extent do you agree or disagree with this opinion?",
+   "question_type": "twe",
+   "where": "image",
+   "note": "Đề BUD-01 trong ảnh, có thể là chương trình cũ; phần chữ không có, không có gợi ý ý tưởng. Đề dạng agree/disagree nên \"đoạn ADVANTAGES / DISADVANTAGES\" không khớp trực tiếp với đề này.",
+   "part_id": "p1,p2",
+   "lua_chon": true
+  }
+ ]
+}

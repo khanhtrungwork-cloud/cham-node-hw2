@@ -1,0 +1,327 @@
+{
+ "key": "BUD-W01",
+ "quiz_id": 58,
+ "question_id": 331,
+ "course": "BUD",
+ "week": 1,
+ "title": "Week 1: Grammar for Writing",
+ "family": "T2-cau",
+ "pham_vi": "8 câu, mỗi câu gộp các ý rời (tiếng Việt) thành một câu phức tiếng Anh.",
+ "yeu_cau": [
+  "Mỗi câu: gộp 2–5 ý rời thành MỘT câu phức có mệnh đề tính từ và mệnh đề trạng ngữ / liên từ. Phần A (câu 1–3) có gợi ý từ nối, phần B (4–6) chỉ gợi ý từ khó, phần C (7–8) có 4–5 ý và không gợi ý.",
+  "Câu chia phần A: câu 1–3, phần B: câu 4–6, phần C: câu 7–8; càng về sau càng khó.",
+  "Trọng tâm tuần: Foundation — syntax viết câu",
+  "LO chấm của tuần: R6.1 — Viết adjective clause đúng cấu trúc: (1) có dùng relative pronoun, và (2) đủ Subj–FV; R6.2 — Đặt adjective clause đúng vị trí — ngay sau danh từ nó bổ nghĩa; R7.1 — Nhận diện và dùng đúng , which để bổ sung cho cả mệnh đề; R7.2 — Nhận diện và dùng đúng restrictive / non-restrictive (phẩy + that/which); R9.1 — Câu nào cũng luôn có main clause đứng độc lập được; R9.2 — Chọn conjunction đúng với quan hệ ý giữa các mệnh đề; R1.1 — Nhận diện và viết được câu có đủ S–FV; R1.2 — Dùng đúng từ loại cho S; R1.3 — Chia FV đúng theo S về số ít và số nhiều; R2.2 — Tra cứu và dùng đúng công thức của động từ; R2.3 — Dùng đúng các collocation Vt + Object phổ biến; R4.1 — Nhận diện và dùng adjective đúng chức năng và vị trí; R4.2 — Nhận diện và dùng adverb đúng chức năng và vị trí; R5.1 — Nhận diện và dùng cụm giới từ đúng cấu trúc và vị trí bổ nghĩa"
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Chỉ nhập phần bài làm TIẾNG ANH, không gõ lại đề tiếng Việt.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-cau",
+   "label": "Viết 8 câu (Viết câu (file không đặt tên tuần))",
+   "instruction_vi": "Mỗi câu: gộp 2–5 ý rời thành MỘT câu phức có mệnh đề tính từ và mệnh đề trạng ngữ / liên từ. Phần A (câu 1–3) có gợi ý từ nối, phần B (4–6) chỉ gợi ý từ khó, phần C (7–8) có 4–5 ý và không gợi ý.",
+   "instruction_marked": "Mỗi câu: gộp 2–5 ý rời thành MỘT câu phức có mệnh đề tính từ và mệnh đề trạng ngữ / liên từ. Phần A (câu 1–3) có gợi ý từ nối, phần B (4–6) chỉ gợi ý từ khó, phần C (7–8) có 4–5 ý và không gợi ý.",
+   "answer_format": "mỗi câu một dòng",
+   "items": [
+    {
+     "n": 1,
+     "label": "1",
+     "prompt_vi": "Gộp các ý sau thành MỘT câu phức: (1) Sinh viên nên tham gia các hoạt động ngoại khoá ở trường đại học. / (2) Các hoạt động này trang bị cho họ những kỹ năng mềm. / (3) Nhà tuyển dụng luôn tìm kiếm những kỹ năng mềm này.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Gộp các ý sau thành MỘT câu phức: (1) Sinh viên nên tham gia các hoạt động ngoại khoá ở trường đại học. / (2) Các hoạt động này trang bị cho họ những kỹ năng mềm. / (3) Nhà tuyển dụng luôn tìm kiếm những kỹ năng mềm này.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Vế “because…” không đứng thành câu riêng; the soft skills that employers look for (không lặp them)",
+      "Lỗi dễ mắc: that employers always look for them.",
+      "Câu gợi ý của giáo viên: Students should take part in extracurricular activities at university because these activities equip them with the soft skills that employers always look for."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "3",
+     "dap_an_goi_y": "Students should take part in extracurricular activities at university because these activities equip them with the soft skills that employers always look for.",
+     "cach_viet_khac": [
+      "University students should join extracurricular activities, which equip them with the soft skills that employers are always looking for."
+     ]
+    },
+    {
+     "n": 2,
+     "label": "2",
+     "prompt_vi": "Gộp các ý sau thành MỘT câu phức: (1) Khoa học và công nghệ ngày càng phát triển. / (2) Nhiều bệnh nặng ngày nay được điều trị hiệu quả hơn. / (3) Vài thập niên trước, việc này gần như không thể.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Gộp các ý sau thành MỘT câu phức: (1) Khoa học và công nghệ ngày càng phát triển. / (2) Nhiều bệnh nặng ngày nay được điều trị hiệu quả hơn. / (3) Vài thập niên trước, việc này gần như không thể.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      ", which thay cả mệnh đề → was (số ít)",
+      "Lỗi dễ mắc: which were; Because of science develops.",
+      "Câu gợi ý của giáo viên: As science and technology have developed, many serious diseases are now treated more effectively, which was almost impossible a few decades ago."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "4",
+     "dap_an_goi_y": "As science and technology have developed, many serious diseases are now treated more effectively, which was almost impossible a few decades ago.",
+     "cach_viet_khac": [
+      "Because science and technology have developed, doctors can now treat many serious diseases more effectively, which was almost impossible a few decades ago."
+     ]
+    },
+    {
+     "n": 3,
+     "label": "3",
+     "prompt_vi": "Gộp các ý sau thành MỘT câu phức: (1) Nhiều người trẻ chọn sống ở Hà Nội và TP.HCM. / (2) Hai thành phố này có nhiều cơ hội việc làm hơn các tỉnh khác. / (3) Tuy nhiên, chi phí sinh hoạt ở đó rất cao.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Gộp các ý sau thành MỘT câu phức: (1) Nhiều người trẻ chọn sống ở Hà Nội và TP.HCM. / (2) Hai thành phố này có nhiều cơ hội việc làm hơn các tỉnh khác. / (3) Tuy nhiên, chi phí sinh hoạt ở đó rất cao.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Danh từ riêng buộc dùng phẩy",
+      "Lỗi dễ mắc: which offers; Although …, but …; that sau dấu phẩy.",
+      "Câu gợi ý của giáo viên: Many young people choose to live in Hanoi and Ho Chi Minh City, which offer more job opportunities than other provinces, although the cost of living there is very high."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Many young people choose to live in Hanoi and Ho Chi Minh City, which offer more job opportunities than other provinces, although the cost of living there is very high.",
+     "cach_viet_khac": [
+      "Although the cost of living in Hanoi and Ho Chi Minh City is very high, many young people choose to live in these two cities, which offer more job opportunities than other provinces."
+     ]
+    },
+    {
+     "n": 4,
+     "label": "4",
+     "prompt_vi": "Gộp các ý sau thành MỘT câu phức: (1) Nhiều học sinh ở miền núi xuất thân từ gia đình nghèo. / (2) Các em vẫn cố gắng học hết cấp ba. / (3) Một số em còn đỗ vào những trường đại học danh tiếng. / (4) Điều này khiến cha mẹ các em vô cùng tự hào.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Gộp các ý sau thành MỘT câu phức: (1) Nhiều học sinh ở miền núi xuất thân từ gia đình nghèo. / (2) Các em vẫn cố gắng học hết cấp ba. / (3) Một số em còn đỗ vào những trường đại học danh tiếng. / (4) Điều này khiến cha mẹ các em vô cùng tự hào.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Lỗi dễ mắc: Despite + mệnh đề; nối 4 ý bằng dấu phẩy (comma splice); which make.",
+      "Câu gợi ý của giáo viên: Although many students in mountainous areas come from poor families, they still try hard to finish high school, and some even get into prestigious universities, which makes their parents extremely proud."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "5",
+     "dap_an_goi_y": "Although many students in mountainous areas come from poor families, they still try hard to finish high school, and some even get into prestigious universities, which makes their parents extremely proud.",
+     "cach_viet_khac": [
+      "Many students in mountainous areas still try hard to finish high school even though they come from poor families, and some of them even get into prestigious universities, which makes their parents extremely proud."
+     ]
+    },
+    {
+     "n": 5,
+     "label": "5",
+     "prompt_vi": "Gộp các ý sau thành MỘT câu phức: (1) Chính phủ không nên tăng giá nhiên liệu để giảm khí thải. / (2) Biện pháp này ảnh hưởng nặng nề đến người lao động thu nhập thấp ở thành phố. / (3) Những người này gần như không có lựa chọn nào khác ngoài xe máy.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Gộp các ý sau thành MỘT câu phức: (1) Chính phủ không nên tăng giá nhiên liệu để giảm khí thải. / (2) Biện pháp này ảnh hưởng nặng nề đến người lao động thu nhập thấp ở thành phố. / (3) Những người này gần như không có lựa chọn nào khác ngoài xe máy.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Lỗi dễ mắc: who has; affect to; Because … đứng thành câu riêng.",
+      "Câu gợi ý của giáo viên: The government should not raise fuel prices to reduce emissions because this measure seriously affects low-income workers in cities, who have almost no alternative to motorbikes."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "1",
+     "dap_an_goi_y": "The government should not raise fuel prices to reduce emissions because this measure seriously affects low-income workers in cities, who have almost no alternative to motorbikes.",
+     "cach_viet_khac": [
+      "Raising fuel prices to reduce emissions would seriously affect low-income workers in cities, who have almost no alternative to motorbikes, so the government should not do this."
+     ]
+    },
+    {
+     "n": 6,
+     "label": "6",
+     "prompt_vi": "Gộp các ý sau thành MỘT câu phức: (1) Mạng xã hội giúp mọi người giữ liên lạc với bạn bè. / (2) Nhiều thanh thiếu niên dành hàng giờ mỗi ngày trên mạng xã hội. / (3) Thói quen này ảnh hưởng xấu đến giấc ngủ của các em.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Gộp các ý sau thành MỘT câu phức: (1) Mạng xã hội giúp mọi người giữ liên lạc với bạn bè. / (2) Nhiều thanh thiếu niên dành hàng giờ mỗi ngày trên mạng xã hội. / (3) Thói quen này ảnh hưởng xấu đến giấc ngủ của các em.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Lỗi dễ mắc: social media help; which affect; dùng but và although cùng lúc.",
+      "Câu gợi ý của giáo viên: Although social media helps people keep in touch with their friends, many teenagers spend hours on it every day, which negatively affects their sleep."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Although social media helps people keep in touch with their friends, many teenagers spend hours on it every day, which negatively affects their sleep.",
+     "cach_viet_khac": [
+      "Social media helps people stay in touch with their friends, but many teenagers spend hours on it every day, which has a bad effect on their sleep."
+     ]
+    },
+    {
+     "n": 7,
+     "label": "7",
+     "prompt_vi": "Gộp các ý sau thành MỘT câu phức: (1) Nhiều công ty cho phép nhân viên làm việc tại nhà. / (2) Nhân viên tiết kiệm được thời gian đi lại. / (3) Họ có nhiều thời gian hơn cho gia đình. / (4) Năng suất làm việc của họ thường tăng lên.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Gộp các ý sau thành MỘT câu phức: (1) Nhiều công ty cho phép nhân viên làm việc tại nhà. / (2) Nhân viên tiết kiệm được thời gian đi lại. / (3) Họ có nhiều thời gian hơn cho gia đình. / (4) Năng suất làm việc của họ thường tăng lên.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Chấp nhận nhiều cách nối (because / so / , which) miễn đúng quan hệ ý và mỗi mệnh đề đủ S–FV",
+      "Lỗi dễ mắc: liệt kê bằng dấu phẩy.",
+      "Câu gợi ý của giáo viên: Many companies allow their employees to work from home, which saves them commuting time, so they have more time for their families and their productivity often increases."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Many companies allow their employees to work from home, which saves them commuting time, so they have more time for their families and their productivity often increases.",
+     "cach_viet_khac": [
+      "Since many companies now let their staff work from home, employees save time on commuting, which gives them more time for their families and often makes them more productive."
+     ]
+    },
+    {
+     "n": 8,
+     "label": "8",
+     "prompt_vi": "Gộp các ý sau thành MỘT câu phức: (1) Ngày càng nhiều phụ huynh cho con học tiếng Anh từ rất nhỏ. / (2) Họ tin rằng ngoại ngữ là một kỹ năng. / (3) Kỹ năng này sẽ mang lại cho con lợi thế lớn trong tương lai.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Gộp các ý sau thành MỘT câu phức: (1) Ngày càng nhiều phụ huynh cho con học tiếng Anh từ rất nhỏ. / (2) Họ tin rằng ngoại ngữ là một kỹ năng. / (3) Kỹ năng này sẽ mang lại cho con lợi thế lớn trong tương lai.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "that sau believe là noun clause, không phải adj clause",
+      "Lỗi dễ mắc: let their children to learn; a skill which it will give.",
+      "Câu gợi ý của giáo viên: More and more parents let their children learn English at a very early age because they believe that a foreign language is a skill which will give their children a great advantage in the future."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "More and more parents let their children learn English at a very early age because they believe that a foreign language is a skill which will give their children a great advantage in the future.",
+     "cach_viet_khac": [
+      "A growing number of parents want their children to start learning English very early, as they believe that a foreign language is a skill that will give their children a big advantage in the future."
+     ]
+    }
+   ],
+   "instruction_source": "file bàn giao của chị Linh 08/10"
+  }
+ ],
+ "count_check": {
+  "items_in_spec": 8,
+  "nguon": "file bàn giao chị Linh 08/10"
+ },
+ "images": [
+  {
+   "kind": "graph",
+   "file": "data/images/BUD-W01-graph-d6e534bc.jpg",
+   "url": "https://cms.youpass.vn/assets/d6e534bc-ec7b-4d9b-b798-fa556f7df934",
+   "noi_dung": "ảnh chụp lại 5 câu đề"
+  }
+ ],
+ "image_check": "ảnh đề trên nền tảng là bản cũ, đề mới chưa lên nền tảng (08/10).",
+ "source_notes": [
+  "Đề cũ (trước 08/10): Câu 4 và 5 dùng dấu \"|\" để tách các ý cần nối.",
+  "08/10: đề thay theo file bàn giao của chị Linh (Ban-giao-Task2-De-chi-tiet-4-khoa.xlsx). Bản trước ở data/hw-spec/_truoc-de-linh-0810/. Đề mới không có gợi ý / từ tô màu cho từng câu (anh Tùng chốt 08/10: không cần).",
+  "11/10: thêm `cach_viet_khac` cho mọi câu (cách viết khác đáp án giáo viên, R&D viết, AI chữa câu của Builder soát sạch) cho nút \"Câu sửa đầy đủ\" của trang chấm; câu chưa có đáp án giáo viên có 2 câu."
+ ],
+ "platform": {
+  "quiz_title": "Writing  Week 1",
+  "question_id": 331,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 0,
+  "limit_submit": 2,
+  "time_minutes": 600,
+  "graph_type": 3,
+  "quiz_code": "{{bud-writing-week-1}}",
+  "date_updated": "2026-02-27T11:53:30.707+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › BUD-W01 › questions[0].content_html",
+  "md": "data/homeworks/BUD-W01.md"
+ },
+ "lo": [
+  "R6.1 — Viết adjective clause đúng cấu trúc: (1) có dùng relative pronoun, và (2) đủ Subj–FV",
+  "R6.2 — Đặt adjective clause đúng vị trí — ngay sau danh từ nó bổ nghĩa",
+  "R7.1 — Nhận diện và dùng đúng , which để bổ sung cho cả mệnh đề",
+  "R7.2 — Nhận diện và dùng đúng restrictive / non-restrictive (phẩy + that/which)",
+  "R9.1 — Câu nào cũng luôn có main clause đứng độc lập được",
+  "R9.2 — Chọn conjunction đúng với quan hệ ý giữa các mệnh đề",
+  "R1.1 — Nhận diện và viết được câu có đủ S–FV",
+  "R1.2 — Dùng đúng từ loại cho S",
+  "R1.3 — Chia FV đúng theo S về số ít và số nhiều",
+  "R2.2 — Tra cứu và dùng đúng công thức của động từ",
+  "R2.3 — Dùng đúng các collocation Vt + Object phổ biến",
+  "R4.1 — Nhận diện và dùng adjective đúng chức năng và vị trí",
+  "R4.2 — Nhận diện và dùng adverb đúng chức năng và vị trí",
+  "R5.1 — Nhận diện và dùng cụm giới từ đúng cấu trúc và vị trí bổ nghĩa"
+ ]
+}

@@ -1,0 +1,313 @@
+{
+ "key": "ROOT-W04",
+ "quiz_id": 79,
+ "question_id": 352,
+ "course": "ROOT",
+ "week": 4,
+ "title": "Week 4: Adj & Adv (Health)",
+ "family": "T2-cau",
+ "pham_vi": "8 câu dịch Việt sang Anh, mỗi câu viết 1 câu tiếng Anh. Đề không giới hạn số từ.",
+ "yeu_cau": [
+  "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+  "Câu chia phần A: câu 1–3, phần B: câu 4–6, phần C: câu 7–8; càng về sau càng khó.",
+  "Trọng tâm tuần: Adjective & Adverb",
+  "LO chấm của tuần: R4.1 Nhận diện và dùng adjective đúng chức năng và vị trí; R4.2 Nhận diện và dùng adverb đúng chức năng và vị trí"
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-cau",
+   "label": "Viết 8 câu (Bài 4 — Adjective & Adverb — chức năng và vị trí)",
+   "instruction_vi": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "instruction_marked": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "answer_format": "mỗi câu một dòng",
+   "items": [
+    {
+     "n": 1,
+     "label": "1",
+     "prompt_vi": "Người nghèo thường có nguy cơ cao mắc các bệnh nghiêm trọng.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Người nghèo thường có nguy cơ cao mắc các bệnh nghiêm trọng.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Ba chỗ trống: một trạng từ tần suất, hai tính từ trước danh từ. Không gợi ý từ nào trong ba chỗ đó.",
+      "Câu gợi ý của giáo viên: Poor people often have a high risk of serious diseases."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "GIỮ",
+     "tu_cau_cu": "1",
+     "dap_an_goi_y": "Poor people often have a high risk of serious diseases.",
+     "cach_viet_khac": [
+      "Poor people are often at high risk of serious diseases."
+     ]
+    },
+    {
+     "n": 2,
+     "label": "2",
+     "prompt_vi": "Ngủ đủ giấc là điều cực kỳ quan trọng với học sinh trong kỳ thi.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Ngủ đủ giấc là điều cực kỳ quan trọng với học sinh trong kỳ thi.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Tính từ sau động từ nối, có trạng từ mức độ đi kèm. Học sinh tự nghĩ cả enough lẫn extremely.",
+      "Câu gợi ý của giáo viên: Getting enough sleep is extremely important for students during the exam period."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Getting enough sleep is extremely important for students during the exam period.",
+     "cach_viet_khac": [
+      "During exams, getting enough sleep is extremely important for students."
+     ]
+    },
+    {
+     "n": 3,
+     "label": "3",
+     "prompt_vi": "Đi bộ mỗi ngày làm giảm đáng kể nguy cơ mắc các bệnh nghiêm trọng về tim mạch.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Đi bộ mỗi ngày làm giảm đáng kể nguy cơ mắc các bệnh nghiêm trọng về tim mạch.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Không chen trạng từ giữa động từ ngoại và tân ngữ — nguyên tắc course book nhấn mạnh nhất ở bài này.",
+      "Câu gợi ý của giáo viên: Walking every day significantly reduces the risk of serious heart diseases."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Walking every day significantly reduces the risk of serious heart diseases.",
+     "cach_viet_khac": [
+      "Walking every day reduces the risk of serious heart diseases significantly."
+     ]
+    },
+    {
+     "n": 4,
+     "label": "4",
+     "prompt_vi": "Nhân viên văn phòng thường ăn quá nhiều đồ ăn nhanh vì lịch làm việc bận rộn khiến họ khó nấu ăn ở nhà.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nhân viên văn phòng thường ăn quá nhiều đồ ăn nhanh vì lịch làm việc bận rộn khiến họ khó nấu ăn ở nhà.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Câu dài hơn, ba tính từ và một trạng từ, không gợi ý chữ nào. Câu ghép với because.",
+      "Câu gợi ý của giáo viên: Office workers often eat too much fast food because their busy schedule makes it difficult to cook at home."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Office workers often eat too much fast food because their busy schedule makes it difficult to cook at home.",
+     "cach_viet_khac": [
+      "Office workers often eat too much fast food because their busy work schedules make cooking at home difficult."
+     ]
+    },
+    {
+     "n": 5,
+     "label": "5",
+     "prompt_vi": "Tập thể dục đều đặn thực sự là cách hiệu quả nhất để cải thiện sức khoẻ tinh thần.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Tập thể dục đều đặn thực sự là cách hiệu quả nhất để cải thiện sức khoẻ tinh thần.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Tính từ so sánh nhất, và cụm “để…” — tiền đề cho câu nhiều ý ở bài 6.",
+      "Câu gợi ý của giáo viên: Regular exercise is really the most effective way to improve mental health."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Regular exercise is really the most effective way to improve mental health.",
+     "cach_viet_khac": [
+      "Exercising regularly is really the most effective way to improve mental health."
+     ]
+    },
+    {
+     "n": 6,
+     "label": "6",
+     "prompt_vi": "Sau một ngày làm việc mệt mỏi, nhiều người chọn ứng dụng đặt đồ ăn vì nó nhanh và tiện lợi hơn nhiều so với nấu ăn.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Sau một ngày làm việc mệt mỏi, nhiều người chọn ứng dụng đặt đồ ăn vì nó nhanh và tiện lợi hơn nhiều so với nấu ăn.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Câu ghép với because. Bốn tính từ và một trạng từ mức độ",
+      "Câu gợi ý của giáo viên: After a tiring working day, many people choose food delivery apps because they are much faster and more convenient than cooking."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "After a tiring working day, many people choose food delivery apps because they are much faster and more convenient than cooking.",
+     "cach_viet_khac": [
+      "After a tiring day at work, many people use food delivery apps because ordering food is much quicker and more convenient than cooking."
+     ]
+    },
+    {
+     "n": 7,
+     "label": "7",
+     "prompt_vi": "Bác sĩ đã kiên nhẫn bàn kế hoạch điều trị mới với bệnh nhân để giúp họ hiểu rõ những rủi ro có thể xảy ra.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Bác sĩ đã kiên nhẫn bàn kế hoạch điều trị mới với bệnh nhân để giúp họ hiểu rõ những rủi ro có thể xảy ra.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Trạng từ cách thức trước động từ, hai tính từ trước danh từ, cụm “để…”",
+      "Bẫy: discussed patiently the new treatment plan.",
+      "Câu gợi ý của giáo viên: The doctor patiently discussed the new treatment plan with the patient to help them understand the possible risks."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "The doctor patiently discussed the new treatment plan with the patient to help them understand the possible risks.",
+     "cach_viet_khac": [
+      "The doctor discussed the new treatment plan patiently with the patient to help them fully understand the possible risks."
+     ]
+    },
+    {
+     "n": 8,
+     "label": "8",
+     "prompt_vi": "Một chế độ ăn cân bằng và thói quen tập thể dục đều đặn thường giúp người lớn tuổi sống lâu hơn và tránh được nhiều bệnh nghiêm trọng.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Một chế độ ăn cân bằng và thói quen tập thể dục đều đặn thường giúp người lớn tuổi sống lâu hơn và tránh được nhiều bệnh nghiêm trọng.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Chủ ngữ kép nối bằng and → động từ số nhiều (LO bài 1). Năm tính từ, không gợi ý chữ nào.",
+      "Câu gợi ý của giáo viên: A balanced diet and regular exercise habits often help older people live longer and avoid many serious diseases."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "A balanced diet and regular exercise habits often help older people live longer and avoid many serious diseases.",
+     "cach_viet_khac": [
+      "Eating a balanced diet and exercising regularly often help elderly people live longer and avoid many serious illnesses."
+     ]
+    }
+   ],
+   "instruction_source": "file bàn giao của chị Linh 08/10"
+  }
+ ],
+ "count_check": {
+  "items_in_spec": 8,
+  "nguon": "file bàn giao chị Linh 08/10"
+ },
+ "images": [
+  {
+   "kind": "graph",
+   "file": "data/images/ROOT-W04-graph-87e37a57.jpg",
+   "url": "https://cms.youpass.vn/assets/87e37a57-dff3-4879-a514-c783224095c1",
+   "noi_dung": "ảnh chụp lại 5 ô câu (1, 2, 3, 4-5, 6), không thể hiện gạch chân"
+  }
+ ],
+ "image_check": "ảnh đề trên nền tảng là bản cũ, đề mới chưa lên nền tảng (08/10).",
+ "source_notes": [
+  "Đề cũ (trước 08/10): Gạch chân lấy từ HTML gốc (thẻ <u>); file .md bóc sẵn đã mất gạch chân.",
+  "Đề cũ (trước 08/10): Đề tuần này không có dòng \"LƯU Ý QUAN TRỌNG ... TIẾNG ANH\" như các tuần khác.",
+  "08/10: đề thay theo file bàn giao của chị Linh (Ban-giao-Task2-De-chi-tiet-4-khoa.xlsx). Bản trước ở data/hw-spec/_truoc-de-linh-0810/. Đề mới không có gợi ý / từ tô màu cho từng câu (anh Tùng chốt 08/10: không cần).",
+  "11/10: thêm `cach_viet_khac` cho mọi câu (cách viết khác đáp án giáo viên, R&D viết, AI chữa câu của Builder soát sạch) cho nút \"Câu sửa đầy đủ\" của trang chấm; câu chưa có đáp án giáo viên có 2 câu.",
+  "14/10 anh Tùng: đề HW2 theo bản chị Linh (file 08/10). Bộ đề HW2 ROOT của anh Trung là bản cũ hơn, không dùng."
+ ],
+ "platform": {
+  "quiz_title": "Writing  Week 4",
+  "question_id": 352,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 0,
+  "limit_submit": 2,
+  "time_minutes": 600,
+  "graph_type": 3,
+  "quiz_code": "{{root-writing-week-4}}",
+  "date_updated": "2026-02-27T11:53:32.78+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › ROOT-W04 › questions[0].content_html",
+  "md": "data/homeworks/ROOT-W04.md"
+ },
+ "lo": [
+  "R4.1 Nhận diện và dùng adjective đúng chức năng và vị trí",
+  "R4.2 Nhận diện và dùng adverb đúng chức năng và vị trí"
+ ]
+}

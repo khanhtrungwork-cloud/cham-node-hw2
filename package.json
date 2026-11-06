@@ -1,0 +1,12 @@
+{
+  "name": "cham-node-hw2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chấm node (learning outcome) cho Homework 2 Writing: ROOT 1-9, TRUNK 1-7, BUD 1-3, BLOOM 1",
+  "main": "index.js",
+  "bin": { "cham-node": "bin/cham.js" },
+  "engines": { "node": ">=20.12" },
+  "scripts": {
+    "test": "node test/pham-vi.test.js && node test/bloom-w1.test.js && node test/trunk-bud.sinh.test.js && node test/trunk-doan.sinh.test.js && node test/bud.sinh.test.js && node test/hoi-dong.sinh.test.js"
+  }
+}

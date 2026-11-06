@@ -1,0 +1,316 @@
+{
+ "key": "ROOT-W02",
+ "quiz_id": 77,
+ "question_id": 350,
+ "course": "ROOT",
+ "week": 2,
+ "title": "Week 2: Types of verbs | Collocation (Work & Career)",
+ "family": "T2-cau",
+ "pham_vi": "8 câu dịch Việt sang Anh, mỗi câu viết 1 câu tiếng Anh. Đề không giới hạn số từ.",
+ "yeu_cau": [
+  "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+  "Câu chia phần A: câu 1–3, phần B: câu 4–6, phần C: câu 7–8; càng về sau càng khó.",
+  "Trọng tâm tuần: Types of verbs — công thức động từ, collocation",
+  "LO chấm của tuần: R2.2 Tra cứu và dùng đúng công thức của động từ theo glossary; R2.3 Tra cứu và dùng đúng các collocation Vt + Object phổ biến; R2.1 Nhận diện Vi, Vt, Vl trong câu"
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Chỉ nhập phần bài làm TIẾNG ANH, không gõ lại đề tiếng Việt.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-cau",
+   "label": "Viết 8 câu (Bài 2 — Types of verbs — công thức động từ và collocation)",
+   "instruction_vi": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "instruction_marked": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "answer_format": "mỗi câu một dòng",
+   "items": [
+    {
+     "n": 1,
+     "label": "1",
+     "prompt_vi": "Tôi đang cân nhắc ứng tuyển vào một công ty khác vì tôi không hài lòng với mức lương và muốn tìm kiếm cơ hội nghề nghiệp tốt hơn.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Tôi đang cân nhắc ứng tuyển vào một công ty khác vì tôi không hài lòng với mức lương và muốn tìm kiếm cơ hội nghề nghiệp tốt hơn.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "consider + V-ing · apply to sth · seek + opportunities",
+      "Lỗi dễ mắc: not satisfy with thay vì be not satisfied with.",
+      "Câu gợi ý của giáo viên: I am considering applying to another company because I am not satisfied with my salary and want to seek better career opportunities."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "GIỮ",
+     "tu_cau_cu": "1",
+     "dap_an_goi_y": "I am considering applying to another company because I am not satisfied with my salary and want to seek better career opportunities.",
+     "cach_viet_khac": [
+      "I am considering applying for a job at another company because I am not satisfied with my salary and want to look for better career opportunities."
+     ]
+    },
+    {
+     "n": 2,
+     "label": "2",
+     "prompt_vi": "Giáo viên thường yêu cầu học sinh làm bài tập trước khi đến lớp.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Giáo viên thường yêu cầu học sinh làm bài tập trước khi đến lớp.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "ask sb to do sth.",
+      "Câu gợi ý của giáo viên: Teachers often ask students to do homework before class."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "GIỮ",
+     "tu_cau_cu": "2",
+     "dap_an_goi_y": "Teachers often ask students to do homework before class.",
+     "cach_viet_khac": [
+      "Teachers often require students to do their homework before they come to class."
+     ]
+    },
+    {
+     "n": 3,
+     "label": "3",
+     "prompt_vi": "Bạn nên bàn bạc về kế hoạch tương lai với bố mẹ trước khi quyết định bỏ học đại học.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Bạn nên bàn bạc về kế hoạch tương lai với bố mẹ trước khi quyết định bỏ học đại học.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Lỗi dễ mắc: discuss about. Course book nêu đích danh lỗi này.",
+      "Câu gợi ý của giáo viên: You should discuss your future plans with your parents before deciding to drop out of university."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "GIỮ",
+     "tu_cau_cu": "6",
+     "dap_an_goi_y": "You should discuss your future plans with your parents before deciding to drop out of university.",
+     "cach_viet_khac": [
+      "Before you decide to leave university, you should discuss your future plans with your parents."
+     ]
+    },
+    {
+     "n": 4,
+     "label": "4",
+     "prompt_vi": "Làm việc ngoài giờ gây áp lực lớn và khiến nhân viên văn phòng kiệt sức.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Làm việc ngoài giờ gây áp lực lớn và khiến nhân viên văn phòng kiệt sức.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "cause + Object và make sb + adj trong một câu. Chủ ngữ là V-ing → động từ số ít (LO bài 1)",
+      "Lỗi dễ mắc: make for.",
+      "Câu gợi ý của giáo viên: Working overtime causes great pressure and makes office workers burnt out."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "GIỮ",
+     "tu_cau_cu": "3",
+     "dap_an_goi_y": "Working overtime causes great pressure and makes office workers burnt out.",
+     "cach_viet_khac": [
+      "Working overtime puts a lot of pressure on office workers and makes them exhausted."
+     ]
+    },
+    {
+     "n": 5,
+     "label": "5",
+     "prompt_vi": "Điểm cao ở đại học sẽ mang lại cho sinh viên nhiều cơ hội việc làm hơn.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Điểm cao ở đại học sẽ mang lại cho sinh viên nhiều cơ hội việc làm hơn.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "provide sb with sth hoặc provide sth for sb — chọn một, không trộn.",
+      "Câu gợi ý của giáo viên: High scores at university will provide students with more job opportunities."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "GIỮ",
+     "tu_cau_cu": "5",
+     "dap_an_goi_y": "High scores at university will provide students with more job opportunities.",
+     "cach_viet_khac": [
+      "Good grades at university will give students more job opportunities."
+     ]
+    },
+    {
+     "n": 6,
+     "label": "6",
+     "prompt_vi": "Không giống bạn bè, Nam quyết định nhận một công việc đầy thử thách sau khi tốt nghiệp.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Không giống bạn bè, Nam quyết định nhận một công việc đầy thử thách sau khi tốt nghiệp.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "decide to do sth.",
+      "Câu gợi ý của giáo viên: Unlike his friends, Nam decided to take a challenging job after graduation."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "GIỮ",
+     "tu_cau_cu": "4*",
+     "dap_an_goi_y": "Unlike his friends, Nam decided to take a challenging job after graduation.",
+     "cach_viet_khac": [
+      "Unlike his friends, Nam decided to accept a challenging job after he graduated."
+     ]
+    },
+    {
+     "n": 7,
+     "label": "7",
+     "prompt_vi": "Công ty đã đề nghị cho cô ấy một vị trí tốt hơn, nhưng cô ấy từ chối.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Công ty đã đề nghị cho cô ấy một vị trí tốt hơn, nhưng cô ấy từ chối.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Động từ hai tân ngữ",
+      "Lỗi dễ mắc: offered to her a better position.",
+      "Câu gợi ý của giáo viên: The company offered her a better position, but she refused."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "The company offered her a better position, but she refused.",
+     "cach_viet_khac": [
+      "The company offered a better position to her, but she turned it down."
+     ]
+    },
+    {
+     "n": 8,
+     "label": "8",
+     "prompt_vi": "Nhiều nhân viên đóng góp vào thành công của công ty và họ xứng đáng được tăng lương.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nhiều nhân viên đóng góp vào thành công của công ty và họ xứng đáng được tăng lương.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "contribute TO sth — động từ nội động cần giới từ.",
+      "Câu gợi ý của giáo viên: Many employees contribute to the success of the company and they deserve a pay rise."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Many employees contribute to the success of the company and they deserve a pay rise.",
+     "cach_viet_khac": [
+      "Many employees contribute to the company's success, so they deserve to get a pay rise."
+     ]
+    }
+   ],
+   "instruction_source": "file bàn giao của chị Linh 08/10"
+  }
+ ],
+ "count_check": {
+  "items_in_spec": 8,
+  "nguon": "file bàn giao chị Linh 08/10"
+ },
+ "images": [
+  {
+   "kind": "graph",
+   "file": "data/images/ROOT-W02-graph-e3788c70.jpg",
+   "url": "https://cms.youpass.vn/assets/e3788c70-acf6-48b7-93de-9c1da874091d",
+   "noi_dung": "ảnh chụp lại 6 câu đề (không màu)"
+  }
+ ],
+ "image_check": "ảnh đề trên nền tảng là bản cũ, đề mới chưa lên nền tảng (08/10).",
+ "source_notes": [
+  "Đề cũ (trước 08/10): Dấu * sau \"vì\" (câu 1) và \"khi\" (câu 6) là dấu chú thích trỏ tới dòng \"*vì... -> because S-FV\" và \"*before + V-ing\", không phải câu nâng cao.",
+  "Đề cũ (trước 08/10): Câu 3 thiếu dòng \"--> ……\" trong đề.",
+  "08/10: đề thay theo file bàn giao của chị Linh (Ban-giao-Task2-De-chi-tiet-4-khoa.xlsx). Bản trước ở data/hw-spec/_truoc-de-linh-0810/. Đề mới không có gợi ý / từ tô màu cho từng câu (anh Tùng chốt 08/10: không cần).",
+  "11/10: thêm `cach_viet_khac` cho mọi câu (cách viết khác đáp án giáo viên, R&D viết, AI chữa câu của Builder soát sạch) cho nút \"Câu sửa đầy đủ\" của trang chấm; câu chưa có đáp án giáo viên có 2 câu.",
+  "14/10 anh Tùng: đề HW2 theo bản chị Linh (file 08/10). Bộ đề HW2 ROOT của anh Trung là bản cũ hơn, không dùng."
+ ],
+ "platform": {
+  "quiz_title": "Writing  Week 2",
+  "question_id": 350,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 0,
+  "limit_submit": 2,
+  "time_minutes": 600,
+  "graph_type": 3,
+  "quiz_code": "{{root-writing-week-2}}",
+  "date_updated": "2026-02-27T11:53:32.514+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › ROOT-W02 › questions[0].content_html",
+  "md": "data/homeworks/ROOT-W02.md"
+ },
+ "lo": [
+  "R2.1 Nhận diện Vi, Vt, Vl trong câu",
+  "R2.2 Tra cứu và dùng đúng công thức của động từ theo glossary",
+  "R2.3 Tra cứu và dùng đúng các collocation Vt + Object phổ biến"
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "key": "ROOT-W06",
+ "quiz_id": 81,
+ "question_id": 354,
+ "course": "ROOT",
+ "week": 6,
+ "title": "Week 6: Adj clause 1 (Technology)",
+ "family": "T2-cau",
+ "pham_vi": "8 câu dịch Việt sang Anh, mỗi câu viết 1 câu tiếng Anh. Đề không giới hạn số từ.",
+ "yeu_cau": [
+  "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+  "Câu chia phần A: câu 1–3, phần B: câu 4–6, phần C: câu 7–8; càng về sau càng khó.",
+  "Trọng tâm tuần: Adjective clause (1)",
+  "LO chấm của tuần: R6.1 Viết adjective clause đúng cấu trúc: (1) có dùng relative pronoun, và (2) đủ Subj–FV; R6.2 Đặt adjective clause đúng vị trí — ngay sau danh từ nó bổ nghĩa"
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Chỉ nhập phần bài làm TIẾNG ANH, không gõ lại đề tiếng Việt.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-cau",
+   "label": "Viết 8 câu (Bài 6 — Adjective clause (1) — who / which / that)",
+   "instruction_vi": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "instruction_marked": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "answer_format": "mỗi câu một dòng",
+   "items": [
+    {
+     "n": 1,
+     "label": "1",
+     "prompt_vi": "Nền tảng học trực tuyến giúp học sinh học dễ dàng hơn đang ngày càng phổ biến.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nền tảng học trực tuyến giúp học sinh học dễ dàng hơn đang ngày càng phổ biến.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Relative word cho vật (that/which); clause chủ ngữ, không thêm 'it'",
+      "Lỗi dễ mắc: 'that it helps'.",
+      "Câu gợi ý của giáo viên: The online platform that helps students learn more easily is becoming more and more popular."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "The online platform that helps students learn more easily is becoming more and more popular.",
+     "cach_viet_khac": [
+      "The online learning platform which makes studying easier for students is getting more and more popular."
+     ]
+    },
+    {
+     "n": 2,
+     "label": "2",
+     "prompt_vi": "Trung tâm tiếng Anh mà bạn thân tôi giới thiệu cho tôi có học phí khá cao.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Trung tâm tiếng Anh mà bạn thân tôi giới thiệu cho tôi có học phí khá cao.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Relative word là tân ngữ — KHÔNG lặp 'it'",
+      "Lỗi dễ mắc: 'recommended it to me'.",
+      "Câu gợi ý của giáo viên: The English centre that my best friend recommended to me has quite high tuition fees."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "The English centre that my best friend recommended to me has quite high tuition fees.",
+     "cach_viet_khac": [
+      "The tuition fees at the English centre which my best friend recommended to me are quite high."
+     ]
+    },
+    {
+     "n": 3,
+     "label": "3",
+     "prompt_vi": "Những sinh viên không hài lòng với chất lượng khoá học đã yêu cầu hoàn lại học phí.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Những sinh viên không hài lòng với chất lượng khoá học đã yêu cầu hoàn lại học phí.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "who cho người; clause chủ ngữ không lặp 'they'. Kèm be satisfied with (bài 2), students → are (bài 1).",
+      "Câu gợi ý của giáo viên: The students who are not satisfied with the quality of the course asked for a refund."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "The students who are not satisfied with the quality of the course asked for a refund.",
+     "cach_viet_khac": [
+      "Students who were not happy with the quality of the course asked to get their tuition fees back."
+     ]
+    },
+    {
+     "n": 4,
+     "label": "4",
+     "prompt_vi": "Nhờ có Internet, học sinh Việt Nam có thể đăng ký những khoá học trực tuyến được cung cấp bởi các trường đại học danh giá.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nhờ có Internet, học sinh Việt Nam có thể đăng ký những khoá học trực tuyến được cung cấp bởi các trường đại học danh giá.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Clause bổ nghĩa 'courses'. Đặt clause ngay sau 'courses', không tách xa. Kèm cụm giới từ 'Thanks to' (bài 5).",
+      "Câu gợi ý của giáo viên: Thanks to the Internet, Vietnamese students can register for online courses that are provided by prestigious universities."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "2",
+     "dap_an_goi_y": "Thanks to the Internet, Vietnamese students can register for online courses that are provided by prestigious universities.",
+     "cach_viet_khac": [
+      "Thanks to the Internet, Vietnamese students can sign up for online courses which prestigious universities offer."
+     ]
+    },
+    {
+     "n": 5,
+     "label": "5",
+     "prompt_vi": "Chiếc điện thoại thông minh mà tôi mua năm ngoái có nhiều tính năng mà tôi hiếm khi dùng đến.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Chiếc điện thoại thông minh mà tôi mua năm ngoái có nhiều tính năng mà tôi hiếm khi dùng đến.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "HAI clause tân ngữ — không lặp 'it' và 'them'",
+      "Lỗi dễ mắc: 'I bought it', 'I rarely use them'.",
+      "Câu gợi ý của giáo viên: The smartphone that I bought last year has many features that I rarely use."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "The smartphone that I bought last year has many features that I rarely use.",
+     "cach_viet_khac": [
+      "The smartphone which I bought last year has lots of features which I hardly ever use."
+     ]
+    },
+    {
+     "n": 6,
+     "label": "6",
+     "prompt_vi": "Những người dành quá nhiều thời gian trên mạng xã hội thường thấy khó tập trung vào công việc.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Những người dành quá nhiều thời gian trên mạng xã hội thường thấy khó tập trung vào công việc.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Clause chủ ngữ 'who spend' — không lặp 'they'. Kèm 'often' (bài 4), 'find it hard to' (bài 4).",
+      "Câu gợi ý của giáo viên: People who spend too much time on social media often find it hard to concentrate on their work."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "People who spend too much time on social media often find it hard to concentrate on their work.",
+     "cach_viet_khac": [
+      "People who spend too much time on social networks often find it difficult to focus on their work."
+     ]
+    },
+    {
+     "n": 7,
+     "label": "7",
+     "prompt_vi": "Trí tuệ nhân tạo, thứ đang thay đổi cách chúng ta làm việc, cũng khiến nhiều người lo sợ mất việc.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Trí tuệ nhân tạo, thứ đang thay đổi cách chúng ta làm việc, cũng khiến nhiều người lo sợ mất việc.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      ", which bổ nghĩa cho AI (một danh từ duy nhất) — dùng which, không dùng that. Đây là cầu nối sang dấu phẩy ở bài 7.",
+      "Câu gợi ý của giáo viên: Artificial intelligence, which is changing the way we work, also makes many people afraid of losing their jobs."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Artificial intelligence, which is changing the way we work, also makes many people afraid of losing their jobs.",
+     "cach_viet_khac": [
+      "Artificial intelligence, which is changing how we work, also makes many people worried about losing their jobs."
+     ]
+    },
+    {
+     "n": 8,
+     "label": "8",
+     "prompt_vi": "Những công ty công nghệ đầu tư mạnh vào nghiên cứu thường tạo ra các sản phẩm thay đổi cuộc sống của hàng triệu người.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Những công ty công nghệ đầu tư mạnh vào nghiên cứu thường tạo ra các sản phẩm thay đổi cuộc sống của hàng triệu người.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "HAI clause chủ ngữ (companies that invest; products that change). Cả hai không lặp chủ ngữ.",
+      "Câu gợi ý của giáo viên: Technology companies that invest heavily in research often create products that change the lives of millions of people."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Technology companies that invest heavily in research often create products that change the lives of millions of people.",
+     "cach_viet_khac": [
+      "Tech companies which invest a lot in research often make products which change millions of people's lives."
+     ]
+    }
+   ],
+   "instruction_source": "file bàn giao của chị Linh 08/10"
+  }
+ ],
+ "count_check": {
+  "items_in_spec": 8,
+  "nguon": "file bàn giao chị Linh 08/10"
+ },
+ "images": [
+  {
+   "kind": "graph",
+   "file": "data/images/ROOT-W06-graph-1a589b0f.jpg",
+   "url": "https://cms.youpass.vn/assets/1a589b0f-e1bc-4a87-8c17-5643b7b4478f",
+   "noi_dung": "ảnh chụp lại cả đề Exercise 1 (2 câu) và Exercise 2 (5 câu)"
+  }
+ ],
+ "image_check": "ảnh đề trên nền tảng là bản cũ, đề mới chưa lên nền tảng (08/10).",
+ "source_notes": [
+  "Đề cũ (trước 08/10): Ở Exercise 1, câu thứ hai của mỗi cặp được gạch chân và in nghiêng (HTML và ảnh đều có).",
+  "Đề cũ (trước 08/10): Ô \"Exercise 1/2\" trên trang là bảng tiêu đề; nội dung yêu cầu tô xanh dương.",
+  "08/10: đề thay theo file bàn giao của chị Linh (Ban-giao-Task2-De-chi-tiet-4-khoa.xlsx). Bản trước ở data/hw-spec/_truoc-de-linh-0810/. Đề mới không có gợi ý / từ tô màu cho từng câu (anh Tùng chốt 08/10: không cần).",
+  "11/10: thêm `cach_viet_khac` cho mọi câu (cách viết khác đáp án giáo viên, R&D viết, AI chữa câu của Builder soát sạch) cho nút \"Câu sửa đầy đủ\" của trang chấm; câu chưa có đáp án giáo viên có 2 câu.",
+  "14/10 anh Tùng: đề HW2 theo bản chị Linh (file 08/10). Bộ đề HW2 ROOT của anh Trung là bản cũ hơn, không dùng."
+ ],
+ "platform": {
+  "quiz_title": "Writing  Week 6",
+  "question_id": 354,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 0,
+  "limit_submit": 2,
+  "time_minutes": 600,
+  "graph_type": 3,
+  "quiz_code": "{{root-writing-week-6}}",
+  "date_updated": "2026-02-27T11:53:32.992+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › ROOT-W06 › questions[0].content_html",
+  "md": "data/homeworks/ROOT-W06.md"
+ },
+ "lo": [
+  "R6.1 Viết adjective clause đúng cấu trúc: (1) có dùng relative pronoun, và (2) đủ Subj–FV",
+  "R6.2 Đặt adjective clause đúng vị trí — ngay sau danh từ nó bổ nghĩa"
+ ]
+}

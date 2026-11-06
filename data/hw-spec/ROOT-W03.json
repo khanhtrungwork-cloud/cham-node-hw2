@@ -1,0 +1,313 @@
+{
+ "key": "ROOT-W03",
+ "quiz_id": 78,
+ "question_id": 351,
+ "course": "ROOT",
+ "week": 3,
+ "title": "Week 3: Verb tenses (Travel & Culture)",
+ "family": "T2-cau",
+ "pham_vi": "8 câu dịch Việt sang Anh, mỗi câu viết 1 câu tiếng Anh. Đề không giới hạn số từ.",
+ "yeu_cau": [
+  "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+  "Câu chia phần A: câu 1–3, phần B: câu 4–6, phần C: câu 7–8; càng về sau càng khó.",
+  "Trọng tâm tuần: Verb tenses — 5 thì theo ngữ cảnh",
+  "LO chấm của tuần: R3.2 Chia động từ đúng theo thì mà ngữ cảnh yêu cầu; R3.1 Xác định đúng và phân biệt 5 thì phổ biến theo ngữ cảnh của câu"
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Chỉ nhập phần bài làm TIẾNG ANH, không gõ lại đề tiếng Việt.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-cau",
+   "label": "Viết 8 câu (Bài 3 — Verb tenses — chọn thì theo ngữ cảnh)",
+   "instruction_vi": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "instruction_marked": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "answer_format": "mỗi câu một dòng",
+   "items": [
+    {
+     "n": 1,
+     "label": "1",
+     "prompt_vi": "Chuyến bay của tôi cất cánh lúc 4 giờ chiều nay, nhưng tôi đã huỷ nó rồi.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Chuyến bay của tôi cất cánh lúc 4 giờ chiều nay, nhưng tôi đã huỷ nó rồi.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Hai thì ngay từ câu đầu: lịch trình cố định → hiện tại đơn; việc vừa xảy ra còn ảnh hưởng → hiện tại hoàn thành",
+      "Bẫy: chia chuyến bay ở tương lai.",
+      "Câu gợi ý của giáo viên: My flight departs at 4 p.m. today, but I have cancelled it."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "My flight departs at 4 p.m. today, but I have cancelled it.",
+     "cach_viet_khac": [
+      "My flight leaves at 4 o'clock this afternoon, but I have already cancelled it."
+     ]
+    },
+    {
+     "n": 2,
+     "label": "2",
+     "prompt_vi": "Sáng nay sếp tôi quyết định giao cho tôi một dự án khác.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Sáng nay sếp tôi quyết định giao cho tôi một dự án khác.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Quá khứ đơn — việc đã xong sáng nay. give sb sth là công thức hai tân ngữ của bài 2.",
+      "Câu gợi ý của giáo viên: This morning my boss decided to give me another project."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "This morning my boss decided to give me another project.",
+     "cach_viet_khac": [
+      "My boss decided to give another project to me this morning."
+     ]
+    },
+    {
+     "n": 3,
+     "label": "3",
+     "prompt_vi": "Tôi vừa mới đặt vé cho chuyến bay thứ Hai tuần sau, nên tôi sẽ gặp bạn vào thứ Ba.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Tôi vừa mới đặt vé cho chuyến bay thứ Hai tuần sau, nên tôi sẽ gặp bạn vào thứ Ba.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Hiện tại hoàn thành với just + tương lai đơn trong một câu ghép",
+      "Câu gợi ý của giáo viên: I have just booked a ticket for next Monday, so I will see you on Tuesday."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "I have just booked a ticket for next Monday, so I will see you on Tuesday.",
+     "cach_viet_khac": [
+      "I have just booked a flight for next Monday, so I will meet you on Tuesday."
+     ]
+    },
+    {
+     "n": 4,
+     "label": "4",
+     "prompt_vi": "Hồi còn là sinh viên, tôi thường đi làm thêm vào cuối tuần để kiếm thêm tiền.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Hồi còn là sinh viên, tôi thường đi làm thêm vào cuối tuần để kiếm thêm tiền.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Thói quen TRONG QUÁ KHỨ → quá khứ đơn. Chữ “thường” KHÔNG quyết định thì; ngữ cảnh “hồi còn là sinh viên” mới quyết định. Đây là bẫy chính: học sinh thấy từ tần suất là chia hiện tại đơn.",
+      "Câu gợi ý của giáo viên: When I was a university student, I often worked part-time at weekends to earn extra money."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "When I was a university student, I often worked part-time at weekends to earn extra money.",
+     "cach_viet_khac": [
+      "When I was at university, I usually did a part-time job at the weekend to earn some extra money."
+     ]
+    },
+    {
+     "n": 5,
+     "label": "5",
+     "prompt_vi": "Cô ấy đang cân nhắc chuyển đến TP HCM để có nhiều cơ hội việc làm hơn.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Cô ấy đang cân nhắc chuyển đến TP HCM để có nhiều cơ hội việc làm hơn.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Việc tạm thời, đang diễn ra → hiện tại tiếp diễn.",
+      "Câu gợi ý của giáo viên: She is considering moving to Ho Chi Minh City to have more job opportunities."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "GIỮ",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "She is considering moving to Ho Chi Minh City to have more job opportunities.",
+     "cach_viet_khac": [
+      "She is thinking about moving to Ho Chi Minh City to find more job opportunities."
+     ]
+    },
+    {
+     "n": 6,
+     "label": "6",
+     "prompt_vi": "Nhà nước đã khuyến khích người dân làm việc trong ngành du lịch, nhưng nhiều người đã mất hứng thú với ngành này.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nhà nước đã khuyến khích người dân làm việc trong ngành du lịch, nhưng nhiều người đã mất hứng thú với ngành này.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Hiện tại hoàn thành (have encouraged, have lost); không dùng thì ngoài 5 thì đã học ở ROOT",
+      "Câu gợi ý của giáo viên: The authorities have encouraged people to work in the tourism industry, but many people have lost interest in it."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "The authorities have encouraged people to work in the tourism industry, but many people have lost interest in it.",
+     "cach_viet_khac": [
+      "The government has encouraged people to work in tourism, but many of them have lost interest in this industry."
+     ]
+    },
+    {
+     "n": 7,
+     "label": "7",
+     "prompt_vi": "Tôi đến Đà Nẵng lần đầu năm 2019, và từ đó tôi đã quay lại ba lần vì thành phố này cho phép tôi thư giãn hoàn toàn sau những tuần làm việc căng thẳng.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Tôi đến Đà Nẵng lần đầu năm 2019, và từ đó tôi đã quay lại ba lần vì thành phố này cho phép tôi thư giãn hoàn toàn sau những tuần làm việc căng thẳng.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Ba thì trong một câu: quá khứ đơn · hiện tại hoàn thành · hiện tại đơn. Dùng lại công thức allow sb to do sth của bài 2.",
+      "Câu gợi ý của giáo viên: I visited Da Nang for the first time in 2019, and since then I have returned three times because this city allows me to relax completely after stressful working weeks."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "I visited Da Nang for the first time in 2019, and since then I have returned three times because this city allows me to relax completely after stressful working weeks.",
+     "cach_viet_khac": [
+      "I first went to Da Nang in 2019, and I have come back three times since then because the city lets me relax completely after stressful weeks at work."
+     ]
+    },
+    {
+     "n": 8,
+     "label": "8",
+     "prompt_vi": "Hiện tại tôi đang lên kế hoạch cho chuyến đi tiếp theo, và tuần sau tôi sẽ bay ra Đà Nẵng để ở lại một tuần.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Hiện tại tôi đang lên kế hoạch cho chuyến đi tiếp theo, và tuần sau tôi sẽ bay ra Đà Nẵng để ở lại một tuần.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Hiện tại tiếp diễn + tương lai đơn. Có cụm “để…” — tiền đề cho câu nhiều ý ở bài 6.",
+      "Câu gợi ý của giáo viên: At the moment I am planning my next trip, and next week I will fly to Da Nang to stay for a week."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "At the moment I am planning my next trip, and next week I will fly to Da Nang to stay for a week.",
+     "cach_viet_khac": [
+      "Right now I am planning my next trip, and I will fly to Da Nang next week to spend a week there."
+     ]
+    }
+   ],
+   "instruction_source": "file bàn giao của chị Linh 08/10"
+  }
+ ],
+ "count_check": {
+  "items_in_spec": 8,
+  "nguon": "file bàn giao chị Linh 08/10"
+ },
+ "images": [
+  {
+   "kind": "graph",
+   "file": "data/images/ROOT-W03-graph-0c212072.jpg",
+   "url": "https://cms.youpass.vn/assets/0c212072-c032-4bb0-9ac4-82e77c5afc26",
+   "noi_dung": "ảnh chụp lại Câu 1–5 (không có dòng Bối cảnh)"
+  }
+ ],
+ "image_check": "ảnh đề trên nền tảng là bản cũ, đề mới chưa lên nền tảng (08/10).",
+ "source_notes": [
+  "Đề cũ (trước 08/10): Các dòng \"Bối cảnh:\" (Câu 1, 2) là ngữ cảnh để chọn thì, không phải câu cần dịch.",
+  "Đề cũ (trước 08/10): Câu 5 có \"vì\" không đánh dấu *, khác Câu 1 và Câu 3.",
+  "08/10: đề thay theo file bàn giao của chị Linh (Ban-giao-Task2-De-chi-tiet-4-khoa.xlsx). Bản trước ở data/hw-spec/_truoc-de-linh-0810/. Đề mới không có gợi ý / từ tô màu cho từng câu (anh Tùng chốt 08/10: không cần).",
+  "11/10: thêm `cach_viet_khac` cho mọi câu (cách viết khác đáp án giáo viên, R&D viết, AI chữa câu của Builder soát sạch) cho nút \"Câu sửa đầy đủ\" của trang chấm; câu chưa có đáp án giáo viên có 2 câu.",
+  "14/10 anh Tùng: đề HW2 theo bản chị Linh (file 08/10). Bộ đề HW2 ROOT của anh Trung là bản cũ hơn, không dùng."
+ ],
+ "platform": {
+  "quiz_title": "Writing  Week 3",
+  "question_id": 351,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 0,
+  "limit_submit": 2,
+  "time_minutes": 600,
+  "graph_type": 3,
+  "quiz_code": "{{root-writing-week-3}}",
+  "date_updated": "2026-02-27T11:53:32.682+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › ROOT-W03 › questions[0].content_html",
+  "md": "data/homeworks/ROOT-W03.md"
+ },
+ "lo": [
+  "R3.1 Xác định đúng và phân biệt 5 thì phổ biến theo ngữ cảnh của câu",
+  "R3.2 Chia động từ đúng theo thì mà ngữ cảnh yêu cầu"
+ ]
+}

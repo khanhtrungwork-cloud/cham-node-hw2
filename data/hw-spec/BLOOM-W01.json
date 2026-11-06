@@ -1,0 +1,329 @@
+{
+ "key": "BLOOM-W01",
+ "quiz_id": 49,
+ "question_id": 322,
+ "course": "BLOOM",
+ "week": 1,
+ "title": "BLOOM Writing Week 1",
+ "family": "ghep",
+ "pham_vi": "2 đoạn văn thân bài cho 2 đề, mỗi đoạn 100–130 từ, em tự viết topic sentence. Đề 1: nêu cái LỢI của việc tăng giá đồ ăn gây béo. Đề 2: nêu cái HẠI của các tour du lịch trọn gói tới những vùng xa xôi.",
+ "yeu_cau": [
+  "2 đoạn thân bài cho 2 đề khác nhau, mỗi đoạn 100–130 từ (KHÔNG viết cả bài). Với mỗi đề, em TỰ viết topic sentence; đề cho sẵn 2 core idea; em nộp kèm khung brainstorm, tự chọn REASON / IMPACT / EXAMPLE; mỗi supporting idea ít nhất 2 câu và ít nhất 40 chữ."
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Format trả bài: ghi \"Đề 1:\" trước đoạn của đề 1 và \"Đề 2:\" trước đoạn của đề 2 (không cần viết lại đề), có thể kèm khung brainstorm.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-doan",
+   "label": "Đề 1: đoạn thân bài nêu cái LỢI của việc tăng giá đồ ăn gây béo",
+   "instruction_vi": "Đề 1: viết 1 đoạn thân bài (100–130 từ) nêu cái LỢI của việc tăng giá đồ ăn gây béo. Em TỰ viết topic sentence; 2 core idea đề cho sẵn; nộp kèm khung brainstorm.",
+   "instruction_marked": "Đề 1: viết 1 đoạn thân bài (100–130 từ) nêu cái LỢI của việc tăng giá đồ ăn gây béo. Em TỰ viết topic sentence; 2 core idea đề cho sẵn; nộp kèm khung brainstorm.",
+   "goi_y_marked": "<b>(Topic sentence)</b> Em tự viết.\n<b>(Supporting idea 1)</b> Core idea: Một cái lợi của việc này đó là giá cao là thứ ngăn cản người dân ăn đồ không lành mạnh\n<b>(Supporting idea 2)</b> Core idea: Hơn nữa, tăng giá đồ ăn thông qua việc tăng thuế sẽ giúp nhà nước có thêm tiền",
+   "answer_format": "1 đoạn, ghi \"Đề 1:\" trước đoạn",
+   "topic_ids": [
+    "t2"
+   ],
+   "paragraph_brief": {
+    "side": "LỢI (của việc tăng giá)",
+    "allow_own_ideas": null,
+    "allow_own_ideas_note": "đề không nói có được dùng ý riêng hay không",
+    "allow_opposite_side": false,
+    "given_topic_sentence": null,
+    "given_ideas": [
+     {
+      "si": 1,
+      "core_idea_vi": "Một cái lợi của việc này đó là giá cao là thứ ngăn cản người dân ăn đồ không lành mạnh",
+      "development_hint": "tự chọn (reason / impact / example)",
+      "note": "Đề gạch chân phần core idea \"giá cao là thứ ngăn cản người dân ăn đồ không lành mạnh\"; ý tô xanh lá."
+     },
+     {
+      "si": 2,
+      "core_idea_vi": "Hơn nữa, tăng giá đồ ăn thông qua việc tăng thuế sẽ giúp nhà nước có thêm tiền",
+      "development_hint": "tự chọn (reason / impact / example)",
+      "note": "Đề gạch chân phần core idea \"tăng giá đồ ăn thông qua việc tăng thuế sẽ giúp nhà nước có thêm tiền\"; ý tô xanh dương."
+     }
+    ],
+    "word_limit": {
+     "min": 100,
+     "max": 130,
+     "source": "file bàn giao chị Linh 08/10"
+    },
+    "topic_sentence_note": "em tự viết"
+   }
+  },
+  {
+   "part_id": "p2",
+   "family": "T2-doan",
+   "label": "Đề 2: đoạn thân bài nêu cái HẠI của các tour du lịch trọn gói tới vùng xa xôi",
+   "instruction_vi": "Đề 2: viết 1 đoạn thân bài (100–130 từ) nêu cái HẠI của các tour du lịch trọn gói tới những vùng xa xôi (cho người dân địa phương và môi trường). Em TỰ viết topic sentence; 2 core idea đề cho sẵn; nộp kèm khung brainstorm.",
+   "goi_y_marked": "<b>(Topic sentence)</b> Em tự viết.\n<b>(Supporting idea 1)</b> Core idea: Một cái hại của việc này đó là lượng lớn du khách có thể làm ô nhiễm môi trường tự nhiên ở những nơi này\n<b>(Supporting idea 2)</b> Core idea: Hơn nữa, lối sống truyền thống của người dân địa phương có thể bị thay đổi theo hướng không tốt",
+   "answer_format": "1 đoạn, ghi \"Đề 2:\" trước đoạn",
+   "topic_ids": [
+    "t6"
+   ],
+   "paragraph_brief": {
+    "side": "HẠI (của các tour du lịch trọn gói tới vùng xa xôi, cho người dân địa phương và môi trường)",
+    "allow_own_ideas": null,
+    "allow_own_ideas_note": "đề không nói có được dùng ý riêng hay không",
+    "allow_opposite_side": false,
+    "given_topic_sentence": null,
+    "given_ideas": [
+     {
+      "si": 1,
+      "core_idea_vi": "Một cái hại của việc này đó là lượng lớn du khách có thể làm ô nhiễm môi trường tự nhiên ở những nơi này",
+      "development_hint": "tự chọn (reason / impact / example)",
+      "note": "Development phải quay về chuyện môi trường tự nhiên ở nơi du khách tới bị ô nhiễm (rác thải, nước, đất, động thực vật)."
+     },
+     {
+      "si": 2,
+      "core_idea_vi": "Hơn nữa, lối sống truyền thống của người dân địa phương có thể bị thay đổi theo hướng không tốt",
+      "development_hint": "tự chọn (reason / impact / example)",
+      "note": "Development phải quay về người dân địa phương: phong tục, cách sống, nghề truyền thống bị thay đổi theo hướng xấu."
+     }
+    ],
+    "word_limit": {
+     "min": 100,
+     "max": 130,
+     "source": "đề chị Linh duyệt 11/10"
+    },
+    "topic_sentence_note": "em tự viết"
+   }
+  }
+ ],
+ "topics": [
+  {
+   "id": "t2",
+   "text": "More and more people are becoming overweight. Some people suggest that the solution to this problem is to increase the price of fattening foods. To what extent do you agree or disagree?",
+   "question_type": "twe",
+   "where": "both",
+   "note": "Exercise 2, Topic 2; cũng là đề của đoạn văn Exercise 1.",
+   "part_id": "p1",
+   "lua_chon": false,
+   "label": "Đề 1"
+  },
+  {
+   "id": "t6",
+   "text": "Organised tours to remote places and communities are becoming more and more popular. Is it a positive or negative development to local people and the environment?",
+   "question_type": "pos_neg",
+   "where": "text",
+   "note": "Đề 2 của HW2 (chị Linh duyệt 11/10); đề YouPass 10040 (https://e-learning.youpass.vn/practice/writing-task-2/10040), cũng là topic 15 của Writing PRO.",
+   "part_id": "p2",
+   "lua_chon": false,
+   "label": "Đề 2"
+  }
+ ],
+ "images": [
+  {
+   "kind": "graph",
+   "file": "data/images/BLOOM-W01-graph-79beb7bc.jpg",
+   "url": "https://cms.youpass.vn/assets/79beb7bc-903c-4d2d-aa22-f0e171e89c82",
+   "noi_dung": "Exercise 1 (chỉ có đề, không có gợi ý) + Exercise 2 (5 đề)"
+  }
+ ],
+ "image_check": "lệch: ảnh là đề cũ (Exercise 1 + 5 đề Exercise 2), không có đề 2 mới (tour du lịch) và không có gợi ý. Chấm theo chữ.",
+ "source_notes": [
+  "Topic 4 và Topic 5 in đậm cả câu (định dạng, không mang nghĩa).",
+  "Topic 2 của Exercise 2 trùng đề đoạn văn Exercise 1.",
+  "08/10: yêu cầu thay theo file bàn giao của chị Linh (Yêu cầu chính (mới)); bản trước ở data/hw-spec/_truoc-de-linh-0810/.",
+  "08/10: chị Linh chốt BLOOM W1 chỉ giữ bài viết đoạn, bỏ phần viết câu paraphrase đề (Exercise 2). Phần câu và 4 đề của nó chép ở parts_bo, topics_bo; family đổi ghep → T2-doan.",
+  "11/10: chị Linh duyệt thêm đề 2 (đề YouPass 10040: Organised tours to remote places and communities, đoạn cái HẠI, 2 core idea cho sẵn). HW2 thành 2 đoạn cho 2 đề trong 1 homework: family T2-doan → ghep (p1 đề 1, p2 đề 2). Bản trước ở data/hw-spec/_truoc-bloom-w1-2doan-1110/."
+ ],
+ "platform": {
+  "quiz_title": "Writing Week 1",
+  "question_id": 322,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 250,
+  "limit_submit": 2,
+  "time_minutes": 600,
+  "graph_type": 3,
+  "quiz_code": "{{bloom-writing-week-1}}",
+  "date_updated": "2026-06-12T22:35:25.937+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › BLOOM-W01 › questions[0].content_html",
+  "md": "data/homeworks/BLOOM-W01.md"
+ },
+ "yeu_cau_cu": [
+  "Exercise 1: dựa vào gợi ý viết 1 đoạn văn thân bài theo cấu trúc đã học, KHÔNG viết cả bài",
+  "Exercise 1: đoạn văn đưa ra những cái LỢI của việc tăng giá; dùng topic sentence cho sẵn; develop 2 core idea bằng cách phù hợp (reason / impact / example)",
+  "Exercise 2: viết câu paraphrase đề cho 5 đề, KHÔNG viết phần thesis statement",
+  "Trình bày theo format: \"Exercise 1\" + bài viết; \"Exercise 2\" + \"Topic 1: ...\", \"Topic 2: ...\" (không cần viết lại đề)"
+ ],
+ "lo": [
+  "B2.1 — Hiểu được cấu trúc essay: Intro – 2 Body – Conclusion và vai trò từng phần",
+  "B4.7 — Phân tích đề: tách FACT và OPINION, xác định chủ đề chính, thông tin phụ và thông tin giới hạn đề",
+  "B4.2 — Viết Introduction: paraphrase đề theo LF",
+  "T3.1 — Viết được đoạn thân bài đúng cấu trúc theo LF: topic sentence + 2 supporting idea; mỗi supporting idea = core idea + development",
+  "T4.1 — Topic sentence nêu đúng main idea của đoạn: X + lợi/hại, cùng chiều với 2 supporting idea",
+  "T3.2 — Phát triển core idea đúng loại: reason khi core idea đã đủ lợi/hại, impact khi chưa đủ",
+  "B2.2 — Phát triển bằng Example khi core idea đã đủ lợi / hại nhưng không mở thêm được bằng reason / impact; tránh example quá cá nhân hoặc không minh hoạ đủ"
+ ],
+ "parts_bo": [
+  {
+   "part_id": "p2",
+   "family": "T2-cau",
+   "label": "Exercise 2: Viết câu paraphrase đề (5 đề, không viết thesis)",
+   "instruction_vi": "Exercise 2: Với 5 đề sau, em ghi chủ đề chính, thông tin giới hạn đề và phần FACT / OPINION (ghi chú phân tích, có thể bằng tiếng Việt), rồi viết câu paraphrase đề. Không viết thesis statement.",
+   "instruction_marked": "Exercise 2: Với 5 đề sau, em ghi chủ đề chính, thông tin giới hạn đề và phần FACT / OPINION (ghi chú phân tích, có thể bằng tiếng Việt), rồi viết câu paraphrase đề. Không viết thesis statement.",
+   "answer_format": "mỗi đề 1 dòng \"Topic n: <câu paraphrase>\"",
+   "items": [
+    {
+     "n": 1,
+     "label": "Topic 1",
+     "prompt_vi": "Some people think that too much money has been spent looking after and repairing old buildings, so we should knock down old buildings and build modern ones instead. To what extent do you agree or disagree?",
+     "prompt_lang": "en",
+     "prompt_marked": "Some people think that too much money has been spent looking after and repairing old buildings, so we should knock down old buildings and build modern ones instead. To what extent do you agree or disagree?",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "paraphrase phần nêu ý kiến của đề (tốn nhiều tiền sửa nhà cũ, nên phá nhà cũ xây nhà mới) bằng từ và cấu trúc khác, giữ đúng nghĩa"
+     ],
+     "required_form": "paraphrase đề, không viết thesis statement (không nêu quan điểm)",
+     "star": false,
+     "topic_ref": "t1"
+    },
+    {
+     "n": 2,
+     "label": "Topic 2",
+     "prompt_vi": "More and more people are becoming overweight. Some people suggest that the solution to this problem is to increase the price of fattening foods. To what extent do you agree or disagree?",
+     "prompt_lang": "en",
+     "prompt_marked": "More and more people are becoming overweight. Some people suggest that the solution to this problem is to increase the price of fattening foods. To what extent do you agree or disagree?",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "paraphrase vấn đề béo phì và giải pháp tăng giá đồ ăn gây béo, giữ đúng nghĩa"
+     ],
+     "required_form": "paraphrase đề, không viết thesis statement (không nêu quan điểm)",
+     "star": false,
+     "topic_ref": "t2"
+    },
+    {
+     "n": 3,
+     "label": "Topic 3",
+     "prompt_vi": "Some people believe teenagers should focus on all subjects equally, whereas other people think that they should concentrate on only those subjects that they find interesting. Discuss both views and give your opinion.",
+     "prompt_lang": "en",
+     "prompt_marked": "Some people believe teenagers should focus on all subjects equally, whereas other people think that they should concentrate on only those subjects that they find interesting. Discuss both views and give your opinion.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "paraphrase cả 2 quan điểm (học đều mọi môn và chỉ học môn mình thích)"
+     ],
+     "required_form": "paraphrase đề, không viết thesis statement (không nêu quan điểm)",
+     "star": false,
+     "topic_ref": "t3"
+    },
+    {
+     "n": 4,
+     "label": "Topic 4",
+     "prompt_vi": "In some countries, more people are choosing to live alone or in a small family rather than in an extended family. Do you think this is a positive or negative trend?",
+     "prompt_lang": "en",
+     "prompt_marked": "<b>In some countries, more people are choosing to live alone or in a small family rather than in an extended family. Do you think this is a positive or negative trend?</b>",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "paraphrase xu hướng sống một mình hoặc gia đình nhỏ thay vì đại gia đình"
+     ],
+     "required_form": "paraphrase đề, không viết thesis statement (không nêu quan điểm)",
+     "star": false,
+     "topic_ref": "t4"
+    },
+    {
+     "n": 5,
+     "label": "Topic 5",
+     "prompt_vi": "Nowadays, more people move away from their friends and families for work. Do advantages outweigh the disadvantages?",
+     "prompt_lang": "en",
+     "prompt_marked": "<b>Nowadays, more people move away from their friends and families for work. Do advantages outweigh the disadvantages?</b>",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "paraphrase hiện tượng nhiều người rời xa bạn bè, gia đình để đi làm"
+     ],
+     "required_form": "paraphrase đề, không viết thesis statement (không nêu quan điểm)",
+     "star": false,
+     "topic_ref": "t5"
+    }
+   ]
+  }
+ ],
+ "topics_bo": [
+  {
+   "id": "t1",
+   "text": "Some people think that too much money has been spent looking after and repairing old buildings, so we should knock down old buildings and build modern ones instead. To what extent do you agree or disagree?",
+   "question_type": "twe",
+   "where": "both",
+   "note": "Exercise 2, Topic 1.",
+   "part_id": "p2",
+   "lua_chon": false
+  },
+  {
+   "id": "t3",
+   "text": "Some people believe teenagers should focus on all subjects equally, whereas other people think that they should concentrate on only those subjects that they find interesting. Discuss both views and give your opinion.",
+   "question_type": "dbv",
+   "where": "both",
+   "note": "Exercise 2, Topic 3.",
+   "part_id": "p2",
+   "lua_chon": false
+  },
+  {
+   "id": "t4",
+   "text": "In some countries, more people are choosing to live alone or in a small family rather than in an extended family. Do you think this is a positive or negative trend?",
+   "question_type": "pos_neg",
+   "where": "both",
+   "note": "Exercise 2, Topic 4.",
+   "part_id": "p2",
+   "lua_chon": false
+  },
+  {
+   "id": "t5",
+   "text": "Nowadays, more people move away from their friends and families for work. Do advantages outweigh the disadvantages?",
+   "question_type": "adv_disadv",
+   "where": "both",
+   "note": "Exercise 2, Topic 5.",
+   "part_id": "p2",
+   "lua_chon": false
+  }
+ ]
+}

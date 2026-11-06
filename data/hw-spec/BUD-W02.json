@@ -1,0 +1,163 @@
+{
+ "key": "BUD-W02",
+ "quiz_id": 1181,
+ "question_id": 5998,
+ "course": "BUD",
+ "week": 2,
+ "title": "BUD Writing Week 2",
+ "family": "T2-doan",
+ "pham_vi": "1 đoạn văn thân bài 100–130 từ nói về AGREE (cái LỢI của việc học các môn nghệ thuật bắt buộc); em tự viết topic sentence.",
+ "yeu_cau": [
+  "Viết 1 đoạn thân bài nêu cái LỢI (agree) của việc bắt buộc học các môn nghệ thuật ở cấp ba, 100–130 từ.",
+  "Em tự viết topic sentence (X + lợi).",
+  "Đề cho sẵn 2 core idea: phát triển khả năng sáng tạo (ý TRUNG GIAN) · giải toả căng thẳng do áp lực học tập (ý ĐÍCH).",
+  "Em nộp kèm khung brainstorm và tự chọn REASON / IMPACT / EXAMPLE.",
+  "Mỗi supporting idea ít nhất 2 câu và ít nhất 40 chữ."
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-doan",
+   "label": "1 đoạn thân bài AGREE (cái LỢI của học nghệ thuật bắt buộc)",
+   "instruction_vi": "Yêu cầu:\nMình sẽ viết 1 đoạn văn thân bài nói về AGREE – đưa ra những cái LỢI của việc học các môn nghệ thuật bắt buộc theo cấu trúc đã học (bạn vẫn có thể viết theo quan điểm ngược lại, hoặc dùng ideas riêng của mình nhé).\nMỗi đoạn thân bài trong essay chỉ nên giới hạn trong khoảng 100–130 từ bạn nhé!",
+   "instruction_marked": "[ĐỎ]Yêu cầu:[/ĐỎ]\n<b>Mình sẽ viết 1 đoạn văn thân bài nói về AGREE – đưa ra</b> <u><b>những cái LỢI của việc học các môn nghệ thuật bắt buộc</b></u> <b>theo cấu trúc đã học</b> (bạn vẫn có thể viết theo quan điểm ngược lại, hoặc dùng ideas riêng của mình nhé).\nMỗi đoạn thân bài trong essay chỉ nên giới hạn trong khoảng 100–130 từ bạn nhé!",
+   "goi_y_marked": "[ĐỎ]Gợi ý:[/ĐỎ]\n<b>(Topic sentence)</b> [ĐỎ]-> Bạn tự viết nhé.[/ĐỎ] <b>(Supporting idea 1)</b> [XANH LÁ]First, tốt cho việc phát triển tính sáng tạo và trí tưởng tượng[/XANH LÁ] [ĐỎ]-> Bạn tự develop bằng cách phù hợp[/ĐỎ][XANH LÁ].[/XANH LÁ] <b>(Supporting idea 2)</b> [XANH DƯƠNG]Furthermore, nghệ thuật là một cách lành mạnh để học sinh bày tỏ cảm xúc và xả stress[/XANH DƯƠNG] [ĐỎ]-> Bạn tự develop bằng cách phù hợp.[/ĐỎ]",
+   "answer_format": "1 đoạn",
+   "topic_ids": [
+    "t1"
+   ],
+   "paragraph_brief": {
+    "side": "AGREE (LỢI)",
+    "allow_own_ideas": true,
+    "allow_opposite_side": true,
+    "given_topic_sentence": null,
+    "topic_sentence_note": "Đề: \"(Topic sentence) -> Bạn tự viết nhé.\"",
+    "given_ideas": [
+     {
+      "si": 1,
+      "core_idea_vi": "First, tốt cho việc phát triển tính sáng tạo và trí tưởng tượng",
+      "development_hint": "tự chọn (đề: \"Bạn tự develop bằng cách phù hợp\")",
+      "note": "Đề cho sẵn linking word \"First\". Ý tô xanh lá (#169179)."
+     },
+     {
+      "si": 2,
+      "core_idea_vi": "Furthermore, nghệ thuật là một cách lành mạnh để học sinh bày tỏ cảm xúc và xả stress",
+      "development_hint": "tự chọn (đề: \"Bạn tự develop bằng cách phù hợp\")",
+      "note": "Đề cho sẵn linking word \"Furthermore\". Ý tô xanh dương."
+     }
+    ],
+    "word_limit": {
+     "min": 100,
+     "max": 130,
+     "source": "file bàn giao chị Linh 08/10"
+    },
+    "applies_to": "t1"
+   },
+   "ngan_hang_y": "Ngân hàng ý của giáo viên (chỉ để chấm, học sinh không thấy; em viết ý khác mà hợp lý vẫn được). Nhãn: ĐÍCH = ý đã là cái lợi / hại cuối cùng (tiền, sức khoẻ, việc làm, kết quả học tập…), phát triển bằng REASON; TRUNG GIAN = ý chưa đủ lợi / hại, phát triển bằng IMPACT dẫn tới một ĐÍCH.\nĐoạn LỢI (agree):\n• SI 1 — Phát triển khả năng sáng tạo [TRUNG GIAN → IMPACT]: vẽ, tô màu → tập nghĩ theo nhiều hướng, giải quyết vấn đề theo cách mới → học tốt hơn các môn khác / lợi thế với các nghề sáng tạo (thiết kế, marketing).\n• SI 2 — Giải toả căng thẳng do áp lực học tập [ĐÍCH: sức khoẻ tinh thần → REASON hoặc EXAMPLE]: giờ nghệ thuật không có áp lực điểm số, học sinh được thể hiện cảm xúc qua tranh vẽ / ví dụ: học sinh lớp 12 vẽ tranh sau giờ ôn thi để thư giãn.\n• Ý khác: rèn tính kiên nhẫn, tập trung [TRUNG GIAN → kết quả học tập] · hiểu và trân trọng văn hoá [TRUNG GIAN → quan hệ xã hội].\nTopic sentence gợi ý: Making art classes compulsory in high school can bring several benefits to students."
+  }
+ ],
+ "topics": [
+  {
+   "id": "t1",
+   "label": "Đề BUD-02",
+   "text": "Art classes, such as painting or drawing, are important for children’s development, so they should be compulsory in high school. Do you agree or disagree?",
+   "question_type": "twe",
+   "where": "both",
+   "note": "Đề chính (có trong chữ).",
+   "part_id": "p1",
+   "lua_chon": true
+  }
+ ],
+ "paragraph_brief": {
+  "part_id": "p1",
+  "side": "AGREE (LỢI)",
+  "allow_own_ideas": true,
+  "allow_opposite_side": true,
+  "given_topic_sentence": null,
+  "topic_sentence_note": "Đề: \"(Topic sentence) -> Bạn tự viết nhé.\"",
+  "given_ideas": [
+   {
+    "si": 1,
+    "core_idea_vi": "First, tốt cho việc phát triển tính sáng tạo và trí tưởng tượng",
+    "development_hint": "tự chọn (đề: \"Bạn tự develop bằng cách phù hợp\")",
+    "note": "Đề cho sẵn linking word \"First\". Ý tô xanh lá (#169179)."
+   },
+   {
+    "si": 2,
+    "core_idea_vi": "Furthermore, nghệ thuật là một cách lành mạnh để học sinh bày tỏ cảm xúc và xả stress",
+    "development_hint": "tự chọn (đề: \"Bạn tự develop bằng cách phù hợp\")",
+    "note": "Đề cho sẵn linking word \"Furthermore\". Ý tô xanh dương."
+   }
+  ],
+  "word_limit": {
+   "min": 100,
+   "max": 130,
+   "source": "file bàn giao chị Linh 08/10"
+  },
+  "applies_to": "t1"
+ },
+ "images": [
+  {
+   "kind": "graph",
+   "file": "data/images/BUD-W02-graph-2d3f6277.jpg",
+   "url": "https://cms.youpass.vn/assets/2d3f6277-84fc-4769-8b3d-f93489f9ce20",
+   "noi_dung": "2 đề: Đề BUD-01 (thể dục thể thao bắt buộc) và Đề BUD-02 (môn nghệ thuật bắt buộc)"
+  }
+ ],
+ "image_check": "lệch: Ảnh đề có 2 đề (nhãn \"Đề BUD-01\" và \"Đề BUD-02\"); phần chữ trên trang chỉ có đề BUD-02. Học sinh nhìn ảnh có thể chọn viết đề BUD-01. Đề BUD-01 trong ảnh: \"It is generally accepted that exercise is good for children and teenagers. Therefore, physical education and sport should be compulsory for all students in schools. To what extent do you agree or disagree?\"",
+ "source_notes": [
+  "Mô tả câu hỏi là chữ của bài Reading (\"The text has seven paragraphs. Choose the correct heading for paragraphs B-G and move it into the gap.\"): bỏ qua.",
+  "Syllabus BUD 06.26 ghi HW tuần 2 \"chỉ 1 đoạn BENEFITS: Art classes compulsory in high school\", khớp đề chữ (BUD-02).",
+  "File .md bóc sẵn bỏ sót màu xanh lá (#169179) của Supporting idea 1.",
+  "08/10: yêu cầu thay theo file bàn giao của chị Linh (Yêu cầu chính (mới)); bản trước ở data/hw-spec/_truoc-de-linh-0810/.",
+  "08/10: anh Tùng chốt chỉ lấy đề chính (Đề BUD-02). Đề BUD-01 trong ảnh bỏ khỏi luồng chấm, chép lại ở topics_bo. Ảnh đề trên YouPass vẫn còn đề BUD-01 thì cần gỡ, vì học sinh viết đề đó sẽ bị máy tính là lạc đề."
+ ],
+ "platform": {
+  "quiz_title": "Writing  Week 2",
+  "question_id": 5998,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 130,
+  "limit_submit": 2,
+  "time_minutes": 600,
+  "graph_type": 1,
+  "quiz_code": "{{bud-writing-week-2}}",
+  "date_updated": "2026-08-18T19:25:29.342+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › BUD-W02 › questions[0].content_html",
+  "md": "data/homeworks/BUD-W02.md"
+ },
+ "yeu_cau_cu": [
+  "Viết 1 đoạn văn thân bài theo cấu trúc đã học (Topic sentence + 2 supporting ideas)",
+  "Đoạn văn nói về AGREE: đưa ra những cái LỢI của việc học các môn nghệ thuật bắt buộc",
+  "Tự viết topic sentence",
+  "Supporting idea 1 (First, ...) và 2 (Furthermore, ...) có sẵn ý, em tự develop bằng cách phù hợp",
+  "Đoạn thân bài chỉ nên khoảng 100–120 từ",
+  "Được viết theo quan điểm ngược lại hoặc dùng ideas riêng"
+ ],
+ "lo": [
+  "B2.1 — Hiểu được cấu trúc essay: Intro – 2 Body – Conclusion và vai trò từng phần",
+  "T4.2 — Diễn đạt lợi / hại đúng collocation",
+  "T3.3 — Diễn đạt reason / impact đúng collocation",
+  "T3.1 — Viết được đoạn thân bài đúng cấu trúc theo LF: topic sentence + 2 supporting idea; mỗi supporting idea = core idea + development",
+  "T4.1 — Topic sentence nêu đúng main idea của đoạn: X + lợi/hại, cùng chiều với 2 supporting idea",
+  "T3.2 — Phát triển core idea đúng loại: reason khi core idea đã đủ lợi/hại, impact khi chưa đủ",
+  "B2.2 — Phát triển bằng Example khi core idea đã đủ lợi / hại nhưng không mở thêm được bằng reason / impact; tránh example quá cá nhân hoặc không minh hoạ đủ"
+ ],
+ "topics_bo": [
+  {
+   "id": "t2",
+   "label": "Đề BUD-01",
+   "text": "It is generally accepted that exercise is good for children and teenagers. Therefore, physical education and sport should be compulsory for all students in schools. To what extent do you agree or disagree?",
+   "question_type": "twe",
+   "where": "image",
+   "note": "Đề BUD-01 trong ảnh, có thể là chương trình cũ; phần chữ không có. Nếu em viết đề này, gợi ý supporting ideas của đề t1 không áp dụng.",
+   "part_id": "p1",
+   "lua_chon": true
+  }
+ ]
+}

@@ -1,0 +1,314 @@
+{
+ "key": "ROOT-W05",
+ "quiz_id": 80,
+ "question_id": 353,
+ "course": "ROOT",
+ "week": 5,
+ "title": "Week 5: Prep phrase (Entertainment)",
+ "family": "T2-cau",
+ "pham_vi": "8 câu dịch Việt sang Anh, mỗi câu viết 1 câu tiếng Anh. Đề không giới hạn số từ.",
+ "yeu_cau": [
+  "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+  "Câu chia phần A: câu 1–3, phần B: câu 4–6, phần C: câu 7–8; càng về sau càng khó.",
+  "Trọng tâm tuần: Prep phrase & Article",
+  "LO chấm của tuần: R5.1 Nhận diện và dùng cụm giới từ đúng cấu trúc và vị trí bổ nghĩa; R5.2 Dùng được mạo từ đúng dựa trên các nguyên tắc cơ bản"
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Chỉ nhập phần bài làm TIẾNG ANH, không gõ lại đề tiếng Việt.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-cau",
+   "label": "Viết 8 câu (Bài 5 — Prepositional phrase & Article)",
+   "instruction_vi": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "instruction_marked": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "answer_format": "mỗi câu một dòng",
+   "items": [
+    {
+     "n": 1,
+     "label": "1",
+     "prompt_vi": "Theo thông báo mới nhất của công ty, những nhân viên chăm chỉ ở phòng kinh doanh sẽ nhận một khoản thưởng vào cuối tháng.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Theo thông báo mới nhất của công ty, những nhân viên chăm chỉ ở phòng kinh doanh sẽ nhận một khoản thưởng vào cuối tháng.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Bốn cụm giới từ và một mạo từ trong một câu; câu chủ động (will receive)",
+      "Câu gợi ý của giáo viên: According to the latest announcement of the company, hard-working employees in the sales department will receive a bonus at the end of the month."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "4",
+     "dap_an_goi_y": "According to the latest announcement of the company, hard-working employees in the sales department will receive a bonus at the end of the month.",
+     "cach_viet_khac": [
+      "According to the company's latest announcement, hard-working staff in the sales department will get a bonus at the end of this month."
+     ]
+    },
+    {
+     "n": 2,
+     "label": "2",
+     "prompt_vi": "Theo lời giới thiệu của người bạn thân, tôi đã mua một cuốn sách về lịch sử âm nhạc. Cuốn sách đó rất hay.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Theo lời giới thiệu của người bạn thân, tôi đã mua một cuốn sách về lịch sử âm nhạc. Cuốn sách đó rất hay.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Cụm giới từ mở đầu và cụm bổ nghĩa cho danh từ, cộng mạo từ nhắc lần đầu (a book) rồi nhắc lại (The book)",
+      "Câu gợi ý của giáo viên: Following my best friend’s recommendation, I bought a book about the history of music. The book is very interesting."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Following my best friend’s recommendation, I bought a book about the history of music. The book is very interesting.",
+     "cach_viet_khac": [
+      "On the recommendation of my best friend, I bought a book on the history of music. The book is really interesting."
+     ]
+    },
+    {
+     "n": 3,
+     "label": "3",
+     "prompt_vi": "Nhờ có kết quả học tập tốt ở trường đại học, bố mẹ cho phép tôi đi du lịch nước ngoài sau khi tốt nghiệp.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nhờ có kết quả học tập tốt ở trường đại học, bố mẹ cho phép tôi đi du lịch nước ngoài sau khi tốt nghiệp.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Ba cụm giới từ. allow sb to do sth là công thức của bài 2.",
+      "Câu gợi ý của giáo viên: Thanks to good academic results at university, my parents allowed me to travel abroad after graduation."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "GIỮ",
+     "tu_cau_cu": "2",
+     "dap_an_goi_y": "Thanks to good academic results at university, my parents allowed me to travel abroad after graduation.",
+     "cach_viet_khac": [
+      "Because of my good results at university, my parents let me travel abroad after I graduated."
+     ]
+    },
+    {
+     "n": 4,
+     "label": "4",
+     "prompt_vi": "Nhiều sinh viên có kết quả học tập kém vì dành quá nhiều thời gian cho công việc làm thêm mà không tập trung vào việc học.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nhiều sinh viên có kết quả học tập kém vì dành quá nhiều thời gian cho công việc làm thêm mà không tập trung vào việc học.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Hai cụm giới từ đi với V-ing",
+      "Lỗi dễ mắc: focus into.",
+      "Câu gợi ý của giáo viên: Many students have poor academic results because of spending too much time on part-time jobs without focusing on their studies."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "GIỮ",
+     "tu_cau_cu": "1",
+     "dap_an_goi_y": "Many students have poor academic results because of spending too much time on part-time jobs without focusing on their studies.",
+     "cach_viet_khac": [
+      "Many students have poor academic results because they spend too much time on part-time jobs and do not focus on their studies."
+     ]
+    },
+    {
+     "n": 5,
+     "label": "5",
+     "prompt_vi": "Giữa rất nhiều lựa chọn nghề nghiệp, người trẻ thường chọn một công việc lương cao mà không quan tâm đến môi trường làm việc.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Giữa rất nhiều lựa chọn nghề nghiệp, người trẻ thường chọn một công việc lương cao mà không quan tâm đến môi trường làm việc.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "“một công việc” cần mạo từ a (a high-paying job); without + V-ing",
+      "Lỗi dễ mắc: care to.",
+      "Câu gợi ý của giáo viên: Among many career options, young people often choose a high-paying job without caring about the work environment."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "3",
+     "dap_an_goi_y": "Among many career options, young people often choose a high-paying job without caring about the work environment.",
+     "cach_viet_khac": [
+      "Among the many career choices available, young people usually choose a well-paid job without paying attention to the working environment."
+     ]
+    },
+    {
+     "n": 6,
+     "label": "6",
+     "prompt_vi": "Mặc dù có mức lương cao, anh ấy không có khoản tiết kiệm nào vì chi tiêu quá nhiều cho quần áo và các bữa ăn ở nhà hàng.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Mặc dù có mức lương cao, anh ấy không có khoản tiết kiệm nào vì chi tiêu quá nhiều cho quần áo và các bữa ăn ở nhà hàng.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Despite đi với cụm danh từ, KHÔNG đi với mệnh đề — đây là bẫy chính.",
+      "Câu gợi ý của giáo viên: Despite his high salary, he has no savings because of spending too much on clothes and meals at restaurants."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "GIỮ",
+     "tu_cau_cu": "6",
+     "dap_an_goi_y": "Despite his high salary, he has no savings because of spending too much on clothes and meals at restaurants.",
+     "cach_viet_khac": [
+      "Despite having a high salary, he has no savings because he spends too much money on clothes and meals at restaurants."
+     ]
+    },
+    {
+     "n": 7,
+     "label": "7",
+     "prompt_vi": "Buổi hoà nhạc của ban nhạc nổi tiếng đó tại nhà hát lớn của thành phố vào tối thứ bảy tuần trước đã thu hút hàng nghìn khán giả từ khắp cả nước.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Buổi hoà nhạc của ban nhạc nổi tiếng đó tại nhà hát lớn của thành phố vào tối thứ bảy tuần trước đã thu hút hàng nghìn khán giả từ khắp cả nước.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Năm cụm giới từ liên tiếp cộng ba mạo từ — khó hơn hẳn phần B. Chủ ngữ thật là The concert, không phải band hay theatre. Theo luật khóa, last / next + thời gian không thêm on: câu gợi ý ghi “on last Saturday evening” là sót, em viết “last Saturday evening” là đúng; em viết có on thì sửa nhẹ.",
+      "Câu gợi ý của giáo viên: The concert of that famous band at the big theatre of the city last Saturday evening attracted thousands of people from all over the country."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "The concert of that famous band at the big theatre of the city last Saturday evening attracted thousands of people from all over the country.",
+     "cach_viet_khac": [
+      "Last Saturday evening, the concert of that famous band at the city's big theatre attracted thousands of people from all over the country."
+     ]
+    },
+    {
+     "n": 8,
+     "label": "8",
+     "prompt_vi": "Thông tin trên các trang mạng xã hội về đời tư của người nổi tiếng thường không chính xác, vì vậy người đọc nên kiểm tra lại từ một nguồn đáng tin cậy.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Thông tin trên các trang mạng xã hội về đời tư của người nổi tiếng thường không chính xác, vì vậy người đọc nên kiểm tra lại từ một nguồn đáng tin cậy.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Ba cụm giới từ liên tiếp; Information không đếm được nên không có mạo từ, động từ số ít; nhưng “một nguồn” thì phải có mạo từ. Câu ghép với so.",
+      "Câu gợi ý của giáo viên: Information on social media sites about the private lives of celebrities is often inaccurate, so readers should check it again from a reliable source."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Information on social media sites about the private lives of celebrities is often inaccurate, so readers should check it again from a reliable source.",
+     "cach_viet_khac": [
+      "Information about celebrities' private lives on social media is often inaccurate, so readers should check it with a reliable source."
+     ]
+    }
+   ],
+   "instruction_source": "file bàn giao của chị Linh 08/10"
+  }
+ ],
+ "count_check": {
+  "items_in_spec": 8,
+  "nguon": "file bàn giao chị Linh 08/10"
+ },
+ "images": [
+  {
+   "kind": "graph",
+   "file": "data/images/ROOT-W05-graph-eebe3c6d.jpg",
+   "url": "https://cms.youpass.vn/assets/eebe3c6d-58d2-454e-9613-f592c55cfd72",
+   "noi_dung": "ảnh chụp lại 6 câu đề"
+  }
+ ],
+ "image_check": "ảnh đề trên nền tảng là bản cũ, đề mới chưa lên nền tảng (08/10).",
+ "source_notes": [
+  "Đề cũ (trước 08/10): Ở câu 2 và 3 dấu \".\" sau số câu nằm trong vùng tô đỏ (\"2[.Nhờ vào]\"); chữ đỏ thật là \"Nhờ vào\" và \"Giữa\".",
+  "08/10: đề thay theo file bàn giao của chị Linh (Ban-giao-Task2-De-chi-tiet-4-khoa.xlsx). Bản trước ở data/hw-spec/_truoc-de-linh-0810/. Đề mới không có gợi ý / từ tô màu cho từng câu (anh Tùng chốt 08/10: không cần).",
+  "11/10: thêm `cach_viet_khac` cho mọi câu (cách viết khác đáp án giáo viên, R&D viết, AI chữa câu của Builder soát sạch) cho nút \"Câu sửa đầy đủ\" của trang chấm; câu chưa có đáp án giáo viên có 2 câu.",
+  "14/10 anh Tùng: đề HW2 theo bản chị Linh (file 08/10). Bộ đề HW2 ROOT của anh Trung là bản cũ hơn, không dùng.",
+  "14/10: câu 7 giữ một chỗ sửa: đáp án gợi ý bỏ chữ \"on\" thừa trước \"last Saturday\" (file 08/10 có chữ này; để nguyên thì nút \"Câu sửa đầy đủ\" hiện câu sai)."
+ ],
+ "platform": {
+  "quiz_title": "Writing Week 5",
+  "question_id": 353,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 0,
+  "limit_submit": 2,
+  "time_minutes": 600,
+  "graph_type": 3,
+  "quiz_code": "{{root-writing-week-5}}",
+  "date_updated": "2026-02-27T11:53:32.865+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › ROOT-W05 › questions[0].content_html",
+  "md": "data/homeworks/ROOT-W05.md"
+ },
+ "lo": [
+  "R5.1 Nhận diện và dùng cụm giới từ đúng cấu trúc và vị trí bổ nghĩa",
+  "R5.2 Dùng được mạo từ đúng dựa trên các nguyên tắc cơ bản"
+ ]
+}

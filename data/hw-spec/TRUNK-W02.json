@@ -1,0 +1,320 @@
+{
+ "key": "TRUNK-W02",
+ "quiz_id": 68,
+ "question_id": 341,
+ "course": "TRUNK",
+ "week": 2,
+ "title": "Week 2: Adjective clause & Main clause",
+ "family": "T2-cau",
+ "pham_vi": "8 câu dịch Việt sang Anh, mỗi câu viết 1 câu tiếng Anh (mỗi câu thành MỘT câu phức). Đề không giới hạn số từ.",
+ "yeu_cau": [
+  "Viết các câu bên dưới bằng tiếng Anh, mỗi câu thành MỘT câu phức. Đề tiếng Việt có thể không có dấu phẩy đúng chỗ — bạn tự đặt dấu phẩy cho phù hợp trong câu tiếng Anh nhé.",
+  "Câu chia phần A: câu 1–3, phần B: câu 4–6, phần C: câu 7–8; càng về sau càng khó.",
+  "Trọng tâm tuần: Cấu trúc câu (2) — câu phức",
+  "LO chấm của tuần: R6.1 — Viết adjective clause đúng cấu trúc: (1) có dùng relative pronoun, và (2) đủ Subj–FV; R6.2 — Đặt adjective clause đúng vị trí — ngay sau danh từ nó bổ nghĩa; R7.1 — Nhận diện và dùng đúng , which để bổ sung cho cả mệnh đề; R7.2 — Nhận diện và dùng đúng restrictive / non-restrictive (phẩy + that/which); R9.1 — Câu nào cũng luôn có main clause đứng độc lập được; R9.2 — Chọn conjunction đúng với quan hệ ý giữa các mệnh đề"
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Chỉ nhập phần bài làm TIẾNG ANH, không gõ lại đề tiếng Việt. Hướng dẫn chung: ôn bài Writing 2; trước khi làm, xem lại các lỗi giáo viên feedback ở tuần trước. Trong cả khóa tuyệt đối không dùng AI hay công cụ dịch thuật để viết bài.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-cau",
+   "label": "Viết 8 câu (Adjective clause & Main clause)",
+   "instruction_vi": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu thành MỘT câu phức. Đề tiếng Việt có thể không có dấu phẩy đúng chỗ — bạn tự đặt dấu phẩy cho phù hợp trong câu tiếng Anh nhé.",
+   "instruction_marked": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu thành MỘT câu phức. Đề tiếng Việt có thể không có dấu phẩy đúng chỗ — bạn tự đặt dấu phẩy cho phù hợp trong câu tiếng Anh nhé.",
+   "answer_format": "mỗi câu một dòng",
+   "items": [
+    {
+     "n": 1,
+     "label": "1",
+     "prompt_vi": "Du học có lợi cho sinh viên vì họ thường được trả lương cao hơn khi ứng tuyển vào những công ty nước ngoài đang tìm kiếm nhân viên có kinh nghiệm quốc tế.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Du học có lợi cho sinh viên vì họ thường được trả lương cao hơn khi ứng tuyển vào những công ty nước ngoài đang tìm kiếm nhân viên có kinh nghiệm quốc tế.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "“những công ty … đang tìm kiếm” là adjective clause restrictive (không phẩy)",
+      "Lỗi dễ mắc: “companies that they are looking…”.",
+      "Câu gợi ý của giáo viên: Studying abroad benefits students because they are often offered higher salaries when they apply to foreign companies that are looking for employees with international experience."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "1",
+     "dap_an_goi_y": "Studying abroad benefits students because they are often offered higher salaries when they apply to foreign companies that are looking for employees with international experience.",
+     "cach_viet_khac": [
+      "Studying abroad is beneficial for students, as they often receive higher salaries when they apply to foreign companies which are looking for staff with international experience."
+     ]
+    },
+    {
+     "n": 2,
+     "label": "2",
+     "prompt_vi": "Vì ít giáo viên muốn làm việc ở vùng sâu vùng xa, chất lượng giáo dục ở những khu vực này, vốn đã thua kém thành thị, ngày càng đi xuống.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Vì ít giáo viên muốn làm việc ở vùng sâu vùng xa, chất lượng giáo dục ở những khu vực này, vốn đã thua kém thành thị, ngày càng đi xuống.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "“Vì…” là mệnh đề trạng ngữ (because + S–FV). “vốn đã thua kém” bổ nghĩa cho quality → non-restrictive, which is",
+      "Lỗi dễ mắc: hiểu nhầm which trỏ areas (are).",
+      "Câu gợi ý của giáo viên: Because few teachers want to work in remote areas, the quality of education in these areas, which is already inferior to that in cities, is getting worse."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Because few teachers want to work in remote areas, the quality of education in these areas, which is already inferior to that in cities, is getting worse.",
+     "cach_viet_khac": [
+      "As not many teachers want to work in remote areas, the quality of education there, which is already lower than that in cities, is getting worse and worse."
+     ]
+    },
+    {
+     "n": 3,
+     "label": "3",
+     "prompt_vi": "Nhiều học sinh cảm thấy áp lực nặng nề khi cha mẹ, những người luôn đặt kỳ vọng cao, bắt các em đi học thêm mỗi tối.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nhiều học sinh cảm thấy áp lực nặng nề khi cha mẹ, những người luôn đặt kỳ vọng cao, bắt các em đi học thêm mỗi tối.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "their parents, who … (non-restrictive, có phẩy). force sb to do",
+      "Câu gợi ý của giáo viên: Many students feel heavy pressure when their parents, who always have high expectations, force them to take extra classes every evening."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Many students feel heavy pressure when their parents, who always have high expectations, force them to take extra classes every evening.",
+     "cach_viet_khac": [
+      "Many students feel under great pressure when their parents, who always expect a lot from them, make them attend extra classes every evening."
+     ]
+    },
+    {
+     "n": 4,
+     "label": "4",
+     "prompt_vi": "Những học sinh giỏi các môn tự nhiên như toán hay vật lý thường theo đuổi các ngành công nghệ vì những ngành này đòi hỏi nền tảng vững ở các môn đó.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Những học sinh giỏi các môn tự nhiên như toán hay vật lý thường theo đuổi các ngành công nghệ vì những ngành này đòi hỏi nền tảng vững ở các môn đó.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Mệnh đề trạng ngữ với because. Adjective clause restrictive: chỉ những học sinh giỏi tự nhiên (who are good at…)",
+      "Câu gợi ý của giáo viên: Students who are good at natural sciences such as maths or physics often pursue careers in technology because these fields require a strong foundation in those subjects."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "4",
+     "dap_an_goi_y": "Students who are good at natural sciences such as maths or physics often pursue careers in technology because these fields require a strong foundation in those subjects.",
+     "cach_viet_khac": [
+      "Students who do well in natural sciences like maths or physics often choose careers in technology, as these fields need a solid background in those subjects."
+     ]
+    },
+    {
+     "n": 5,
+     "label": "5",
+     "prompt_vi": "Mặc dù làm việc từ xa giúp nhân viên tiết kiệm thời gian đi lại, nhiều người cảm thấy cô đơn vì họ hiếm khi gặp những đồng nghiệp mà họ làm việc cùng.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Mặc dù làm việc từ xa giúp nhân viên tiết kiệm thời gian đi lại, nhiều người cảm thấy cô đơn vì họ hiếm khi gặp những đồng nghiệp mà họ làm việc cùng.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Quan hệ nhượng bộ",
+      "Lỗi dễ mắc: “Although … but”; “the colleagues that they work with them”.",
+      "Câu gợi ý của giáo viên: Although working remotely helps employees save commuting time, many people feel lonely because they rarely meet the colleagues that they work with."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Although working remotely helps employees save commuting time, many people feel lonely because they rarely meet the colleagues that they work with.",
+     "cach_viet_khac": [
+      "Although working from home allows employees to save time on commuting, many people feel lonely as they rarely see the colleagues who they work with."
+     ]
+    },
+    {
+     "n": 6,
+     "label": "6",
+     "prompt_vi": "Khi ông bà sống cùng gia đình, trẻ em thường học được những giá trị truyền thống mà cha mẹ bận rộn ít khi có thời gian dạy.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Khi ông bà sống cùng gia đình, trẻ em thường học được những giá trị truyền thống mà cha mẹ bận rộn ít khi có thời gian dạy.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Restrictive, không phẩy",
+      "Lỗi dễ mắc: “values which their parents rarely have time to teach it”.",
+      "Câu gợi ý của giáo viên: When grandparents live with the family, children often learn traditional values that their busy parents rarely have time to teach."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "When grandparents live with the family, children often learn traditional values that their busy parents rarely have time to teach.",
+     "cach_viet_khac": [
+      "Children who live with their grandparents often learn traditional values which their busy parents rarely have time to teach."
+     ]
+    },
+    {
+     "n": 7,
+     "label": "7",
+     "prompt_vi": "Các cộng đồng thu nhập thấp thường có nguy cơ mắc bệnh cao hơn vì họ thiếu nước sạch, một vấn đề mà chính phủ nhiều nước đang phát triển vẫn chưa giải quyết được.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Các cộng đồng thu nhập thấp thường có nguy cơ mắc bệnh cao hơn vì họ thiếu nước sạch, một vấn đề mà chính phủ nhiều nước đang phát triển vẫn chưa giải quyết được.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Một câu: vế “vì…” không đứng thành câu riêng; “một vấn đề mà…” là adjective clause bổ nghĩa problem",
+      "Lỗi dễ mắc: “lack of clean water” với lack là động từ.",
+      "Câu gợi ý của giáo viên: Low-income communities often face a higher risk of disease because they lack clean water, a problem that governments in many developing countries have not been able to solve."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Low-income communities often face a higher risk of disease because they lack clean water, a problem that governments in many developing countries have not been able to solve.",
+     "cach_viet_khac": [
+      "Poor communities often have a higher risk of getting sick because they do not have access to clean water, a problem which governments in many developing countries have not solved yet."
+     ]
+    },
+    {
+     "n": 8,
+     "label": "8",
+     "prompt_vi": "Nếu chính phủ không hạn chế số lượng xe máy ở Hà Nội, nơi có mức ô nhiễm không khí cao nhất cả nước, người dân sẽ tiếp tục mắc các bệnh về hô hấp.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nếu chính phủ không hạn chế số lượng xe máy ở Hà Nội, nơi có mức ô nhiễm không khí cao nhất cả nước, người dân sẽ tiếp tục mắc các bệnh về hô hấp.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Danh từ riêng → bắt buộc non-restrictive: có phẩy, không dùng that",
+      "Lỗi dễ mắc: “Hanoi that has…”; “If … will not limit”.",
+      "Câu gợi ý của giáo viên: If the government does not limit the number of motorbikes in Hanoi, which has the highest level of air pollution in the country, residents will continue to suffer from respiratory diseases."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "If the government does not limit the number of motorbikes in Hanoi, which has the highest level of air pollution in the country, residents will continue to suffer from respiratory diseases.",
+     "cach_viet_khac": [
+      "Unless the government limits the number of motorbikes in Hanoi, which has the worst air pollution in the country, people there will keep suffering from respiratory diseases."
+     ]
+    }
+   ],
+   "instruction_source": "file bàn giao của chị Linh 08/10"
+  }
+ ],
+ "count_check": {
+  "items_in_spec": 8,
+  "nguon": "file bàn giao chị Linh 08/10"
+ },
+ "images": [
+  {
+   "kind": "graph",
+   "file": "data/images/TRUNK-W02-graph-06d30fc3.jpg",
+   "url": "https://cms.youpass.vn/assets/06d30fc3-9a4b-49f9-bfa3-1d58cbb543f2",
+   "noi_dung": "ảnh chụp lại 5 câu đề"
+  }
+ ],
+ "image_check": "ảnh đề trên nền tảng là bản cũ, đề mới chưa lên nền tảng (08/10).",
+ "source_notes": [
+  "Đề cũ (trước 08/10): Gợi ý trên trang dùng cả \"|\" và \"/\" để tách từ.",
+  "08/10: đề thay theo file bàn giao của chị Linh (Ban-giao-Task2-De-chi-tiet-4-khoa.xlsx). Bản trước ở data/hw-spec/_truoc-de-linh-0810/. Đề mới không có gợi ý / từ tô màu cho từng câu (anh Tùng chốt 08/10: không cần).",
+  "11/10: thêm `cach_viet_khac` cho mọi câu (cách viết khác đáp án giáo viên, R&D viết, AI chữa câu của Builder soát sạch) cho nút \"Câu sửa đầy đủ\" của trang chấm; câu chưa có đáp án giáo viên có 2 câu."
+ ],
+ "platform": {
+  "quiz_title": "Writing Week 2",
+  "question_id": 341,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 0,
+  "limit_submit": 2,
+  "time_minutes": 60,
+  "graph_type": 3,
+  "quiz_code": "{{trunk-writing-week-2}}",
+  "date_updated": "2026-03-23T14:45:26.163+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › TRUNK-W02 › questions[0].content_html",
+  "md": "data/homeworks/TRUNK-W02.md"
+ },
+ "lo": [
+  "R6.1 — Viết adjective clause đúng cấu trúc: (1) có dùng relative pronoun, và (2) đủ Subj–FV",
+  "R6.2 — Đặt adjective clause đúng vị trí — ngay sau danh từ nó bổ nghĩa",
+  "R7.1 — Nhận diện và dùng đúng , which để bổ sung cho cả mệnh đề",
+  "R7.2 — Nhận diện và dùng đúng restrictive / non-restrictive (phẩy + that/which)",
+  "R9.1 — Câu nào cũng luôn có main clause đứng độc lập được",
+  "R9.2 — Chọn conjunction đúng với quan hệ ý giữa các mệnh đề"
+ ]
+}

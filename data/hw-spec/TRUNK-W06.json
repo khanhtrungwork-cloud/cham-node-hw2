@@ -1,0 +1,133 @@
+{
+ "key": "TRUNK-W06",
+ "quiz_id": 72,
+ "question_id": 345,
+ "course": "TRUNK",
+ "week": 6,
+ "title": "Week 6 (đề để trống tên chủ đề)",
+ "family": "T2-doan",
+ "pham_vi": "1 đoạn văn thân bài 110–130 từ nêu cái LỢI của việc chuyển giáo dục đại học sang học online; topic sentence viết bằng dummy subject.",
+ "yeu_cau": [
+  "Viết 1 đoạn thân bài nêu cái LỢI của việc chuyển hẳn giáo dục đại học sang học online, 110–130 từ.",
+  "Topic sentence viết bằng dummy subject (There are… / It is…).",
+  "Đề gợi ý 2 hướng: tự điều chỉnh tốc độ học · tiết kiệm chi phí.",
+  "Phát triển bằng chuỗi REASON / IMPACT.",
+  "Mỗi supporting idea ít nhất 2 câu và ít nhất 40 chữ."
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Trước khi làm, xem lại feedback của giáo viên tuần trước. Framework viết 1 đoạn thân bài: Bước 1 xác định ý tưởng (đề dạng Should we do X or not?, xác định X, chọn ý chính, vd viết về cái LỢI của X). Bước 2 tìm 2 supporting ideas (2 cái LỢI của X là 2 core ideas; core idea ĐỦ LỢI thì phát triển bằng REASON, CHƯA ĐỦ LỢI thì phát triển bằng IMPACT; được take note tiếng Việt). Bước 3 viết bài hoàn chỉnh. Bước 3 tuần 6: kiểm soát ngữ pháp và tra công thức động từ / collocation; linking devices phù hợp; tập viết câu phức; mới: tập đổi chủ ngữ (nếu được).",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-doan",
+   "label": "1 đoạn thân bài: cái LỢI của học online",
+   "instruction_vi": "Viết 1 đoạn thân bài (110–130 từ) nêu cái LỢI của việc chuyển giáo dục đại học sang học online. Topic sentence viết bằng dummy subject (There are… / It is…); 2 hướng gợi ý chỉ để tham khảo.",
+   "instruction_marked": "Viết 1 đoạn thân bài (110–130 từ) nêu cái LỢI của việc chuyển giáo dục đại học sang học online. Topic sentence viết bằng dummy subject (There are… / It is…); 2 hướng gợi ý chỉ để tham khảo.",
+   "goi_y_marked": "<b>Topic sentence</b>\n[ĐỎ]Tự viết[/ĐỎ]\n<b>Supporting idea 1</b>\ntự điều chỉnh tốc độ học dựa theo khả năng\n<b>Supporting idea 2</b>\ntiết kiệm chi phí hơn so với việc tới lớp học kiểu truyền thống",
+   "answer_format": "1 đoạn",
+   "topic_ids": [
+    "t1"
+   ],
+   "paragraph_brief": {
+    "side": "LỢI",
+    "allow_own_ideas": true,
+    "allow_opposite_side": false,
+    "given_topic_sentence": null,
+    "topic_sentence_note": "Đề: \"Tự viết\".",
+    "given_ideas": [
+     {
+      "si": 1,
+      "core_idea_vi": "tự điều chỉnh tốc độ học dựa theo khả năng",
+      "development_hint": "tự chọn (REASON / IMPACT)",
+      "note": "Gợi ý chỉ mang tính định hướng. Đề cũ ghi \"linh hoạt thời gian & có thể điều chỉnh tốc độ học\"; em viết về linh hoạt thời gian vẫn được."
+     },
+     {
+      "si": 2,
+      "core_idea_vi": "tiết kiệm chi phí hơn so với việc tới lớp học kiểu truyền thống",
+      "development_hint": "tự chọn (REASON / IMPACT)",
+      "note": "Gợi ý chỉ mang tính định hướng."
+     }
+    ],
+    "word_limit": {
+     "min": 110,
+     "max": 130,
+     "source": "file bàn giao chị Linh 08/10"
+    }
+   },
+   "ngan_hang_y": "Ngân hàng ý của giáo viên (chỉ để chấm, học sinh không thấy; em viết ý khác mà hợp lý vẫn được). Nhãn: ĐÍCH = ý đã là cái lợi / hại cuối cùng (tiền, sức khoẻ, việc làm, kết quả học tập…), phát triển bằng REASON; TRUNG GIAN = ý chưa đủ lợi / hại, phát triển bằng IMPACT dẫn tới một ĐÍCH.\nNgân hàng ý (bản LFM — nhãn ĐÍCH / TRUNG GIAN và cách phát triển đạt):\n• Tự điều chỉnh tốc độ học (SI 1 gợi ý) [TRUNG GIAN]: Impact: xem lại bài giảng → hiểu sâu → kết quả học tập tốt hơn.\n• Tiết kiệm chi phí (SI 2 gợi ý) [ĐÍCH]: Reason: không tốn tiền thuê trọ, đi lại. Impact tới giá trị lớn hơn (giảm gánh nặng cho gia đình) cũng đạt.\n• Linh hoạt về thời gian [TRUNG GIAN]: Impact: vừa học vừa làm → có thu nhập, kinh nghiệm.\n• Học được khoá của trường nước ngoài [TRUNG GIAN]: Impact tới sự nghiệp."
+  }
+ ],
+ "topics": [
+  {
+   "id": "t1",
+   "text": "With the development of technology, university education should be completely switched to online. Do you agree or disagree?",
+   "question_type": "twe",
+   "where": "text",
+   "note": "Dạng \"Do you agree or disagree?\" (xếp chung nhóm twe). Đoạn văn chỉ nêu cái LỢI của học online.",
+   "part_id": "p1",
+   "lua_chon": false
+  }
+ ],
+ "paragraph_brief": {
+  "part_id": "p1",
+  "side": "LỢI",
+  "allow_own_ideas": true,
+  "allow_opposite_side": false,
+  "given_topic_sentence": null,
+  "topic_sentence_note": "Đề: \"Tự viết\".",
+  "given_ideas": [
+   {
+    "si": 1,
+    "core_idea_vi": "tự điều chỉnh tốc độ học dựa theo khả năng",
+    "development_hint": "tự chọn (REASON / IMPACT)",
+    "note": "Gợi ý chỉ mang tính định hướng. Đề cũ ghi \"linh hoạt thời gian & có thể điều chỉnh tốc độ học\"; em viết về linh hoạt thời gian vẫn được."
+   },
+   {
+    "si": 2,
+    "core_idea_vi": "tiết kiệm chi phí hơn so với việc tới lớp học kiểu truyền thống",
+    "development_hint": "tự chọn (REASON / IMPACT)",
+    "note": "Gợi ý chỉ mang tính định hướng."
+   }
+  ],
+  "word_limit": {
+   "min": 110,
+   "max": 130,
+   "source": "file bàn giao chị Linh 08/10"
+  }
+ },
+ "images": [],
+ "image_check": "không có ảnh đề.",
+ "source_notes": [
+  "Tiêu đề trên trang chỉ ghi \"Week 6:\" (để trống tên chủ đề).",
+  "08/10: yêu cầu thay theo file bàn giao của chị Linh (Yêu cầu chính (mới)); bản trước ở data/hw-spec/_truoc-de-linh-0810/."
+ ],
+ "platform": {
+  "quiz_title": "Writing  Week 6",
+  "question_id": 345,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 120,
+  "limit_submit": 2,
+  "time_minutes": 60,
+  "graph_type": null,
+  "quiz_code": "{{trunk-writing-week-6}}",
+  "date_updated": "2026-03-23T15:53:39.066+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › TRUNK-W06 › questions[0].content_html",
+  "md": "data/homeworks/TRUNK-W06.md"
+ },
+ "yeu_cau_cu": [
+  "Viết 1 đoạn văn thân bài theo cấu trúc đã học",
+  "Đoạn văn nói về những cái LỢI của việc học online đối với sinh viên",
+  "Tự viết topic sentence",
+  "Gợi ý 2 supporting ideas chỉ mang tính định hướng: tự brainstorm, dùng các chuỗi lập luận REASON / IMPACT",
+  "Nội dung mới tuần 6: tập đổi chủ ngữ (nếu được)",
+  "Kiểm soát ngữ pháp, tra công thức động từ / collocation, dùng linking devices, tập viết câu phức"
+ ],
+ "lo": [
+  "T6.1 — Đa dạng cấu trúc câu bằng cách đổi chủ ngữ",
+  "T6.2 — Đa dạng cấu trúc câu bằng cách dùng dummy subject"
+ ]
+}

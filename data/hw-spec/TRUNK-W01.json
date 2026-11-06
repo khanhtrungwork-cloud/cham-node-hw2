@@ -1,0 +1,320 @@
+{
+ "key": "TRUNK-W01",
+ "quiz_id": 67,
+ "question_id": 340,
+ "course": "TRUNK",
+ "week": 1,
+ "title": "Week 1: Clause structures & Modifiers",
+ "family": "T2-cau",
+ "pham_vi": "8 câu dịch Việt sang Anh, mỗi câu viết 1 câu tiếng Anh. Đề không giới hạn số từ.",
+ "yeu_cau": [
+  "Viết các câu bên dưới bằng tiếng Anh. Dùng từ điển Oxford để tra công thức của động từ và collocation khi bạn không chắc chắn. Nhập bài làm bằng TIẾNG ANH trong khung làm bài, không cần gõ lại đề tiếng Việt.",
+  "Câu chia phần A: câu 1–3, phần B: câu 4–6, phần C: câu 7–8; càng về sau càng khó.",
+  "Trọng tâm tuần: Cấu trúc câu (1) — mệnh đề, modifiers",
+  "LO chấm của tuần: R1.1 — Nhận diện và viết được câu có đủ S–FV; R1.2 — Dùng đúng từ loại cho S; R1.3 — Chia FV đúng theo S về số ít và số nhiều; R2.2 — Tra cứu và dùng đúng công thức của động từ; R2.3 — Dùng đúng các collocation Vt + Object phổ biến; R4.1 — Nhận diện và dùng adjective đúng chức năng và vị trí; R4.2 — Nhận diện và dùng adverb đúng chức năng và vị trí; R5.1 — Nhận diện và dùng cụm giới từ đúng cấu trúc và vị trí bổ nghĩa"
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Chỉ nhập phần bài làm TIẾNG ANH, không gõ lại đề tiếng Việt. Hướng dẫn chung: ôn kiến thức bài Writing 1, viết một số câu tiếng Anh theo gợi ý để ôn từ vựng và ngữ pháp. Trong cả khóa tuyệt đối không dùng AI hay công cụ dịch thuật để viết bài.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-cau",
+   "label": "Viết 8 câu (Clause structures & Modifiers)",
+   "instruction_vi": "Viết các câu bên dưới bằng tiếng Anh. Dùng từ điển Oxford để tra công thức của động từ và collocation khi bạn không chắc chắn. Nhập bài làm bằng TIẾNG ANH trong khung làm bài, không cần gõ lại đề tiếng Việt.",
+   "instruction_marked": "Viết các câu bên dưới bằng tiếng Anh. Dùng từ điển Oxford để tra công thức của động từ và collocation khi bạn không chắc chắn. Nhập bài làm bằng TIẾNG ANH trong khung làm bài, không cần gõ lại đề tiếng Việt.",
+   "answer_format": "mỗi câu một dòng",
+   "items": [
+    {
+     "n": 1,
+     "label": "1",
+     "prompt_vi": "Đi làm thêm thường mang lại cho sinh viên nhiều kinh nghiệm thực tế và giúp họ có lợi thế khi ứng tuyển vào các công việc toàn thời gian sau khi ra trường.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Đi làm thêm thường mang lại cho sinh viên nhiều kinh nghiệm thực tế và giúp họ có lợi thế khi ứng tuyển vào các công việc toàn thời gian sau khi ra trường.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Trạng từ “thường” (often) đặt đúng vị trí. V-ing làm chủ ngữ → gives / helps. give sb sth · help sb (to) do · apply for",
+      "Câu gợi ý của giáo viên: Working part-time often gives students a lot of practical experience and helps them gain an advantage when they apply for full-time jobs after graduation."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "1",
+     "dap_an_goi_y": "Working part-time often gives students a lot of practical experience and helps them gain an advantage when they apply for full-time jobs after graduation.",
+     "cach_viet_khac": [
+      "Doing part-time jobs often provides students with a lot of practical experience and gives them an advantage when they apply for full-time jobs after they graduate."
+     ]
+    },
+    {
+     "n": 2,
+     "label": "2",
+     "prompt_vi": "Nhờ học ở IELTS 1984, anh ấy đã cải thiện đáng kể kỹ năng tiếng Anh của mình và đạt được điểm IELTS mong muốn.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nhờ học ở IELTS 1984, anh ấy đã cải thiện đáng kể kỹ năng tiếng Anh của mình và đạt được điểm IELTS mong muốn.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Hiện tại hoàn thành, chia theo chủ ngữ he → has improved; trạng từ “đáng kể” (significantly)",
+      "Lỗi dễ mắc: “improved significantly his skills”.",
+      "Câu gợi ý của giáo viên: Thanks to studying at IELTS 1984, he has significantly improved his English skills and achieved his desired IELTS score."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "2",
+     "dap_an_goi_y": "Thanks to studying at IELTS 1984, he has significantly improved his English skills and achieved his desired IELTS score.",
+     "cach_viet_khac": [
+      "Thanks to his studies at IELTS 1984, he has improved his English skills significantly and achieved the IELTS score that he wanted."
+     ]
+    },
+    {
+     "n": 3,
+     "label": "3",
+     "prompt_vi": "Trong những thập niên gần đây, chính phủ đã không ngừng nỗ lực giảm tỷ lệ tội phạm ở nhóm trẻ vị thành niên.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Trong những thập niên gần đây, chính phủ đã không ngừng nỗ lực giảm tỷ lệ tội phạm ở nhóm trẻ vị thành niên.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "“không ngừng” (constantly) đặt đúng vị trí. government số ít → has. try to do",
+      "Lỗi dễ mắc: “in teenagers”.",
+      "Câu gợi ý của giáo viên: In recent decades, the government has constantly tried to reduce crime rates among teenagers."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "3",
+     "dap_an_goi_y": "In recent decades, the government has constantly tried to reduce crime rates among teenagers.",
+     "cach_viet_khac": [
+      "Over the past few decades, the government has continuously made efforts to reduce the crime rate among teenagers."
+     ]
+    },
+    {
+     "n": 4,
+     "label": "4",
+     "prompt_vi": "Với việc nhà nước áp thuế cao hơn lên xăng dầu, nhiều người đã dần chuyển sang phương tiện giao thông công cộng thay vì sử dụng phương tiện cá nhân.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Với việc nhà nước áp thuế cao hơn lên xăng dầu, nhiều người đã dần chuyển sang phương tiện giao thông công cộng thay vì sử dụng phương tiện cá nhân.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "“dần” (gradually) đặt đúng vị trí. impose taxes on · switch to · instead of + V-ing. many people → have",
+      "Câu gợi ý của giáo viên: With the government imposing higher taxes on petrol, many people have gradually switched to public transport instead of using private vehicles."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "4",
+     "dap_an_goi_y": "With the government imposing higher taxes on petrol, many people have gradually switched to public transport instead of using private vehicles.",
+     "cach_viet_khac": [
+      "As the government has imposed higher taxes on petrol, many people have gradually moved to public transport rather than using private vehicles."
+     ]
+    },
+    {
+     "n": 5,
+     "label": "5",
+     "prompt_vi": "Bằng cách đi làm thêm, nhiều sinh viên trở nên độc lập về mặt tài chính và đủ khả năng tự mua những thiết bị công nghệ đắt tiền như laptop hay điện thoại.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Bằng cách đi làm thêm, nhiều sinh viên trở nên độc lập về mặt tài chính và đủ khả năng tự mua những thiết bị công nghệ đắt tiền như laptop hay điện thoại.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "become + adj (Vl) · afford sth · financially đứng trước adj; FV chia được ở cả hai vế",
+      "Câu gợi ý của giáo viên: By working part-time, many students become financially independent and can afford expensive technological devices such as laptops or phones."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "5",
+     "dap_an_goi_y": "By working part-time, many students become financially independent and can afford expensive technological devices such as laptops or phones.",
+     "cach_viet_khac": [
+      "Thanks to part-time jobs, many students become financially independent and are able to buy expensive devices such as laptops and phones themselves."
+     ]
+    },
+    {
+     "n": 6,
+     "label": "6",
+     "prompt_vi": "Với việc ngày càng nhiều học sinh phổ thông thi IELTS, ngành dạy tiếng Anh ở Việt Nam đã phát triển mạnh trong những năm gần đây.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Với việc ngày càng nhiều học sinh phổ thông thi IELTS, ngành dạy tiếng Anh ở Việt Nam đã phát triển mạnh trong những năm gần đây.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Chủ ngữ thật là industry (số ít) dù phía trước có students → has. grow là Vi — lỗi dễ mắc: “has been grown”.",
+      "Câu gợi ý của giáo viên: With more and more high school students taking the IELTS test, the English teaching industry in Vietnam has grown rapidly in recent years."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "GIỮ",
+     "tu_cau_cu": "6",
+     "dap_an_goi_y": "With more and more high school students taking the IELTS test, the English teaching industry in Vietnam has grown rapidly in recent years.",
+     "cach_viet_khac": [
+      "As more and more high school students take the IELTS test, the English teaching industry in Vietnam has developed strongly in recent years."
+     ]
+    },
+    {
+     "n": 7,
+     "label": "7",
+     "prompt_vi": "Việc sử dụng quá nhiều túi nhựa đang gây hại nghiêm trọng cho môi trường biển ở nhiều nước châu Á.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Việc sử dụng quá nhiều túi nhựa đang gây hại nghiêm trọng cho môi trường biển ở nhiều nước châu Á.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Chủ ngữ thật là use (không phải bags) → is. damage sth (không có to)",
+      "Câu gợi ý của giáo viên: The excessive use of plastic bags is seriously damaging the marine environment in many Asian countries."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "The excessive use of plastic bags is seriously damaging the marine environment in many Asian countries.",
+     "cach_viet_khac": [
+      "Using too many plastic bags is causing serious damage to the marine environment in many Asian countries."
+     ]
+    },
+    {
+     "n": 8,
+     "label": "8",
+     "prompt_vi": "Nhiều cặp vợ chồng trẻ ở các thành phố lớn hiếm khi dành thời gian chất lượng cho con cái vì lịch làm việc bận rộn.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nhiều cặp vợ chồng trẻ ở các thành phố lớn hiếm khi dành thời gian chất lượng cho con cái vì lịch làm việc bận rộn.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "rarely đứng trước FV · spend time with sb · because of + cụm danh từ. couples → spend",
+      "Câu gợi ý của giáo viên: Many young couples in big cities rarely spend quality time with their children because of their busy work schedules."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Many young couples in big cities rarely spend quality time with their children because of their busy work schedules.",
+     "cach_viet_khac": [
+      "Because they have busy work schedules, many young couples in big cities rarely spend quality time with their children."
+     ]
+    }
+   ],
+   "instruction_source": "file bàn giao của chị Linh 08/10"
+  }
+ ],
+ "count_check": {
+  "items_in_spec": 8,
+  "nguon": "file bàn giao chị Linh 08/10"
+ },
+ "images": [
+  {
+   "kind": "graph",
+   "file": "data/images/TRUNK-W01-graph-900ab4de.jpg",
+   "url": "https://cms.youpass.vn/assets/900ab4de-8a68-4f61-9872-4ba1f4463181",
+   "noi_dung": "ảnh chụp lại 6 câu đề"
+  }
+ ],
+ "image_check": "ảnh đề trên nền tảng là bản cũ, đề mới chưa lên nền tảng (08/10).",
+ "source_notes": [
+  "Đề cũ (trước 08/10): Câu 3 tô đỏ \"Trong\" và \"trong / ở\" (giới từ, không phải động từ dù hướng dẫn nói \"động từ màu đỏ\").",
+  "Đề cũ (trước 08/10): Gạch chân (sau khi, Nhờ, Với, thay vì, Bằng cách, khả năng mua) lấy từ HTML gốc; file .md bóc sẵn đã mất gạch chân.",
+  "Đề cũ (trước 08/10): Câu 5 câu Việt \"có thể khả năng mua\": chỗ tô đỏ là chỗ đặt động từ afford.",
+  "08/10: đề thay theo file bàn giao của chị Linh (Ban-giao-Task2-De-chi-tiet-4-khoa.xlsx). Bản trước ở data/hw-spec/_truoc-de-linh-0810/. Đề mới không có gợi ý / từ tô màu cho từng câu (anh Tùng chốt 08/10: không cần).",
+  "11/10: thêm `cach_viet_khac` cho mọi câu (cách viết khác đáp án giáo viên, R&D viết, AI chữa câu của Builder soát sạch) cho nút \"Câu sửa đầy đủ\" của trang chấm; câu chưa có đáp án giáo viên có 2 câu."
+ ],
+ "platform": {
+  "quiz_title": "Writing Week 1",
+  "question_id": 340,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 0,
+  "limit_submit": 2,
+  "time_minutes": 60,
+  "graph_type": 3,
+  "quiz_code": "{{trunk-writing-week-1}}",
+  "date_updated": "2026-03-23T14:45:44.051+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › TRUNK-W01 › questions[0].content_html",
+  "md": "data/homeworks/TRUNK-W01.md"
+ },
+ "lo": [
+  "R1.1 — Nhận diện và viết được câu có đủ S–FV",
+  "R1.2 — Dùng đúng từ loại cho S",
+  "R1.3 — Chia FV đúng theo S về số ít và số nhiều",
+  "R2.2 — Tra cứu và dùng đúng công thức của động từ",
+  "R2.3 — Dùng đúng các collocation Vt + Object phổ biến",
+  "R4.1 — Nhận diện và dùng adjective đúng chức năng và vị trí",
+  "R4.2 — Nhận diện và dùng adverb đúng chức năng và vị trí",
+  "R5.1 — Nhận diện và dùng cụm giới từ đúng cấu trúc và vị trí bổ nghĩa"
+ ]
+}

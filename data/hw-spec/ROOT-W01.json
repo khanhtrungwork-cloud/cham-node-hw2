@@ -1,0 +1,316 @@
+{
+ "key": "ROOT-W01",
+ "quiz_id": 76,
+ "question_id": 349,
+ "course": "ROOT",
+ "week": 1,
+ "title": "Week 1: Clause (Education)",
+ "family": "T2-cau",
+ "pham_vi": "8 câu dịch Việt sang Anh, mỗi câu viết 1 câu tiếng Anh. Đề không giới hạn số từ.",
+ "yeu_cau": [
+  "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+  "Câu chia phần A: câu 1–3, phần B: câu 4–6, phần C: câu 7–8; càng về sau càng khó.",
+  "Trọng tâm tuần: Clause — S, FV, từ loại của S",
+  "LO chấm của tuần: R1.1 Nhận diện và viết được câu có đủ S–FV; R1.2 Dùng đúng từ loại cho S; R1.3 Chia FV đúng theo S về số ít và số nhiều"
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Chỉ nhập phần bài làm TIẾNG ANH, không gõ lại đề tiếng Việt.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-cau",
+   "label": "Viết 8 câu (Bài 1 — Clause — S, FV và từ loại của S)",
+   "instruction_vi": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "instruction_source": "file bàn giao của chị Linh 08/10",
+   "answer_format": "mỗi câu một dòng",
+   "items": [
+    {
+     "n": 1,
+     "label": "1",
+     "prompt_vi": "Ô nhiễm không khí gây hại nghiêm trọng cho sức khoẻ của trẻ em.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Ô nhiễm không khí gây hại nghiêm trọng cho sức khoẻ của trẻ em.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Chủ ngữ không đếm được → động từ chính số ít",
+      "Lỗi dễ mắc: harm to.",
+      "Câu gợi ý của giáo viên: Air pollution seriously harms children’s health."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "GIỮ",
+     "tu_cau_cu": "1",
+     "dap_an_goi_y": "Air pollution seriously harms children’s health.",
+     "cach_viet_khac": [
+      "Air pollution does serious harm to children's health."
+     ]
+    },
+    {
+     "n": 2,
+     "label": "2",
+     "prompt_vi": "Nhiều sinh viên tham gia vào các câu lạc bộ tiếng Anh ở trường.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nhiều sinh viên tham gia vào các câu lạc bộ tiếng Anh ở trường.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Cặp với câu 1: chủ ngữ số nhiều → động từ không thêm -s",
+      "Lỗi dễ mắc: join in / join into.",
+      "Câu gợi ý của giáo viên: Many students join English clubs at school."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Many students join English clubs at school.",
+     "cach_viet_khac": [
+      "A lot of students take part in English clubs at school."
+     ]
+    },
+    {
+     "n": 3,
+     "label": "3",
+     "prompt_vi": "Việc xem nội dung bạo lực trên TV ảnh hưởng đến hành vi của trẻ em.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Việc xem nội dung bạo lực trên TV ảnh hưởng đến hành vi của trẻ em.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Chủ ngữ là V-ing → động từ chính số ít",
+      "Lỗi dễ mắc: influence to.",
+      "Câu gợi ý của giáo viên: Watching violent content on TV badly influences children’s behaviour."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "6",
+     "dap_an_goi_y": "Watching violent content on TV badly influences children’s behaviour.",
+     "cach_viet_khac": [
+      "Watching violent content on TV affects children's behaviour."
+     ]
+    },
+    {
+     "n": 4,
+     "label": "4",
+     "prompt_vi": "Làm thêm giúp sinh viên kiếm tiền từ khi còn trẻ.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Làm thêm giúp sinh viên kiếm tiền từ khi còn trẻ.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Chủ ngữ là V-ing (Working part-time) → động từ chính số ít; đo từ loại của chủ ngữ",
+      "Câu gợi ý của giáo viên: Working part-time helps students earn money at an early age."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "SỬA",
+     "tu_cau_cu": "2",
+     "dap_an_goi_y": "Working part-time helps students earn money at an early age.",
+     "cach_viet_khac": [
+      "Doing a part-time job helps students make money when they are still young."
+     ]
+    },
+    {
+     "n": 5,
+     "label": "5",
+     "prompt_vi": "Một trong những người bạn của tôi đang học ở Úc.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Một trong những người bạn của tôi đang học ở Úc.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Chủ ngữ thật là One, không phải friends.",
+      "Câu gợi ý của giáo viên: One of my friends is studying in Australia."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "One of my friends is studying in Australia.",
+     "cach_viet_khac": [
+      "One of my friends is currently studying in Australia."
+     ]
+    },
+    {
+     "n": 6,
+     "label": "6",
+     "prompt_vi": "Kiến thức về lịch sử và văn hoá rất quan trọng đối với học sinh.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Kiến thức về lịch sử và văn hoá rất quan trọng đối với học sinh.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Chủ ngữ thật là Knowledge — không đếm được → động từ số ít",
+      "Câu gợi ý của giáo viên: Knowledge of history and culture is important to students."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Knowledge of history and culture is important to students.",
+     "cach_viet_khac": [
+      "Knowledge about history and culture is very important for students."
+     ]
+    },
+    {
+     "n": 7,
+     "label": "7",
+     "prompt_vi": "Chất lượng của các khoá học trực tuyến khác nhau rất nhiều giữa các trường đại học.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Chất lượng của các khoá học trực tuyến khác nhau rất nhiều giữa các trường đại học.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Chủ ngữ là cụm dài — danh từ chính là quality, không phải courses.",
+      "Câu gợi ý của giáo viên: The quality of online courses varies a lot between universities."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "The quality of online courses varies a lot between universities.",
+     "cach_viet_khac": [
+      "The quality of online courses is very different from university to university."
+     ]
+    },
+    {
+     "n": 8,
+     "label": "8",
+     "prompt_vi": "Học một ngôn ngữ mới đòi hỏi nhiều thời gian, nhưng nó mang lại cơ hội tốt hơn trong tương lai.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Học một ngôn ngữ mới đòi hỏi nhiều thời gian, nhưng nó mang lại cơ hội tốt hơn trong tương lai.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "Câu ghép với but — mỗi mệnh đề phải đủ chủ ngữ và động từ chính, chia đúng.",
+      "Câu gợi ý của giáo viên: Learning a new language requires a lot of time, but it brings better opportunities in the future."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Learning a new language requires a lot of time, but it brings better opportunities in the future.",
+     "cach_viet_khac": [
+      "Learning a new language takes a lot of time, but it gives people better opportunities in the future."
+     ]
+    }
+   ],
+   "instruction_marked": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt."
+  }
+ ],
+ "count_check": {
+  "items_in_spec": 8,
+  "nguon": "file bàn giao chị Linh 08/10"
+ },
+ "images": [
+  {
+   "kind": "graph",
+   "file": "data/images/ROOT-W01-graph-4649402f.jpg",
+   "url": "https://cms.youpass.vn/assets/4649402f-3662-489e-bb15-69507bc9bc3f",
+   "noi_dung": "ảnh chụp lại 6 câu đề (không màu)"
+  }
+ ],
+ "image_check": "ảnh đề trên nền tảng là bản cũ, đề mới chưa lên nền tảng (08/10).",
+ "source_notes": [
+  "Đề cũ (trước 08/10): Mô tả câu hỏi ghi \"You have 10 hours to complete writing task 1...\" là câu mẫu của nền tảng, không phải yêu cầu đề.",
+  "Đề cũ (trước 08/10): Hướng dẫn nhắc \"cụm màu xanh\" nhưng đề tuần 1 không có chữ xanh nào.",
+  "08/10: đề thay theo file bàn giao của chị Linh (Ban-giao-Task2-De-chi-tiet-4-khoa.xlsx). Bản trước ở data/hw-spec/_truoc-de-linh-0810/. Đề mới không có gợi ý / từ tô màu cho từng câu (anh Tùng chốt 08/10: không cần).",
+  "11/10: thêm `cach_viet_khac` cho mọi câu (cách viết khác đáp án giáo viên, R&D viết, AI chữa câu của Builder soát sạch) cho nút \"Câu sửa đầy đủ\" của trang chấm; câu chưa có đáp án giáo viên có 2 câu.",
+  "14/10 anh Tùng: đề HW2 theo bản chị Linh (file 08/10). Bộ đề HW2 ROOT của anh Trung là bản cũ hơn, không dùng."
+ ],
+ "platform": {
+  "quiz_title": "Writing  Week 1",
+  "question_id": 349,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 0,
+  "limit_submit": 2,
+  "time_minutes": 600,
+  "graph_type": 3,
+  "quiz_code": "{{root-writing-week-1}}",
+  "date_updated": "2026-02-27T11:53:32.405+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › ROOT-W01 › questions[0].content_html",
+  "md": "data/homeworks/ROOT-W01.md"
+ },
+ "lo": [
+  "R1.1 Nhận diện và viết được câu có đủ S–FV",
+  "R1.2 Dùng đúng từ loại cho S",
+  "R1.3 Chia FV đúng theo S về số ít và số nhiều"
+ ]
+}

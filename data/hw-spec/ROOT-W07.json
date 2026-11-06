@@ -1,0 +1,313 @@
+{
+ "key": "ROOT-W07",
+ "quiz_id": 82,
+ "question_id": 355,
+ "course": "ROOT",
+ "week": 7,
+ "title": "Week 7: Adj clause 2 (Environment)",
+ "family": "T2-cau",
+ "pham_vi": "8 câu dịch Việt sang Anh, mỗi câu viết 1 câu tiếng Anh. Đề không giới hạn số từ.",
+ "yeu_cau": [
+  "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+  "Câu chia phần A: câu 1–3, phần B: câu 4–6, phần C: câu 7–8; càng về sau càng khó.",
+  "Trọng tâm tuần: Adjective clause (2) — restrictive / non-restrictive",
+  "LO chấm của tuần: R7.1 Nhận diện và dùng đúng , which (bổ sung cho cả mệnh đề) so với which bổ nghĩa một danh từ; R7.2 Nhận diện và dùng đúng restrictive / non-restrictive (phẩy + that/which): quyết định theo nghĩa rồi đặt dấu phẩy đúng; R6.2 (ôn) Đặt adjective clause đúng vị trí — ngay sau danh từ nó bổ nghĩa; R7.3 Nhận diện adjective clause đã rút gọn khi đọc"
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Chỉ nhập phần bài làm TIẾNG ANH, không gõ lại đề tiếng Việt.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-cau",
+   "label": "Viết 8 câu (Bài 7 — Adjective clause (2) — , which vs which · dấu phẩy)",
+   "instruction_vi": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "instruction_marked": "Viết các câu bên dưới bằng tiếng Anh, mỗi câu tiếng Việt viết thành một câu tiếng Anh. Nhập bài làm bằng tiếng Anh, không cần gõ lại đề tiếng Việt.",
+   "answer_format": "mỗi câu một dòng",
+   "items": [
+    {
+     "n": 1,
+     "label": "1",
+     "prompt_vi": "Nhiều thành phố lớn đang cấm xe máy cũ, điều này giúp giảm đáng kể ô nhiễm không khí.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nhiều thành phố lớn đang cấm xe máy cũ, điều này giúp giảm đáng kể ô nhiễm không khí.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      ", which bổ nghĩa CẢ mệnh đề (việc cấm xe) → có phẩy, dùng which không dùng that. Đặt ở cuối, sau mệnh đề nó bình luận.",
+      "Câu gợi ý của giáo viên: Many big cities are banning old motorbikes, which significantly reduces air pollution."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Many big cities are banning old motorbikes, which significantly reduces air pollution.",
+     "cach_viet_khac": [
+      "Many large cities are banning old motorbikes, which helps to reduce air pollution significantly."
+     ]
+    },
+    {
+     "n": 2,
+     "label": "2",
+     "prompt_vi": "Các nước phát triển nên chia sẻ công nghệ sạch giúp giảm khí thải cho các nước nghèo hơn.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Các nước phát triển nên chia sẻ công nghệ sạch giúp giảm khí thải cho các nước nghèo hơn.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "which/that bổ nghĩa DANH TỪ 'technology', restrictive → KHÔNG phẩy, KHÔNG phải , which. Đặt ngay sau 'technology', không trôi tới 'nations'.",
+      "Câu gợi ý của giáo viên: Developed countries should share clean technology that reduces emissions with poorer nations."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Developed countries should share clean technology that reduces emissions with poorer nations.",
+     "cach_viet_khac": [
+      "Developed countries should share clean technology that helps cut emissions with poorer countries."
+     ]
+    },
+    {
+     "n": 3,
+     "label": "3",
+     "prompt_vi": "Nhựa dùng một lần, thứ mất hàng trăm năm để phân huỷ, đang gây hại nghiêm trọng cho đại dương.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nhựa dùng một lần, thứ mất hàng trăm năm để phân huỷ, đang gây hại nghiêm trọng cho đại dương.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      ", which bổ nghĩa DANH TỪ (nhựa) nhưng non-restrictive → hai phẩy kẹp giữa câu. Phân biệt với câu 2 (restrictive, không phẩy).",
+      "Câu gợi ý của giáo viên: Single-use plastic, which takes hundreds of years to decompose, is seriously harming the oceans."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "A",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Single-use plastic, which takes hundreds of years to decompose, is seriously harming the oceans.",
+     "cach_viet_khac": [
+      "Single-use plastic, which needs hundreds of years to break down, is doing serious damage to the oceans."
+     ]
+    },
+    {
+     "n": 4,
+     "label": "4",
+     "prompt_vi": "Nhiều công ty vẫn đổ chất thải công nghiệp ra biển, điều này đe doạ nghiêm trọng đời sống sinh vật biển.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Nhiều công ty vẫn đổ chất thải công nghiệp ra biển, điều này đe doạ nghiêm trọng đời sống sinh vật biển.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      ", which bổ nghĩa CẢ mệnh đề (việc đổ chất thải). So với câu 1 cùng dạng.",
+      "Câu gợi ý của giáo viên: Many companies still dump industrial waste into the sea, which seriously threatens marine life."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Many companies still dump industrial waste into the sea, which seriously threatens marine life.",
+     "cach_viet_khac": [
+      "Many companies still throw industrial waste into the sea, which is a serious threat to marine life."
+     ]
+    },
+    {
+     "n": 5,
+     "label": "5",
+     "prompt_vi": "Những sản phẩm được làm từ vật liệu tái chế nên được chính phủ khuyến khích.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Những sản phẩm được làm từ vật liệu tái chế nên được chính phủ khuyến khích.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "that bổ nghĩa DANH TỪ 'products', restrictive → không phẩy, không , which. Kèm bị động (bài 8 preview) không bắt buộc.",
+      "Câu gợi ý của giáo viên: Products that are made from recycled materials should be encouraged by the government."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Products that are made from recycled materials should be encouraged by the government.",
+     "cach_viet_khac": [
+      "The government should encourage products that are made from recycled materials."
+     ]
+    },
+    {
+     "n": 6,
+     "label": "6",
+     "prompt_vi": "Năng lượng mặt trời, thứ ngày càng rẻ, đang dần thay thế nhiên liệu hoá thạch.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Năng lượng mặt trời, thứ ngày càng rẻ, đang dần thay thế nhiên liệu hoá thạch.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      ", which bổ nghĩa DANH TỪ (solar energy) non-restrictive → hai phẩy kẹp giữa. Đặt ngay sau 'solar energy'.",
+      "Câu gợi ý của giáo viên: Solar energy, which is becoming increasingly cheap, is gradually replacing fossil fuels."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "B",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Solar energy, which is becoming increasingly cheap, is gradually replacing fossil fuels.",
+     "cach_viet_khac": [
+      "Solar energy, which is getting cheaper and cheaper, is slowly replacing fossil fuels."
+     ]
+    },
+    {
+     "n": 7,
+     "label": "7",
+     "prompt_vi": "Những chính sách mà chính phủ ban hành năm ngoái đã giảm lượng khí thải, điều này khiến không khí trong lành hơn.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Những chính sách mà chính phủ ban hành năm ngoái đã giảm lượng khí thải, điều này khiến không khí trong lành hơn.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      "CẢ HAI trong một câu: that bổ nghĩa danh từ 'policies' (restrictive, không phẩy) + , which bổ nghĩa cả mệnh đề (có phẩy). Câu lõi phân biệt hai loại.",
+      "Câu gợi ý của giáo viên: The policies that the government issued last year have reduced emissions, which has made the air cleaner."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "The policies that the government issued last year have reduced emissions, which has made the air cleaner.",
+     "cach_viet_khac": [
+      "The policies that the government introduced last year have cut emissions, which has made the air fresher."
+     ]
+    },
+    {
+     "n": 8,
+     "label": "8",
+     "prompt_vi": "Điện gió, thứ không thải ra khí carbon, đang phát triển mạnh ở các vùng ven biển nơi có gió quanh năm.",
+     "prompt_lang": "vi",
+     "prompt_marked": "Điện gió, thứ không thải ra khí carbon, đang phát triển mạnh ở các vùng ven biển nơi có gió quanh năm.",
+     "hints": [],
+     "hints_raw": null,
+     "hints_marked": null,
+     "colored": [],
+     "colored_html": {
+      "cau": [],
+      "goi_y": []
+     },
+     "underlined": [],
+     "bold": [],
+     "target": [
+      ", which bổ nghĩa danh từ (wind power) non-restrictive → phẩy. 'where' chỉ ở mức nhận diện, không phải trọng tâm chấm.",
+      "Câu gợi ý của giáo viên: Wind power, which produces no carbon emissions, is growing strongly in coastal areas where the wind blows all year round."
+     ],
+     "required_form": null,
+     "star": false,
+     "phan_muc": "C",
+     "nguon_cau": "MỚI",
+     "tu_cau_cu": null,
+     "dap_an_goi_y": "Wind power, which produces no carbon emissions, is growing strongly in coastal areas where the wind blows all year round.",
+     "cach_viet_khac": [
+      "Wind power, which does not release any carbon emissions, is developing quickly in coastal areas where it is windy all year round."
+     ]
+    }
+   ],
+   "instruction_source": "file bàn giao của chị Linh 08/10"
+  }
+ ],
+ "count_check": {
+  "items_in_spec": 8,
+  "nguon": "file bàn giao chị Linh 08/10"
+ },
+ "images": [
+  {
+   "kind": "graph",
+   "file": "data/images/ROOT-W07-graph-bc72bad9.jpg",
+   "url": "https://cms.youpass.vn/assets/bc72bad9-523e-460f-a955-d3cc1e120dcd",
+   "noi_dung": "ảnh chụp lại 6 câu đề"
+  }
+ ],
+ "image_check": "ảnh đề trên nền tảng là bản cũ, đề mới chưa lên nền tảng (08/10).",
+ "source_notes": [
+  "Đề cũ (trước 08/10): Đề cố tình bỏ dấu phẩy trong câu Việt (theo dòng hướng dẫn tô xanh dương).",
+  "08/10: đề thay theo file bàn giao của chị Linh (Ban-giao-Task2-De-chi-tiet-4-khoa.xlsx). Bản trước ở data/hw-spec/_truoc-de-linh-0810/. Đề mới không có gợi ý / từ tô màu cho từng câu (anh Tùng chốt 08/10: không cần).",
+  "11/10: thêm `cach_viet_khac` cho mọi câu (cách viết khác đáp án giáo viên, R&D viết, AI chữa câu của Builder soát sạch) cho nút \"Câu sửa đầy đủ\" của trang chấm; câu chưa có đáp án giáo viên có 2 câu.",
+  "14/10 anh Tùng: đề HW2 theo bản chị Linh (file 08/10). Bộ đề HW2 ROOT của anh Trung là bản cũ hơn, không dùng."
+ ],
+ "platform": {
+  "quiz_title": "Writing  Week 7",
+  "question_id": 355,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 0,
+  "limit_submit": 2,
+  "time_minutes": 600,
+  "graph_type": 3,
+  "quiz_code": "{{root-writing-week-7}}",
+  "date_updated": "2026-02-27T11:53:33.138+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › ROOT-W07 › questions[0].content_html",
+  "md": "data/homeworks/ROOT-W07.md"
+ },
+ "lo": [
+  "R7.1 Nhận diện và dùng đúng , which (bổ sung cho cả mệnh đề) so với which bổ nghĩa một danh từ",
+  "R7.2 Nhận diện và dùng đúng restrictive / non-restrictive (phẩy + that/which): quyết định theo nghĩa rồi đặt dấu phẩy đúng",
+  "R7.3 Nhận diện adjective clause đã rút gọn khi đọc",
+  "R6.2 (ôn) Đặt adjective clause đúng vị trí — ngay sau danh từ nó bổ nghĩa"
+ ]
+}

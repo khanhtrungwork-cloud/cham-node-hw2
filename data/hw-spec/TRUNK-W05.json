@@ -1,0 +1,129 @@
+{
+ "key": "TRUNK-W05",
+ "quiz_id": 71,
+ "question_id": 344,
+ "course": "TRUNK",
+ "week": 5,
+ "title": "Week 5 (đề để trống tên chủ đề)",
+ "family": "T2-doan",
+ "pham_vi": "1 đoạn văn thân bài 110–130 từ nêu cái LỢI của việc di cư lên thành thị; tự viết topic sentence.",
+ "yeu_cau": [
+  "Viết 1 đoạn thân bài nêu cái LỢI của việc di cư lên thành thị, 110–130 từ.",
+  "Em tự viết topic sentence.",
+  "Đề gợi ý 2 hướng: việc làm · y tế (chỉ để tham khảo).",
+  "Chuỗi ý phát triển không đứt mắt xích; dùng câu phức để nối ý.",
+  "Mỗi supporting idea ít nhất 2 câu và ít nhất 40 chữ."
+ ],
+ "general_notes_for_student": "Lưu ý AI: bài không được chấm nếu hệ thống phát hiện tỷ lệ AI vượt quá 80%, em tự viết bài. Trước khi làm, xem lại feedback của giáo viên tuần trước. Framework viết 1 đoạn thân bài: Bước 1 xác định ý tưởng (đề dạng Should we do X or not?, xác định X, chọn ý chính, vd viết về cái LỢI của X). Bước 2 tìm 2 supporting ideas (2 cái LỢI của X là 2 core ideas; core idea ĐỦ LỢI thì phát triển bằng REASON, CHƯA ĐỦ LỢI thì phát triển bằng IMPACT; được take note tiếng Việt). Bước 3 viết bài hoàn chỉnh. Nội dung mới tuần 5 (Bước 3): kiểm soát ngữ pháp và tra công thức động từ / collocation; linking devices phù hợp với logic giữa các câu; dùng conjunction nối clause để tạo câu phức (because, since, so, ...); dùng \", which + FV\" để tạo câu phức.",
+ "parts": [
+  {
+   "part_id": "p1",
+   "family": "T2-doan",
+   "label": "1 đoạn thân bài: cái LỢI của việc di cư lên thành thị",
+   "instruction_vi": "Viết 1 đoạn thân bài (110–130 từ) nêu cái LỢI của việc di cư lên thành thị. Em tự viết topic sentence; 2 hướng gợi ý (việc làm, y tế) chỉ để tham khảo.",
+   "instruction_marked": "Viết 1 đoạn thân bài (110–130 từ) nêu cái LỢI của việc di cư lên thành thị. Em tự viết topic sentence; 2 hướng gợi ý (việc làm, y tế) chỉ để tham khảo.",
+   "goi_y_marked": "<b>Topic sentence</b>\n[ĐỎ]Tự viết[/ĐỎ]\n<b>Supporting idea 1</b>\nở thành thị có nhiều cơ hội <b>việc làm</b> hơn\n<b>Supporting idea 2</b>\nở thành thị có <b>dịch vụ y tế hiện đại</b> hơn",
+   "answer_format": "1 đoạn",
+   "topic_ids": [
+    "t1"
+   ],
+   "paragraph_brief": {
+    "side": "LỢI",
+    "allow_own_ideas": true,
+    "allow_opposite_side": false,
+    "given_topic_sentence": null,
+    "topic_sentence_note": "Đề: \"Tự viết\".",
+    "given_ideas": [
+     {
+      "si": 1,
+      "core_idea_vi": "ở thành thị có nhiều cơ hội việc làm hơn",
+      "development_hint": null
+     },
+     {
+      "si": 2,
+      "core_idea_vi": "ở thành thị có dịch vụ y tế hiện đại hơn",
+      "development_hint": null
+     }
+    ],
+    "word_limit": {
+     "min": 110,
+     "max": 130,
+     "source": "file bàn giao chị Linh 08/10"
+    }
+   },
+   "ngan_hang_y": "Ngân hàng ý của giáo viên (chỉ để chấm, học sinh không thấy; em viết ý khác mà hợp lý vẫn được). Nhãn: ĐÍCH = ý đã là cái lợi / hại cuối cùng (tiền, sức khoẻ, việc làm, kết quả học tập…), phát triển bằng REASON; TRUNG GIAN = ý chưa đủ lợi / hại, phát triển bằng IMPACT dẫn tới một ĐÍCH.\nNgân hàng ý (bản LFM — nhãn ĐÍCH / TRUNG GIAN và cách phát triển đạt):\n• Nhiều cơ hội việc làm (SI 1 gợi ý) [ĐÍCH]: Reason: nhiều công ty đa quốc gia đặt ở thành phố. Chuỗi T5.2: việc làm → thu nhập ổn định → nuôi gia đình / nâng mức sống.\n• Y tế hiện đại (SI 2 gợi ý) [TRUNG GIAN]: Impact tới sức khoẻ: công nghệ hiện đại → phát hiện bệnh sớm → điều trị kịp thời → hồi phục nhanh.\n• Trường học chất lượng hơn [TRUNG GIAN]: Impact tới kết quả học tập, rồi sự nghiệp.\n• Giao thông thuận tiện [TRUNG GIAN]: Impact: tiết kiệm thời gian đi lại → … phải đi tới một giá trị đích, không dừng ở “tiện”.\n• Nhiều tiện ích giải trí [TRUNG GIAN]: Impact tới sức khoẻ tinh thần."
+  }
+ ],
+ "topics": [
+  {
+   "id": "t1",
+   "text": "In many countries, people are moving away from rural areas and towards urban areas. Is this a negative or a positive trend?",
+   "question_type": "pos_neg",
+   "where": "text",
+   "note": null,
+   "part_id": "p1",
+   "lua_chon": false
+  }
+ ],
+ "paragraph_brief": {
+  "part_id": "p1",
+  "side": "LỢI",
+  "allow_own_ideas": true,
+  "allow_opposite_side": false,
+  "given_topic_sentence": null,
+  "topic_sentence_note": "Đề: \"Tự viết\".",
+  "given_ideas": [
+   {
+    "si": 1,
+    "core_idea_vi": "ở thành thị có nhiều cơ hội việc làm hơn",
+    "development_hint": null
+   },
+   {
+    "si": 2,
+    "core_idea_vi": "ở thành thị có dịch vụ y tế hiện đại hơn",
+    "development_hint": null
+   }
+  ],
+  "word_limit": {
+   "min": 110,
+   "max": 130,
+   "source": "file bàn giao chị Linh 08/10"
+  }
+ },
+ "images": [],
+ "image_check": "không có ảnh đề.",
+ "source_notes": [
+  "Tiêu đề trên trang chỉ ghi \"Week 5:\" (để trống tên chủ đề).",
+  "08/10: yêu cầu thay theo file bàn giao của chị Linh (Yêu cầu chính (mới)); bản trước ở data/hw-spec/_truoc-de-linh-0810/."
+ ],
+ "platform": {
+  "quiz_title": "Writing  Week 5",
+  "question_id": 344,
+  "prompt_set_id": 21,
+  "writing_task_type": 2,
+  "min_words": 0,
+  "max_words": 120,
+  "limit_submit": 2,
+  "time_minutes": 60,
+  "graph_type": null,
+  "quiz_code": "{{trunk-writing-week-5}}",
+  "date_updated": "2026-03-23T15:54:28.336+07:00",
+  "notes": []
+ },
+ "source": {
+  "html": "data/homeworks/index.json › TRUNK-W05 › questions[0].content_html",
+  "md": "data/homeworks/TRUNK-W05.md"
+ },
+ "yeu_cau_cu": [
+  "Viết 1 đoạn văn thân bài theo cấu trúc đã học",
+  "Đoạn văn nói về những cái LỢI của việc di cư lên thành thị",
+  "Tự viết topic sentence",
+  "Gợi ý 2 supporting ideas chỉ mang tính định hướng: tự brainstorm thành supporting ideas có development hoàn chỉnh, dùng các chuỗi lập luận REASON / IMPACT",
+  "Nội dung mới tuần 5: dùng conjunction nối clause để tạo câu phức (because, since, so, ...) và dùng \", which + FV\" để tạo câu phức",
+  "Kiểm soát ngữ pháp, tra công thức động từ / collocation; dùng linking devices phù hợp với logic giữa các câu"
+ ],
+ "lo": [
+  "T5.2 — Đa dạng cấu trúc câu bằng adj clause và adv clause",
+  "T5.1 — Hình thành chuỗi core idea – development không đứt mắt xích và đủ dài"
+ ]
+}
