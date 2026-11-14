@@ -70,7 +70,7 @@
    Thay bộ tạm lo-tam.js cho hai tuần này. Chỉ chấm đúng kiến thức trong ảnh, không chấm khung đoạn hay độ dài (node ○).
    TUẦN 6 (cái LỢI của học online, 110–130 từ; đề bắt topic sentence viết bằng dummy subject)
      T6.1 Đổi chủ ngữ. Lần dùng = mỗi CÂU ngoài topic sentence có chủ ngữ của mệnh đề chính là V-ing (việc gì đó) hoặc N (thứ
-          gì đó); dùng đúng khi chủ ngữ đúng dạng VÀ FV hoà hợp (đúng số, hợp nghĩa). Tính ĐIỂM theo lần dùng (DIEM_LAN_DUNG,
+          gì đó, kể cả tổ chức như universities, companies: 14-11 user chốt "chủ ngữ là tổ chức vẫn tính", trước đó prompt loại ra); dùng đúng khi chủ ngữ đúng dạng VÀ FV hoà hợp (đúng số, hợp nghĩa). Tính ĐIỂM theo lần dùng (DIEM_LAN_DUNG,
           xem dưới), không theo tỉ lệ. Không đổi câu nào: 0 điểm, mức 0.
      T6.2 Dummy subject. Topic sentence 3 mục, mục đầu là cửa: có dummy subject · đúng cấu trúc (There are several advantages
           to (doing) sth; It is beneficial for sb to do sth) · nêu đúng việc X mang lại cái lợi. Cộng mỗi câu There are / It is
@@ -105,7 +105,7 @@ const { mucTheoTiLe } = require("./lo-trunk-bud.js");
 
 const GOI = path.join(__dirname, "..", "vendor", "homework-grading");
 const UPSTREAM = "https://tech-proxy.youpass.vn/v1/chat/completions";
-const PHIEN_BAN = "lo-trunk-doan-2026-11-14";
+const PHIEN_BAN = "lo-trunk-doan-2026-11-14b";
 const MODEL = H.TEN_MODEL;   // 4 lượt (hoi-dong-doan.js); chuỗi này đi vào trường model của job và file bài mẫu
 const HET_GIO_MS = 150000;
 const LAN_THU = 3;
@@ -190,7 +190,7 @@ const CACH_TINH_CHUNG = "Mức theo thang của ROOT: tỉ lệ mục đạt quy
 const CACH_TINH = {
   "TRUNK-W06": [
     "Tiêu chí lấy từ lưu ý của giáo viên tuần 6: đổi chủ ngữ và chủ ngữ giả. " + CACH_TINH_CHUNG,
-    "Đổi chủ ngữ tính điểm theo lần dùng, không theo tỉ lệ: mỗi câu ngoài topic sentence có chủ ngữ là V-ing hoặc danh từ chỉ vật, việc là một lần dùng, được 4 điểm, tối đa 8 điểm. Mỗi lần dùng sai (chủ ngữ sai dạng, hoặc FV không hoà hợp về số hay về nghĩa) trừ 3 điểm. Điểm quy ra mức theo đúng thang 8 ở trên: dùng đúng một lần là 4 điểm, Sai nhiều; dùng hai lần, sai một là 8 trừ 3 còn 5 điểm, Khá; chưa đổi câu nào là 0 điểm, Chưa ứng dụng được.",
+    "Đổi chủ ngữ tính điểm theo lần dùng, không theo tỉ lệ: mỗi câu ngoài topic sentence có chủ ngữ là V-ing hoặc danh từ chỉ vật, việc, tổ chức là một lần dùng, được 4 điểm, tối đa 8 điểm. Mỗi lần dùng sai (chủ ngữ sai dạng, hoặc FV không hoà hợp về số hay về nghĩa) trừ 3 điểm. Điểm quy ra mức theo đúng thang 8 ở trên: dùng đúng một lần là 4 điểm, Sai nhiều; dùng hai lần, sai một là 8 trừ 3 còn 5 điểm, Khá; chưa đổi câu nào là 0 điểm, Chưa ứng dụng được.",
     "Dummy subject: topic sentence có ba mục (có dummy subject, đúng cấu trúc, nêu đúng việc X mang lại cái lợi). Không có dummy subject thì cả ba mục trượt và node tối đa Sai nhiều, vì đề yêu cầu. Mỗi câu There are, It is khác trong đoạn là thêm một mục.",
   ],
   "TRUNK-W07": [
@@ -355,12 +355,12 @@ const SYSTEM = {
     "- sua: TS viết lại đúng khuôn bằng tiếng Anh nếu một trong ba cờ trên false; đạt thì để rỗng.",
     "",
     "## Liệt kê doi_chu_ngu (node T6.1: đổi chủ ngữ)",
-    "Liệt kê MỌI CÂU, trừ topic sentence, mà chủ ngữ của mệnh đề chính là V-ing (việc gì đó) hoặc danh từ chỉ vật, việc (thứ gì đó), theo thứ tự trong đoạn. Một câu chỉ liệt kê một lần.",
+    "Liệt kê MỌI CÂU, trừ topic sentence, mà chủ ngữ của mệnh đề chính là V-ing (việc gì đó) hoặc danh từ không chỉ người: vật, việc, tổ chức (thứ gì đó), theo thứ tự trong đoạn. Một câu chỉ liệt kê một lần.",
     "- kieu \"ving\": Studying online allows students to…, Not having to commute saves… Em cố viết V-ing mà dùng động từ nguyên mẫu (Study online allows…) vẫn liệt kê, kieu \"ving\", dung = false.",
-    "- kieu \"n\": Online courses offer…, Flexible schedules give…, The cost of commuting falls…",
-    "KHÔNG liệt kê: chủ ngữ chỉ người hoặc tổ chức đang hành động (students, they, people, learners, universities); đại từ this, these, it; There are / It is + tính từ (đó là dummy subject, thuộc T6.2); \"One advantage is that\", \"The first benefit is that\", \"Another benefit is that\", \"The reason is that\" (đó là linking device); chủ ngữ của mệnh đề phụ (which, who, because…).",
+    "- kieu \"n\": Online courses offer…, Flexible schedules give…, The cost of commuting falls… Chủ ngữ là tổ chức cũng liệt kê, kieu \"n\" (Universities can cut tuition fees…, Schools provide…, Companies offer…, The government invests…).",
+    "KHÔNG liệt kê: chủ ngữ chỉ người (students, they, people, learners, teachers, parents); đại từ this, these, it; There are / It is + tính từ (đó là dummy subject, thuộc T6.2); \"One advantage is that\", \"The first benefit is that\", \"Another benefit is that\", \"The reason is that\" (đó là linking device); chủ ngữ của mệnh đề phụ (which, who, because…).",
     "Mỗi mục: trich (nguyên văn, đủ chủ ngữ, FV và phần đi kèm ngay sau), kieu, chu_ngu (chữ chủ ngữ), fv (chữ FV), dung, sua, giai_thich.",
-    "dung = true khi ĐỦ: (a) chủ ngữ đúng dạng: V-ing chứ không phải động từ nguyên mẫu; (b) FV đúng số: V-ing đi với FV số ít, danh từ thì xét danh từ chính (Playing video games are… là sai); (c) FV HỢP NGHĨA với chủ ngữ mới: chủ ngữ là vật, việc thì không tự làm được việc của người (Internet không tự work, mà allow people to work; \"time is low\", \"health issues happen\" là sai); (d) động từ chỉ kết quả đúng công thức đi kèm (allow sb to do sth, enable sb to do sth, help sb do sth, lead to sth, result in sth). Lỗi khác trong câu KHÔNG làm mục sai.",
+    "dung = true khi ĐỦ: (a) chủ ngữ đúng dạng: V-ing chứ không phải động từ nguyên mẫu; (b) FV đúng số: V-ing đi với FV số ít, danh từ thì xét danh từ chính (Playing video games are… là sai); (c) FV HỢP NGHĨA với chủ ngữ mới: chủ ngữ là vật, việc thì không tự làm được việc của người (Internet không tự work, mà allow people to work; \"time is low\", \"health issues happen\" là sai); chủ ngữ là tổ chức thì làm được việc của một tổ chức (offer, provide, reduce, require, invest…), FV như vậy là hợp nghĩa; (d) động từ chỉ kết quả đúng công thức đi kèm (allow sb to do sth, enable sb to do sth, help sb do sth, lead to sth, result in sth). Lỗi khác trong câu KHÔNG làm mục sai.",
     "",
     "## Liệt kê dummy_khac (node T6.2: dummy subject ở các câu khác)",
     "Liệt kê MỌI câu ngoài topic sentence có There is / There are / There will be, hoặc It is + tính từ + (for sb) + to do sth. Cũng liệt kê câu cố dùng dummy nhưng sai chủ ngữ (This is convenient for them to learn) và \"It has\" dùng cho ý \"có\". KHÔNG liệt kê It thay cho một danh từ đã nói (it saves money).",

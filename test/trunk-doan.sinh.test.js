@@ -402,6 +402,9 @@ const doc7 = (o) => Object.assign({
   await ca('tuần 6, 7: prompt có đủ khuôn trong ảnh của giáo viên, không em dash trong chữ học sinh đọc', () => {
     ['There are several advantages / disadvantages to (doing) sth', 'It is beneficial / advantageous / disadvantageous for sb to do sth', 'V-ing (việc gì đó)', 'FV hoà hợp'].forEach((s) => assert.ok(D.SYSTEM['TRUNK-W06'].includes(s), s));
     ['Because of / Due to + Object', 'Thanks to + Object', 'By doing sth', 'With + Object', 'With sth doing sth', 'can / may / might / could', 'often / usually', 'tend to / be likely to'].forEach((s) => assert.ok(D.SYSTEM['TRUNK-W07'].includes(s), s));
+    // 14-11 (user chốt): chủ ngữ là tổ chức cũng là một lần đổi chủ ngữ; prompt chỉ còn loại chủ ngữ chỉ người
+    assert.ok(/Chủ ngữ là tổ chức cũng liệt kê/.test(D.SYSTEM['TRUNK-W06']) && /Universities can cut tuition fees/.test(D.SYSTEM['TRUNK-W06']), 'T6.1 chưa tính chủ ngữ là tổ chức');
+    assert.ok(!/người hoặc tổ chức đang hành động/.test(D.SYSTEM['TRUNK-W06']), 'T6.1 còn loại chủ ngữ là tổ chức');
     ['TRUNK-W06', 'TRUNK-W07'].forEach((k) => {
       const doc = k === 'TRUNK-W06' ? doc6({ doi_chu_ngu: [] }) : doc7({ cum_gioi_tu: [] });
       const kq = D.tinh(k, k === 'TRUNK-W06' ? DOAN6 : DOAN7, doc, spec(k));
