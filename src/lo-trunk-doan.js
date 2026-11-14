@@ -85,8 +85,9 @@
    ĐIỂM THEO LẦN DÙNG của T6.1, T7.2 (12-11, user chốt "dùng 1 lần tính 4 điểm, 2 lần 8 điểm, sai 1 lần -3"): mỗi lần dùng
    4 điểm, tối đa 8 (hai lần); mỗi lần dùng SAI trừ 3. Lần dùng sai VẪN được 4 điểm của lần dùng rồi mới trừ (user chọn khi
    được hỏi: dùng 2 lần, đúng 1 sai 1 → 8 − 3 = 5, Khá). Điểm sàn 0. Điểm này chính là thang 8 của ROOT nên quy ra mức bằng
-   đúng mucTheoTiLe(diem, 8): 7–8 Tốt, 5–6 Khá, 3–4 Sai nhiều, 0–2 Chưa ứng dụng được. Vì vậy dùng đúng MỘT lần (4 điểm) chỉ
-   ra Sai nhiều, và luật cũ "mới đổi 1 câu thì tối đa Khá" (CAU_DOI_CHU_NGU_DU) đã gỡ. T6.2, T7.1 vẫn tính theo tỉ lệ mục.
+   đúng mucTheoTiLe(diem, 8): 7–8 Tốt, 5–6 Khá, 3–4 Sai nhiều, 0–2 Chưa ứng dụng được. Từ 14-11 riêng hai node này gộp
+   Sai nhiều vào Khá (GOP_SAI_NHIEU_VAO_KHA; user chốt, thang chung không đổi): dùng đúng MỘT lần (4 điểm) ra Khá, trước đó
+   12-11 → 14-11 là Sai nhiều. Luật cũ "mới đổi 1 câu thì tối đa Khá" (CAU_DOI_CHU_NGU_DU) đã gỡ. T6.2, T7.1 vẫn tính theo tỉ lệ mục.
    Chỗ tự quyết của hai tuần này, chờ giáo viên duyệt: không dùng thì mức 0 chứ không null (theo luật T3.3 user chốt 03-11, đổi
    ở KHONG_DUNG_MUC_0); "many, some, most + danh từ" và help / allow / enable tính là không
    quy chụp dù ảnh không liệt kê (đó là tiếng Anh đúng, không bắt lỗi); advantages of + V-ing và các cách viết đúng ngữ pháp
@@ -105,7 +106,7 @@ const { mucTheoTiLe } = require("./lo-trunk-bud.js");
 
 const GOI = path.join(__dirname, "..", "vendor", "homework-grading");
 const UPSTREAM = "https://tech-proxy.youpass.vn/v1/chat/completions";
-const PHIEN_BAN = "lo-trunk-doan-2026-11-14b";
+const PHIEN_BAN = "lo-trunk-doan-2026-11-14c";
 const MODEL = H.TEN_MODEL;   // 4 lượt (hoi-dong-doan.js); chuỗi này đi vào trường model của job và file bài mẫu
 const HET_GIO_MS = 150000;
 const LAN_THU = 3;
@@ -120,6 +121,9 @@ const KHONG_DUNG_MUC_0 = true;
 const DIEM_LAN_DUNG = 4;
 const DIEM_TOI_DA = 8;
 const TRU_LAN_SAI = 3;
+// 14-11 (user chốt "gộp sai nhiều vào khá mà ko đổi thuật toán chung"): ở hai node tính điểm, mức Sai nhiều gộp vào Khá.
+// Cách tính điểm và thang chung mucTheoTiLe giữ nguyên; chỉ thêm một dòng trong ketNode. Giáo viên bỏ luật này thì đặt false.
+const GOP_SAI_NHIEU_VAO_KHA = true;
 // ds: CHỈ các lần dùng thật (không gồm mục "chưa dùng lần nào"), mỗi phần tử mang ok.
 function diemLanDung(ds) {
   const sai = ds.filter((m) => !m.ok).length;
@@ -190,13 +194,13 @@ const CACH_TINH_CHUNG = "Mức theo thang của ROOT: tỉ lệ mục đạt quy
 const CACH_TINH = {
   "TRUNK-W06": [
     "Tiêu chí lấy từ lưu ý của giáo viên tuần 6: đổi chủ ngữ và chủ ngữ giả. " + CACH_TINH_CHUNG,
-    "Đổi chủ ngữ tính điểm theo lần dùng, không theo tỉ lệ: mỗi câu ngoài topic sentence có chủ ngữ là V-ing hoặc danh từ chỉ vật, việc, tổ chức là một lần dùng, được 4 điểm, tối đa 8 điểm. Mỗi lần dùng sai (chủ ngữ sai dạng, hoặc FV không hoà hợp về số hay về nghĩa) trừ 3 điểm. Điểm quy ra mức theo đúng thang 8 ở trên: dùng đúng một lần là 4 điểm, Sai nhiều; dùng hai lần, sai một là 8 trừ 3 còn 5 điểm, Khá; chưa đổi câu nào là 0 điểm, Chưa ứng dụng được.",
+    "Đổi chủ ngữ tính điểm theo lần dùng, không theo tỉ lệ: mỗi câu ngoài topic sentence có chủ ngữ là V-ing hoặc danh từ chỉ vật, việc, tổ chức là một lần dùng, được 4 điểm, tối đa 8 điểm. Mỗi lần dùng sai (chủ ngữ sai dạng, hoặc FV không hoà hợp về số hay về nghĩa) trừ 3 điểm. Điểm quy ra mức theo đúng thang 8 ở trên: dùng đúng một lần là 4 điểm, xếp Khá vì node này gộp Sai nhiều vào Khá; dùng hai lần, sai một là 8 trừ 3 còn 5 điểm, Khá; chưa đổi câu nào là 0 điểm, Chưa ứng dụng được.",
     "Dummy subject: topic sentence có ba mục (có dummy subject, đúng cấu trúc, nêu đúng việc X mang lại cái lợi). Không có dummy subject thì cả ba mục trượt và node tối đa Sai nhiều, vì đề yêu cầu. Mỗi câu There are, It is khác trong đoạn là thêm một mục.",
   ],
   "TRUNK-W07": [
     "Tiêu chí lấy từ lưu ý của giáo viên tuần 7: bắt đầu câu bằng cụm giới từ và hạn chế lỗi quy chụp. " + CACH_TINH_CHUNG,
     "Hạn chế quy chụp: mỗi câu nêu một kết quả chỉ đúng với một số người là một mục, đạt khi đã rào bằng modal (can, may, might, could), trạng từ (often, usually) hoặc tend to, be likely to. Câu có cụm tuyệt đối (always, everyone, the best way) thì trượt. Sự thật hiển nhiên không tính.",
-    "Cụm giới từ tính điểm theo lần dùng, không theo tỉ lệ: mỗi lần mở đầu câu bằng Because of, Due to, Thanks to, By doing sth, With được 4 điểm, tối đa 8 điểm. Mỗi lần dùng sai (sau giới từ không phải danh từ hay V-ing, giữ liên từ thừa, sai quan hệ với mệnh đề chính) trừ 3 điểm. Điểm quy ra mức theo đúng thang 8 ở trên: dùng đúng một lần là 4 điểm, Sai nhiều; dùng hai lần, sai một là 5 điểm, Khá; chưa dùng lần nào là 0 điểm, Chưa ứng dụng được.",
+    "Cụm giới từ tính điểm theo lần dùng, không theo tỉ lệ: mỗi lần mở đầu câu bằng Because of, Due to, Thanks to, By doing sth, With được 4 điểm, tối đa 8 điểm. Mỗi lần dùng sai (sau giới từ không phải danh từ hay V-ing, giữ liên từ thừa, sai quan hệ với mệnh đề chính) trừ 3 điểm. Điểm quy ra mức theo đúng thang 8 ở trên: dùng đúng một lần là 4 điểm, xếp Khá vì node này gộp Sai nhiều vào Khá; dùng hai lần, sai một là 5 điểm, Khá; chưa dùng lần nào là 0 điểm, Chưa ứng dụng được.",
   ],
 };
 const CAU_TOI_DA_TU = 30;      // slide tuần 5: "một câu không nên … dài hơn 30 từ"
@@ -612,6 +616,8 @@ function ketNode(key, ma, ds, opt) {
   const dat = ds.filter((x) => x.ok).length;
   // o.diem (T6.1, T7.2): điểm theo lần dùng đã là thang 8, mức đọc thẳng từ đó; còn lại theo tỉ lệ mục đạt.
   let m = o.diem ? mucTheoTiLe(o.diem.diem, DIEM_TOI_DA) : mucTheoTiLe(dat, ds.length);
+  // Riêng node tính điểm: Sai nhiều gộp vào Khá (14-11, xem GOP_SAI_NHIEU_VAO_KHA). Ca duy nhất rơi vào đây là dùng đúng MỘT lần, 4 điểm.
+  if (o.diem && m === 1 && GOP_SAI_NHIEU_VAO_KHA) m = 2;
   let chan = "";
   if (m != null && o.tran != null && m > o.tran) { m = o.tran; chan = o.lyDo || ""; }
   return Object.assign({ ma, noi_dung: t.noi_dung[ma], ten_ngan: t.ten_ngan[ma], don_vi: t.don_vi[ma], dat, tong: ds.length, muc: m,
@@ -976,4 +982,4 @@ function dauVao(spec, doanVan) {
   });
 }
 
-module.exports = { PHIEN_BAN, MODEL, TUAN, NHAN_MUC, TEN_LOI_TS, CAP_MAY_MOC, DIEM_LAN_DUNG, DIEM_TOI_DA, TRU_LAN_SAI, diemLanDung, SYSTEM, userMessage, kiem, docDoan, tinh, soCau, viTri, cacCau, dauVao };
+module.exports = { PHIEN_BAN, MODEL, TUAN, NHAN_MUC, TEN_LOI_TS, CAP_MAY_MOC, DIEM_LAN_DUNG, DIEM_TOI_DA, TRU_LAN_SAI, GOP_SAI_NHIEU_VAO_KHA, diemLanDung, SYSTEM, userMessage, kiem, docDoan, tinh, soCau, viTri, cacCau, dauVao };

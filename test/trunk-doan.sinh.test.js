@@ -297,10 +297,10 @@ const doc7 = (o) => Object.assign({
     assert.deepEqual(kq.nodes.map((n) => [n.ma, n.dat, n.tong, n.muc]), [['T6.1', 3, 3, 3], ['T6.2', 3, 3, 3]]);
     assert.ok(Array.isArray(kq.cach_tinh) && kq.cach_tinh.length, 'trang chấm thử cần cach_tinh');
   });
-  await ca('tuần 6: T6.1 đổi 1 câu là 4 điểm (Sai nhiều), không đổi câu nào là 0 điểm mức 0 kèm gợi ý, không null', () => {
+  await ca('tuần 6: T6.1 đổi 1 câu là 4 điểm, xếp Khá vì node tính điểm gộp Sai nhiều vào Khá (14-11), không đổi câu nào là 0 điểm mức 0 kèm gợi ý, không null', () => {
     const mot = doc6({ doi_chu_ngu: [dcn('online courses cost less', 'n', 'online courses', 'cost')] });
     const a = nodeCua(D.tinh('TRUNK-W06', DOAN6, mot, spec('TRUNK-W06')), 'T6.1');
-    assert.deepEqual([a.dat, a.tong, a.diem, a.muc, a.chan], [1, 1, 4, 1, '']);
+    assert.deepEqual([a.dat, a.tong, a.diem, a.muc, a.nhan, a.dat_lo, a.chan], [1, 1, 4, D.GOP_SAI_NHIEU_VAO_KHA ? 2 : 1, D.GOP_SAI_NHIEU_VAO_KHA ? 'Khá' : 'Sai nhiều', !!D.GOP_SAI_NHIEU_VAO_KHA, '']);
     const hai = doc6({ doi_chu_ngu: doc6().doi_chu_ngu.slice(0, 2) });
     assert.equal(nodeCua(D.tinh('TRUNK-W06', DOAN6, hai, spec('TRUNK-W06')), 'T6.1').muc, 3);
     const khong = doc6({ doi_chu_ngu: [], goi_y_doi: { trich: 'Students do not have to pay for rent', sua: 'Studying online removes the cost of rent.' } });
@@ -321,7 +321,7 @@ const doc7 = (o) => Object.assign({
   await ca('tuần 6, 7: điểm theo lần dùng (12-11): 4 điểm mỗi lần, tối đa 8, mỗi lần sai trừ 3, lần sai vẫn được 4 rồi mới trừ', () => {
     const lan = (...ok) => ok.map((x) => ({ ok: x }));
     // [các lần dùng] → [điểm, mức]: đúng bảng user chốt khi được hỏi
-    [[lan(true), 4, 1], [lan(true, true), 8, 3], [lan(true, false), 5, 2], [lan(false), 1, 0], [lan(true, true, true, false), 5, 2],
+    [[lan(true), 4, D.GOP_SAI_NHIEU_VAO_KHA ? 2 : 1], [lan(true, true), 8, 3], [lan(true, false), 5, 2], [lan(false), 1, 0], [lan(true, true, true, false), 5, 2],
       [lan(false, false), 2, 0], [lan(true, true, true), 8, 3], [lan(false, false, false), 0, 0], [lan(), 0, 0]].forEach(([ds, diem, muc]) => {
       const k = JSON.stringify(ds.map((x) => x.ok));
       assert.equal(D.diemLanDung(ds).diem, diem, k);

@@ -112,7 +112,7 @@ function nhanXet(n, hang) {
   let s = n.diem != null
     ? (n.lan_dung ? n.lan_dung + " lần dùng" + (n.lan_sai ? ", sai " + n.lan_sai : "") : "Chưa dùng lần nào") + ": " + n.diem + "/" + n.diem_toi_da + " điểm."
     : "Đạt " + n.dat + "/" + n.tong + " " + n.don_vi + ".";
-  // Dùng đúng một lần chỉ được 4 điểm (Sai nhiều) mà không có mục nào trượt để giải thích: nói luôn cách lên 8 điểm.
+  // Dùng đúng một lần chỉ được 4 điểm (Khá từ 14-11, trước đó Sai nhiều) mà không có mục nào trượt để giải thích: nói luôn cách lên 8 điểm.
   if (n.diem != null && n.lan_dung === 1 && !n.lan_sai) s += " Dùng thêm một lần nữa để đủ 8 điểm.";
   if (n.chan) s += " " + cau(n.chan);
   // Trần 600 ký tự (như cham-lo-root.js): tên mọi mục chưa đạt luôn có mặt; lời giải, gợi ý thêm theo thứ tự đoạn
