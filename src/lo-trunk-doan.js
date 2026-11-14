@@ -67,8 +67,9 @@
    TUẦN 6, 7 (05-11, user: "làm phần chấm node trunk 6,7 ... kiến thức thì lấy trong hình này": hai ảnh "Lưu ý từ Giáo viên").
    Thay bộ tạm lo-tam.js cho hai tuần này. Chỉ chấm đúng kiến thức trong ảnh, không chấm khung đoạn hay độ dài (node ○).
    TUẦN 6 (cái LỢI của học online, 110–130 từ; đề bắt topic sentence viết bằng dummy subject)
-     T6.1 Đổi chủ ngữ. Mục = mỗi CÂU ngoài topic sentence có chủ ngữ của mệnh đề chính là V-ing (việc gì đó) hoặc N (thứ gì
-          đó): chủ ngữ đúng dạng VÀ FV hoà hợp (đúng số, hợp nghĩa). Mới đổi 1 câu thì tối đa Khá. Không đổi câu nào: mức 0.
+     T6.1 Đổi chủ ngữ. Lần dùng = mỗi CÂU ngoài topic sentence có chủ ngữ của mệnh đề chính là V-ing (việc gì đó) hoặc N (thứ
+          gì đó); dùng đúng khi chủ ngữ đúng dạng VÀ FV hoà hợp (đúng số, hợp nghĩa). Tính ĐIỂM theo lần dùng (DIEM_LAN_DUNG,
+          xem dưới), không theo tỉ lệ. Không đổi câu nào: 0 điểm, mức 0.
      T6.2 Dummy subject. Topic sentence 3 mục, mục đầu là cửa: có dummy subject · đúng cấu trúc (There are several advantages
           to (doing) sth; It is beneficial for sb to do sth) · nêu đúng việc X mang lại cái lợi. Cộng mỗi câu There are / It is
           khác trong đoạn là một mục. Topic sentence không có dummy subject thì tối đa Sai nhiều (đề bắt buộc).
@@ -78,9 +79,14 @@
           to, và không có cụm tuyệt đối. Không câu nào cần rào thì null ("Bài chưa dùng tới"): không có gì để quy chụp.
      T7.2 Cụm giới từ mở đầu câu. Mục = mỗi LẦN DÙNG (Because of / Due to + Object, Thanks to + Object, By doing sth, With +
           Object, With sth doing sth): sau giới từ là N / V-ing, không giữ liên từ thừa, đúng quan hệ, có mệnh đề chính.
-          Không dùng lần nào: mức 0. Dùng V-ing đổi chủ ngữ (cột cuối của bảng trong ảnh) không tính ở đây: đó là T6.1.
+          Tính ĐIỂM theo lần dùng như T6.1. Không dùng lần nào: 0 điểm, mức 0. Dùng V-ing đổi chủ ngữ (cột cuối của bảng trong ảnh) không tính ở đây: đó là T6.1.
+   ĐIỂM THEO LẦN DÙNG của T6.1, T7.2 (12-11, user chốt "dùng 1 lần tính 4 điểm, 2 lần 8 điểm, sai 1 lần -3"): mỗi lần dùng
+   4 điểm, tối đa 8 (hai lần); mỗi lần dùng SAI trừ 3. Lần dùng sai VẪN được 4 điểm của lần dùng rồi mới trừ (user chọn khi
+   được hỏi: dùng 2 lần, đúng 1 sai 1 → 8 − 3 = 5, Khá). Điểm sàn 0. Điểm này chính là thang 8 của ROOT nên quy ra mức bằng
+   đúng mucTheoTiLe(diem, 8): 7–8 Tốt, 5–6 Khá, 3–4 Sai nhiều, 0–2 Chưa ứng dụng được. Vì vậy dùng đúng MỘT lần (4 điểm) chỉ
+   ra Sai nhiều, và luật cũ "mới đổi 1 câu thì tối đa Khá" (CAU_DOI_CHU_NGU_DU) đã gỡ. T6.2, T7.1 vẫn tính theo tỉ lệ mục.
    Chỗ tự quyết của hai tuần này, chờ giáo viên duyệt: không dùng thì mức 0 chứ không null (theo luật T3.3 user chốt 03-11, đổi
-   ở KHONG_DUNG_MUC_0); ngưỡng 2 câu của T6.1 lấy từ bộ tạm; "many, some, most + danh từ" và help / allow / enable tính là không
+   ở KHONG_DUNG_MUC_0); "many, some, most + danh từ" và help / allow / enable tính là không
    quy chụp dù ảnh không liệt kê (đó là tiếng Anh đúng, không bắt lỗi); advantages of + V-ing và các cách viết đúng ngữ pháp
    khác vẫn đạt mục cấu trúc của T6.2 dù ảnh chỉ ghi "to (doing) sth".
 
@@ -97,7 +103,7 @@ const { mucTheoTiLe } = require("./lo-trunk-bud.js");
 
 const GOI = path.join(__dirname, "..", "vendor", "homework-grading");
 const UPSTREAM = "https://tech-proxy.youpass.vn/v1/chat/completions";
-const PHIEN_BAN = "lo-trunk-doan-2026-11-05";
+const PHIEN_BAN = "lo-trunk-doan-2026-11-12";
 const MODEL = H.TEN_MODEL;   // 4 lượt (hoi-dong-doan.js); chuỗi này đi vào trường model của job và file bài mẫu
 const HET_GIO_MS = 150000;
 const LAN_THU = 3;
@@ -108,7 +114,15 @@ const CAU_TOI_THIEU = 2;
 const CAP_MAY_MOC = true;
 // T6.1, T7.2 không dùng lần nào: mức 0, như T3.3 (user chốt 03-11). Giáo viên muốn "Bài chưa dùng tới" thì đặt false.
 const KHONG_DUNG_MUC_0 = true;
-const CAU_DOI_CHU_NGU_DU = 2;   // dưới số câu này thì T6.1 tối đa Khá
+// T6.1, T7.2 tính điểm theo lần dùng (12-11, user chốt): 4 điểm mỗi lần dùng, tối đa 8; mỗi lần dùng sai trừ 3, sàn 0.
+const DIEM_LAN_DUNG = 4;
+const DIEM_TOI_DA = 8;
+const TRU_LAN_SAI = 3;
+// ds: CHỈ các lần dùng thật (không gồm mục "chưa dùng lần nào"), mỗi phần tử mang ok.
+function diemLanDung(ds) {
+  const sai = ds.filter((m) => !m.ok).length;
+  return { diem: Math.max(0, Math.min(DIEM_LAN_DUNG * ds.length, DIEM_TOI_DA) - TRU_LAN_SAI * sai), lan_dung: ds.length, lan_sai: sai };
+}
 
 const NHAN_MUC = ["Chưa ứng dụng được", "Sai nhiều", "Khá", "Tốt"];
 const TEN_LOI_TS = {
@@ -174,13 +188,13 @@ const CACH_TINH_CHUNG = "Mức theo thang của ROOT: tỉ lệ mục đạt quy
 const CACH_TINH = {
   "TRUNK-W06": [
     "Tiêu chí lấy từ lưu ý của giáo viên tuần 6: đổi chủ ngữ và chủ ngữ giả. " + CACH_TINH_CHUNG,
-    "Đổi chủ ngữ: mỗi câu ngoài topic sentence có chủ ngữ là V-ing hoặc danh từ chỉ vật, việc là một mục, đạt khi chủ ngữ đúng dạng và FV hoà hợp cả về số lẫn về nghĩa. Mới đổi một câu thì tối đa Khá, chưa đổi câu nào thì Chưa ứng dụng được.",
+    "Đổi chủ ngữ tính điểm theo lần dùng, không theo tỉ lệ: mỗi câu ngoài topic sentence có chủ ngữ là V-ing hoặc danh từ chỉ vật, việc là một lần dùng, được 4 điểm, tối đa 8 điểm. Mỗi lần dùng sai (chủ ngữ sai dạng, hoặc FV không hoà hợp về số hay về nghĩa) trừ 3 điểm. Điểm quy ra mức theo đúng thang 8 ở trên: dùng đúng một lần là 4 điểm, Sai nhiều; dùng hai lần, sai một là 8 trừ 3 còn 5 điểm, Khá; chưa đổi câu nào là 0 điểm, Chưa ứng dụng được.",
     "Dummy subject: topic sentence có ba mục (có dummy subject, đúng cấu trúc, nêu đúng việc X mang lại cái lợi). Không có dummy subject thì cả ba mục trượt và node tối đa Sai nhiều, vì đề yêu cầu. Mỗi câu There are, It is khác trong đoạn là thêm một mục.",
   ],
   "TRUNK-W07": [
     "Tiêu chí lấy từ lưu ý của giáo viên tuần 7: bắt đầu câu bằng cụm giới từ và hạn chế lỗi quy chụp. " + CACH_TINH_CHUNG,
     "Hạn chế quy chụp: mỗi câu nêu một kết quả chỉ đúng với một số người là một mục, đạt khi đã rào bằng modal (can, may, might, could), trạng từ (often, usually) hoặc tend to, be likely to. Câu có cụm tuyệt đối (always, everyone, the best way) thì trượt. Sự thật hiển nhiên không tính.",
-    "Cụm giới từ: mỗi lần mở đầu câu bằng Because of, Due to, Thanks to, By doing sth, With là một mục, đạt khi sau giới từ là danh từ hoặc V-ing, không giữ liên từ thừa và đúng quan hệ với mệnh đề chính. Chưa dùng lần nào thì Chưa ứng dụng được.",
+    "Cụm giới từ tính điểm theo lần dùng, không theo tỉ lệ: mỗi lần mở đầu câu bằng Because of, Due to, Thanks to, By doing sth, With được 4 điểm, tối đa 8 điểm. Mỗi lần dùng sai (sau giới từ không phải danh từ hay V-ing, giữ liên từ thừa, sai quan hệ với mệnh đề chính) trừ 3 điểm. Điểm quy ra mức theo đúng thang 8 ở trên: dùng đúng một lần là 4 điểm, Sai nhiều; dùng hai lần, sai một là 5 điểm, Khá; chưa dùng lần nào là 0 điểm, Chưa ứng dụng được.",
   ],
 };
 const CAU_TOI_DA_TU = 30;      // slide tuần 5: "một câu không nên … dài hơn 30 từ"
@@ -594,11 +608,13 @@ function ketNode(key, ma, ds, opt) {
   const t = TUAN[key];
   const o = opt || {};
   const dat = ds.filter((x) => x.ok).length;
-  let m = mucTheoTiLe(dat, ds.length);
+  // o.diem (T6.1, T7.2): điểm theo lần dùng đã là thang 8, mức đọc thẳng từ đó; còn lại theo tỉ lệ mục đạt.
+  let m = o.diem ? mucTheoTiLe(o.diem.diem, DIEM_TOI_DA) : mucTheoTiLe(dat, ds.length);
   let chan = "";
   if (m != null && o.tran != null && m > o.tran) { m = o.tran; chan = o.lyDo || ""; }
-  return { ma, noi_dung: t.noi_dung[ma], ten_ngan: t.ten_ngan[ma], don_vi: t.don_vi[ma], dat, tong: ds.length, muc: m,
-    nhan: m == null ? "Bài chưa dùng tới" : NHAN_MUC[m], dat_lo: m == null ? null : m >= 2, chan, muc_kiem: ds };
+  return Object.assign({ ma, noi_dung: t.noi_dung[ma], ten_ngan: t.ten_ngan[ma], don_vi: t.don_vi[ma], dat, tong: ds.length, muc: m,
+    nhan: m == null ? "Bài chưa dùng tới" : NHAN_MUC[m], dat_lo: m == null ? null : m >= 2, chan },
+  o.diem ? { diem: o.diem.diem, diem_toi_da: DIEM_TOI_DA, lan_dung: o.diem.lan_dung, lan_sai: o.diem.lan_sai } : {}, { muc_kiem: ds });
 }
 
 // Các phần của đoạn theo thứ tự trong bài: topic sentence, từng SI, SI thừa, phần ngoài khung. Mỗi phần mang các mục
@@ -880,7 +896,7 @@ function tinhW6(doan, doc) {
     t61.push(khongDung);
   }
   const nodes = [
-    ketNode(key, "T6.1", t61, doi.length && doi.length < CAU_DOI_CHU_NGU_DU ? { tran: 2, lyDo: "Mới đổi chủ ngữ " + doi.length + " câu nên tối đa Khá." } : null),
+    ketNode(key, "T6.1", t61, t61.length ? { diem: diemLanDung(t61.filter((m) => m !== khongDung)) } : null),
     ketNode(key, "T6.2", t62, coDummy ? null : { tran: 1, lyDo: "Đề yêu cầu topic sentence viết bằng dummy subject nên tối đa Sai nhiều." }),
   ];
   return { nodes, gan, capDoanThem: khongDung ? [["T6.1", khongDung, true]] : [] };
@@ -906,7 +922,8 @@ function tinhW7(doan, doc) {
     khongDung = muc(false, "Chưa bắt đầu câu nào bằng cụm giới từ (Because of, Due to, Thanks to, By doing sth, With…)", { trich: g.trich, sua: g.sua });
     t72.push(khongDung);
   }
-  return { nodes: [ketNode(key, "T7.1", t71), ketNode(key, "T7.2", t72)], gan, capDoanThem: khongDung ? [["T7.2", khongDung, true]] : [] };
+  const n72 = ketNode(key, "T7.2", t72, t72.length ? { diem: diemLanDung(t72.filter((m) => m !== khongDung)) } : null);
+  return { nodes: [ketNode(key, "T7.1", t71), n72], gan, capDoanThem: khongDung ? [["T7.2", khongDung, true]] : [] };
 }
 
 // doc: phần model đọc (đã qua kiem). spec: hw-spec của tuần (W3 cần nhãn ĐÍCH / TRUNG GIAN của core đề cho).
@@ -951,4 +968,4 @@ function dauVao(spec, doanVan) {
   });
 }
 
-module.exports = { PHIEN_BAN, MODEL, TUAN, NHAN_MUC, TEN_LOI_TS, CAP_MAY_MOC, SYSTEM, userMessage, kiem, docDoan, tinh, soCau, viTri, cacCau, dauVao };
+module.exports = { PHIEN_BAN, MODEL, TUAN, NHAN_MUC, TEN_LOI_TS, CAP_MAY_MOC, DIEM_LAN_DUNG, DIEM_TOI_DA, TRU_LAN_SAI, diemLanDung, SYSTEM, userMessage, kiem, docDoan, tinh, soCau, viTri, cacCau, dauVao };

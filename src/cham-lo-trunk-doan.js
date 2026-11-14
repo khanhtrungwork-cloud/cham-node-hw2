@@ -108,7 +108,12 @@ function mucTheoHang(n, hang) {
 }
 function nhanXet(n, hang) {
   if (n.muc == null) return "Bài chưa dùng tới kiến thức này, nên chưa đánh giá được.";
-  let s = "Đạt " + n.dat + "/" + n.tong + " " + n.don_vi + ".";
+  // T6.1, T7.2 (12-11): điểm theo lần dùng, 4 điểm mỗi lần, tối đa 8, mỗi lần sai trừ 3 (lo-trunk-doan.js).
+  let s = n.diem != null
+    ? (n.lan_dung ? n.lan_dung + " lần dùng" + (n.lan_sai ? ", sai " + n.lan_sai : "") : "Chưa dùng lần nào") + ": " + n.diem + "/" + n.diem_toi_da + " điểm."
+    : "Đạt " + n.dat + "/" + n.tong + " " + n.don_vi + ".";
+  // Dùng đúng một lần chỉ được 4 điểm (Sai nhiều) mà không có mục nào trượt để giải thích: nói luôn cách lên 8 điểm.
+  if (n.diem != null && n.lan_dung === 1 && !n.lan_sai) s += " Dùng thêm một lần nữa để đủ 8 điểm.";
   if (n.chan) s += " " + cau(n.chan);
   // Trần 600 ký tự (như cham-lo-root.js): tên mọi mục chưa đạt luôn có mặt; lời giải, gợi ý thêm theo thứ tự đoạn
   // khi còn chỗ. Bản đầu dừng hẳn ở mục đầu tiên vượt trần, nên chỗ đứt mắt xích (dòng dài nhất) rơi mất.

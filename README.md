@@ -60,6 +60,8 @@ const kq = await chamNode(yeuCauTuBai("TRUNK-W06", baiLam));
 
 Model đọc, code đếm. Model tách các phần của bài, trích nguyên văn, phán từng mục; số từ, số câu, số mục đạt và mức đều do code tính, để cùng một phần đọc lần nào cũng ra một mức. Mức theo một thang: tỉ lệ mục đạt quy về thang 8 rồi làm tròn, 7–8 là Tốt, 5–6 là Khá, 3–4 là Sai nhiều, 0–2 là Chưa ứng dụng được.
 
+Riêng T6.1 (đổi chủ ngữ) và T7.2 (cụm giới từ mở đầu câu) tính điểm theo lần dùng thay cho tỉ lệ, chốt 12-11: mỗi lần dùng 4 điểm, tối đa 8 điểm, mỗi lần dùng sai trừ 3 điểm, sàn 0. Điểm đó đọc thẳng trên cùng thang 8, nên dùng đúng một lần là 4 điểm (Sai nhiều), dùng hai lần mà sai một là 5 điểm (Khá).
+
 Mỗi bài qua **hội đồng 4 lượt**: bắt lỗi, rồi giáo viên khó tính và giáo viên nhân từ chấm độc lập, cuối cùng trọng tài chốt.
 
 | Bài | Tuần | File |

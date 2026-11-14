@@ -283,25 +283,50 @@ const doc7 = (o) => Object.assign({
     assert.deepEqual(kq.nodes.map((n) => [n.ma, n.dat, n.tong, n.muc]), [['T6.1', 3, 3, 3], ['T6.2', 3, 3, 3]]);
     assert.ok(Array.isArray(kq.cach_tinh) && kq.cach_tinh.length, 'trang chấm thử cần cach_tinh');
   });
-  await ca('tuần 6: T6.1 mới đổi 1 câu thì tối đa Khá, không đổi câu nào là mức 0 kèm gợi ý, không null', () => {
+  await ca('tuần 6: T6.1 đổi 1 câu là 4 điểm (Sai nhiều), không đổi câu nào là 0 điểm mức 0 kèm gợi ý, không null', () => {
     const mot = doc6({ doi_chu_ngu: [dcn('online courses cost less', 'n', 'online courses', 'cost')] });
     const a = nodeCua(D.tinh('TRUNK-W06', DOAN6, mot, spec('TRUNK-W06')), 'T6.1');
-    assert.deepEqual([a.dat, a.tong, a.muc], [1, 1, 2]);
-    assert.match(a.chan, /tối đa Khá/);
+    assert.deepEqual([a.dat, a.tong, a.diem, a.muc, a.chan], [1, 1, 4, 1, '']);
     const hai = doc6({ doi_chu_ngu: doc6().doi_chu_ngu.slice(0, 2) });
     assert.equal(nodeCua(D.tinh('TRUNK-W06', DOAN6, hai, spec('TRUNK-W06')), 'T6.1').muc, 3);
     const khong = doc6({ doi_chu_ngu: [], goi_y_doi: { trich: 'Students do not have to pay for rent', sua: 'Studying online removes the cost of rent.' } });
     const kq = D.tinh('TRUNK-W06', DOAN6, khong, spec('TRUNK-W06'));
     const b = nodeCua(kq, 'T6.1');
-    assert.deepEqual([b.dat, b.tong, b.muc, b.nhan], [0, 1, 0, 'Chưa ứng dụng được']);
+    assert.deepEqual([b.dat, b.tong, b.diem, b.lan_dung, b.lan_sai, b.muc, b.nhan], [0, 1, 0, 0, 0, 0, 'Chưa ứng dụng được'], 'mục "chưa đổi" không tính là một lần dùng sai');
     assert.match(b.muc_kiem[0].sua, /Studying online/);
     assert.equal(kq.hang[kq.hang.length - 1].nhom['T6.1'].length, 1, 'mục "chưa đổi" nằm ở hàng cuối');
   });
-  await ca('tuần 6: T6.1 đếm từng câu, sai FV thì trượt đúng câu đó (2/3 là Khá, 1/3 là Sai nhiều)', () => {
+  await ca('tuần 6: T6.1 đếm từng câu, sai FV thì trượt đúng câu đó (3 câu sai 1 là 5 điểm Khá, sai 2 là 2 điểm)', () => {
     const d = doc6(); d.doi_chu_ngu[1].dung = false;
-    assert.equal(nodeCua(D.tinh('TRUNK-W06', DOAN6, d, spec('TRUNK-W06')), 'T6.1').muc, 2);
+    const a = nodeCua(D.tinh('TRUNK-W06', DOAN6, d, spec('TRUNK-W06')), 'T6.1');
+    assert.deepEqual([a.dat, a.tong, a.diem, a.lan_dung, a.lan_sai, a.muc], [2, 3, 5, 3, 1, 2]);
     d.doi_chu_ngu[2].dung = false;
-    assert.equal(nodeCua(D.tinh('TRUNK-W06', DOAN6, d, spec('TRUNK-W06')), 'T6.1').muc, 1);
+    const b = nodeCua(D.tinh('TRUNK-W06', DOAN6, d, spec('TRUNK-W06')), 'T6.1');
+    assert.deepEqual([b.diem, b.muc], [2, 0]);
+  });
+  await ca('tuần 6, 7: điểm theo lần dùng (12-11): 4 điểm mỗi lần, tối đa 8, mỗi lần sai trừ 3, lần sai vẫn được 4 rồi mới trừ', () => {
+    const lan = (...ok) => ok.map((x) => ({ ok: x }));
+    // [các lần dùng] → [điểm, mức]: đúng bảng user chốt khi được hỏi
+    [[lan(true), 4, 1], [lan(true, true), 8, 3], [lan(true, false), 5, 2], [lan(false), 1, 0], [lan(true, true, true, false), 5, 2],
+      [lan(false, false), 2, 0], [lan(true, true, true), 8, 3], [lan(false, false, false), 0, 0], [lan(), 0, 0]].forEach(([ds, diem, muc]) => {
+      const k = JSON.stringify(ds.map((x) => x.ok));
+      assert.equal(D.diemLanDung(ds).diem, diem, k);
+      // qua đúng đường của bộ chấm, cả T6.1 lẫn T7.2
+      if (!ds.length) return;
+      const d6 = doc6({ doi_chu_ngu: ds.map((x) => dcn('online courses cost less', 'n', 'online courses', 'cost', { dung: x.ok })) });
+      const n6 = nodeCua(D.tinh('TRUNK-W06', DOAN6, d6, spec('TRUNK-W06')), 'T6.1');
+      assert.deepEqual([n6.diem, n6.diem_toi_da, n6.muc], [diem, 8, muc], 'T6.1 ' + k);
+      const mau = doc7().cum_gioi_tu[0];
+      const d7 = doc7({ cum_gioi_tu: ds.map((x) => Object.assign({}, mau, { dung: x.ok })) });
+      const n7 = nodeCua(D.tinh('TRUNK-W07', DOAN7, d7, spec('TRUNK-W07')), 'T7.2');
+      assert.deepEqual([n7.diem, n7.muc], [diem, muc], 'T7.2 ' + k);
+    });
+    // T6.2, T7.1 vẫn theo tỉ lệ mục, không mang điểm
+    const kq6 = D.tinh('TRUNK-W06', DOAN6, doc6(), spec('TRUNK-W06'));
+    const kq7 = D.tinh('TRUNK-W07', DOAN7, doc7(), spec('TRUNK-W07'));
+    assert.equal(nodeCua(kq6, 'T6.2').diem, undefined);
+    assert.equal(nodeCua(kq7, 'T7.1').diem, undefined);
+    assert.ok(kq6.cach_tinh.some((t) => /4 điểm/.test(t) && /trừ 3 điểm/.test(t)) && kq7.cach_tinh.some((t) => /4 điểm/.test(t) && /trừ 3 điểm/.test(t)), 'cách tính nói luật điểm');
   });
   await ca('tuần 6: T6.2 không có dummy subject thì cả ba mục trượt và mức 0; sai cấu trúc thì 2/3 là Khá; câu dummy khác là thêm mục', () => {
     const t = (ts, them) => nodeCua(D.tinh('TRUNK-W06', DOAN6, doc6(Object.assign({ ts: Object.assign({}, doc6().ts, ts) }, them)), spec('TRUNK-W06')), 'T6.2');
@@ -341,12 +366,13 @@ const doc7 = (o) => Object.assign({
     const c = nodeCua(D.tinh('TRUNK-W07', DOAN7, doc7({ nhan_dinh: [] }), spec('TRUNK-W07')), 'T7.1');
     assert.deepEqual([c.tong, c.muc, c.nhan], [0, null, 'Bài chưa dùng tới']);
   });
-  await ca('tuần 7: T7.2 sai từng cụm là trượt đúng cụm đó; không dùng lần nào là mức 0 kèm gợi ý, không null', () => {
+  await ca('tuần 7: T7.2 sai từng cụm là trượt đúng cụm đó; không dùng lần nào là 0 điểm mức 0 kèm gợi ý, không null', () => {
     const d = doc7(); d.cum_gioi_tu[1].dung = false;
-    assert.equal(nodeCua(D.tinh('TRUNK-W07', DOAN7, d, spec('TRUNK-W07')), 'T7.2').muc, 2);
+    const a = nodeCua(D.tinh('TRUNK-W07', DOAN7, d, spec('TRUNK-W07')), 'T7.2');
+    assert.deepEqual([a.diem, a.muc], [5, 2]);
     const kq = D.tinh('TRUNK-W07', DOAN7, doc7({ cum_gioi_tu: [], goi_y_doi: { trich: 'adults can save a lot of money', sua: 'By living with their parents, adults can save money.' } }), spec('TRUNK-W07'));
     const b = nodeCua(kq, 'T7.2');
-    assert.deepEqual([b.dat, b.tong, b.muc], [0, 1, 0]);
+    assert.deepEqual([b.dat, b.tong, b.diem, b.lan_dung, b.muc], [0, 1, 0, 0, 0]);
     assert.match(b.muc_kiem[0].sua, /By living/);
     assert.equal(kq.hang[kq.hang.length - 1].nhom['T7.2'].length, 1);
   });
