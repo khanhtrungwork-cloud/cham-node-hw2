@@ -35,9 +35,11 @@
           "X mang lại nhiều lợi" (không chép thực trạng, không nêu ý kiến, không chỉ đánh giá chung, không nêu một cái
           lợi cụ thể) · cùng chiều 2 supporting idea. Hai mục sau là THEN CHỐT: trượt một trong hai thì tối đa Sai
           nhiều (chỉ có một câu nên 3/4 mục vẫn ra Khá nếu không chặn, trong khi đó đúng là lỗi bài dạy).
-     T4.2 Diễn đạt lợi/hại đúng collocation, theo lần dùng (bảng slide tuần 4).
+     T4.2 Diễn đạt lợi/hại đúng collocation, theo lần dùng (bảng slide tuần 4). Không dùng cụm nào thì node có 1 mục trượt
+          (Chưa ứng dụng được), không null (14-11, user chốt "ko dùng thì cho vào nhóm chưa ứng dụng được").
      T4.3 Linking device giữa các supporting idea, 2 mục: mở supporting idea 1 · mở supporting idea 2 bằng từ nối bổ
-          sung. Cặp Firstly → Secondly (First → Second) là "lỗi linking máy móc" của bài học tuần 4, CODE bắt (CAP_MAY_MOC).
+          sung. Cặp Firstly → Secondly (First → Second) là "lỗi linking máy móc" của bài học tuần 4, CODE bắt (CAP_MAY_MOC):
+          hai mục vẫn đạt nhưng node tối đa Khá (14-11, user chốt "cho mức khá"; trước đó mục SI 2 trượt, node ra Sai nhiều).
      T4.4 Linking device đúng quan hệ trong supporting idea (xem trên). In addition / Moreover / Furthermore dùng BÊN
           TRONG một supporting idea là sai: chúng chỉ mở supporting idea mới.
      T4.5 This / doing so trỏ lại ý phía trước, theo lần dùng; It / them trỏ cả một mệnh đề là một lần dùng sai (slide).
@@ -103,14 +105,14 @@ const { mucTheoTiLe } = require("./lo-trunk-bud.js");
 
 const GOI = path.join(__dirname, "..", "vendor", "homework-grading");
 const UPSTREAM = "https://tech-proxy.youpass.vn/v1/chat/completions";
-const PHIEN_BAN = "lo-trunk-doan-2026-11-12";
+const PHIEN_BAN = "lo-trunk-doan-2026-11-14";
 const MODEL = H.TEN_MODEL;   // 4 lượt (hoi-dong-doan.js); chuỗi này đi vào trường model của job và file bài mẫu
 const HET_GIO_MS = 150000;
 const LAN_THU = 3;
 const CHO_THU_LAI_MS = 10000;
 const TU_TOI_THIEU = 40;
 const CAU_TOI_THIEU = 2;
-// Cặp Firstly → Secondly tính là lỗi linking máy móc (slide tuần 4). Giáo viên bỏ luật này thì đặt false.
+// Cặp Firstly → Secondly tính là lỗi linking máy móc (slide tuần 4): từ 14-11 node T4.3 tối đa Khá. Giáo viên bỏ luật này thì đặt false.
 const CAP_MAY_MOC = true;
 // T6.1, T7.2 không dùng lần nào: mức 0, như T3.3 (user chốt 03-11). Giáo viên muốn "Bài chưa dùng tới" thì đặt false.
 const KHONG_DUNG_MUC_0 = true;
@@ -819,9 +821,11 @@ function tinhW4(doan, doc) {
   ];
   t41.forEach((m) => gan.push(["T4.1", m, "ts"]));
   const thenChotTruot = coTs && (ts.y_chinh !== true || ts.cung_chieu !== true);
-  // T4.2
+  // T4.2: không dùng cụm nào thì node có 1 mục trượt (Chưa ứng dụng được), không null (14-11, user chốt)
   const t42 = (doc.loi_hai || []).map((x) => muc(x.dung, "Cụm lợi / hại", { trich: x.trich, sua: x.sua, giai: x.giai_thich }));
   (doc.loi_hai || []).forEach((x, i) => gan.push(["T4.2", t42[i], { viTri: viTri(doan, x.trich) }]));
+  let khongDungT42 = null;
+  if (!t42.length) { khongDungT42 = muc(false, "Chưa dùng cụm chỉ lợi, hại nào (bring benefits to sb, have a positive impact on sb, be beneficial to sb…)"); t42.push(khongDungT42); }
   // T4.3
   const t43 = [];
   const moY = (k) => (si[k] && si[k].mo_y) || {};
@@ -831,10 +835,14 @@ function tinhW4(doan, doc) {
     const co = !!si[k] && coChu(o.trich);
     let ok = co && o.dung === true;
     let giai = si[k] ? o.giai_thich : "Đoạn thiếu supporting idea " + (k + 1) + ".";
-    if (k === 1 && ok && mayMoc) { ok = false; giai = "Firstly đi với Secondly là lỗi linking máy móc; supporting idea 2 nên mở bằng In addition, Moreover, Furthermore hoặc Another benefit is that."; }
     const m = muc(ok, k === 0 ? "Mở supporting idea 1" : "Mở supporting idea 2 bằng từ nối bổ sung", { trich: co ? o.trich : "", giai });
     t43.push(m); gan.push(["T4.3", m, k]);
   });
+  // Cặp Firstly → Secondly (14-11, user chốt "cho mức khá"): hai từ nối vẫn đúng nghĩa nên hai mục vẫn đạt, nhưng node tối đa
+  // Khá. Trước 14-11 mục của supporting idea 2 bị tính trượt, node ra Sai nhiều.
+  const tranMayMoc = mayMoc && t43.every((m) => m.ok)
+    ? { tran: 2, lyDo: "Firstly đi với Secondly là lỗi linking máy móc nên tối đa Khá. Supporting idea 2 nên mở bằng In addition, Moreover, Furthermore hoặc Another benefit is that." }
+    : null;
   // T4.4: chỗ nối core → development bắt buộc + mọi linking device khác bên trong SI
   const t44 = [];
   [0, 1].forEach((k) => {
@@ -856,9 +864,9 @@ function tinhW4(doan, doc) {
   if (!t45.length) { khongDung = muc(false, "Chưa dùng this / doing so lần nào (đề yêu cầu ít nhất 1 lần)"); t45.push(khongDung); }
   const nodes = [
     ketNode(key, "T4.1", t41, thenChotTruot ? { tran: 1, lyDo: "Topic sentence trượt mục then chốt nên tối đa Sai nhiều." } : null),
-    ketNode(key, "T4.2", t42), ketNode(key, "T4.3", t43), ketNode(key, "T4.4", t44), ketNode(key, "T4.5", t45),
+    ketNode(key, "T4.2", t42), ketNode(key, "T4.3", t43, tranMayMoc), ketNode(key, "T4.4", t44), ketNode(key, "T4.5", t45),
   ];
-  return { nodes, gan, khongDung };
+  return { nodes, gan, khongDung, khongDungT42 };
 }
 
 function tinhW6(doan, doc) {
@@ -936,7 +944,7 @@ function tinh(key, doan, doc, spec) {
   // mục cấp cả đoạn (đúng khung của T3.1, "chưa dùng this" của T4.5, hai yêu cầu câu phức của T5.2, "chưa dùng" của T6.1,
   // T7.2): hàng ngoài khung đầu tiên, không thì hàng cuối. Hai yêu cầu của T5.2 và "chưa dùng" của T6.1, T7.2 luôn ở hàng
   // cuối: đó là việc của cả đoạn, không của câu kết.
-  const capDoan = [["T3.1", kq.khung], ["T3.3", kq.khongDungT33], ["T4.5", kq.khongDung]].concat((kq.yeuCau || []).map((m) => ["T5.2", m, true]), kq.capDoanThem || []).filter(([, m]) => m);
+  const capDoan = [["T3.1", kq.khung], ["T3.3", kq.khongDungT33], ["T4.2", kq.khongDungT42], ["T4.5", kq.khongDung]].concat((kq.yeuCau || []).map((m) => ["T5.2", m, true]), kq.capDoanThem || []).filter(([, m]) => m);
   capDoan.forEach(([ma, m, cuoi]) => {
     const h = (!cuoi && !m.ok && hang.find((x) => x.vai === "ngoai")) || hang[hang.length - 1];
     (h.nhom[ma] = h.nhom[ma] || []).push(m);

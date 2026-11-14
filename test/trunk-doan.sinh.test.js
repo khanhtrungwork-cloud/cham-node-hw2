@@ -197,10 +197,24 @@ const doc7 = (o) => Object.assign({
     const d = doc4(); d.ts = { trich: '', neu_x: false, y_chinh: false, cung_chieu: false, loi: '', giai_thich: 'x' };
     assert.deepEqual([nodeCua(D.tinh('TRUNK-W04', DOAN4, d, spec('TRUNK-W04')), 'T4.1').dat], [0]);
   });
-  await ca('tuần 4: cặp Firstly → Secondly là lỗi linking máy móc (code bắt)', () => {
+  await ca('tuần 4: cặp Firstly → Secondly là lỗi linking máy móc (code bắt): hai mục vẫn đạt, node tối đa Khá (14-11)', () => {
     const d = doc4(); d.si[1].mo_y = { trich: 'Secondly', dung: true, giai_thich: 'x' };
     const t43 = nodeCua(D.tinh('TRUNK-W04', DOAN4.replace('In addition', 'Secondly'), d, spec('TRUNK-W04')), 'T4.3');
-    assert.deepEqual([t43.dat, t43.muc], [D.CAP_MAY_MOC ? 1 : 2, D.CAP_MAY_MOC ? 1 : 3]);
+    assert.deepEqual([t43.dat, t43.tong, t43.muc, t43.nhan], [2, 2, D.CAP_MAY_MOC ? 2 : 3, D.CAP_MAY_MOC ? 'Khá' : 'Tốt']);
+    if (D.CAP_MAY_MOC) assert.match(t43.chan, /Firstly đi với Secondly.*tối đa Khá/, 'thiếu lý do chặn kèm cách sửa');
+    // cặp máy móc mà supporting idea 1 mở sai thì vẫn 1/2, Sai nhiều: trần Khá không kéo mức lên
+    const e = doc4(); e.si[1].mo_y = { trich: 'Secondly', dung: true, giai_thich: 'x' }; e.si[0].mo_y.dung = false;
+    const b = nodeCua(D.tinh('TRUNK-W04', DOAN4.replace('In addition', 'Secondly'), e, spec('TRUNK-W04')), 'T4.3');
+    assert.deepEqual([b.dat, b.muc], [1, 1]);
+    // không phải cặp máy móc thì không bị chặn
+    assert.equal(nodeCua(D.tinh('TRUNK-W04', DOAN4, doc4(), spec('TRUNK-W04')), 'T4.3').chan, '');
+  });
+  await ca('tuần 4: không dùng cụm lợi, hại nào thì T4.2 mức 0 (14-11, user chốt), mục trượt nằm ở một hàng, vẫn tính vào số node', () => {
+    const kq = D.tinh('TRUNK-W04', DOAN4, doc4({ loi_hai: [] }), spec('TRUNK-W04'));
+    const t42 = nodeCua(kq, 'T4.2');
+    assert.deepEqual([t42.dat, t42.tong, t42.muc, t42.nhan, kq.so_lo_co_muc], [0, 1, 0, 'Chưa ứng dụng được', 5]);
+    assert.match(t42.muc_kiem[0].chu, /Chưa dùng cụm chỉ lợi, hại nào/);
+    assert.equal(kq.hang.filter((h) => (h.nhom['T4.2'] || []).length).length, 1);
   });
   await ca('tuần 4: chỗ nối core → development không có từ nối là một mục trượt', () => {
     const d = doc4(); d.si[0].noi_core_dev = { trich: '', dung: false, sua: 'As a result,', giai_thich: 'x' };
