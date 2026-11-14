@@ -75,6 +75,8 @@
      T6.2 Dummy subject. Topic sentence 3 mục, mục đầu là cửa: có dummy subject · đúng cấu trúc (There are several advantages
           to (doing) sth; It is beneficial for sb to do sth) · nêu đúng việc X mang lại cái lợi. Cộng mỗi câu There are / It is
           khác trong đoạn là một mục. Topic sentence không có dummy subject thì tối đa Sai nhiều (đề bắt buộc).
+          ⚠ 14-11 (user chốt "phần dummy subject sửa thành tính theo điểm"): bỏ ba mục và trần ở trên. Lần dùng = topic sentence có
+          dummy subject (đúng khi đúng cấu trúc, không còn xét ý chính) + mỗi câu dummy khác; điểm theo lần dùng như T6.1.
    TUẦN 7 (cái LỢI của việc sống chung với bố mẹ, 110–130 từ; đề không gợi ý ý)
      T7.1 Hạn chế quy chụp. Mục = mỗi CÂU nêu một kết quả chỉ đúng với một số người (phép thử: có người làm việc đó mà không có
           kết quả đó không?): đạt khi đã rào bằng modal (can, may, might, could), trạng từ (often, usually), tend to / be likely
@@ -87,7 +89,7 @@
    được hỏi: dùng 2 lần, đúng 1 sai 1 → 8 − 3 = 5, Khá). Điểm sàn 0. Điểm này chính là thang 8 của ROOT nên quy ra mức bằng
    đúng mucTheoTiLe(diem, 8): 7–8 Tốt, 5–6 Khá, 3–4 Sai nhiều, 0–2 Chưa ứng dụng được. Từ 14-11 riêng hai node này gộp
    Sai nhiều vào Khá (GOP_SAI_NHIEU_VAO_KHA; user chốt, thang chung không đổi): dùng đúng MỘT lần (4 điểm) ra Khá, trước đó
-   12-11 → 14-11 là Sai nhiều. Luật cũ "mới đổi 1 câu thì tối đa Khá" (CAU_DOI_CHU_NGU_DU) đã gỡ. T6.2, T7.1 vẫn tính theo tỉ lệ mục.
+   12-11 → 14-11 là Sai nhiều. Luật cũ "mới đổi 1 câu thì tối đa Khá" (CAU_DOI_CHU_NGU_DU) đã gỡ. T7.1 vẫn tính theo tỉ lệ mục; T6.2 từ 14-11 cũng tính điểm theo lần dùng.
    Chỗ tự quyết của hai tuần này, chờ giáo viên duyệt: không dùng thì mức 0 chứ không null (theo luật T3.3 user chốt 03-11, đổi
    ở KHONG_DUNG_MUC_0); "many, some, most + danh từ" và help / allow / enable tính là không
    quy chụp dù ảnh không liệt kê (đó là tiếng Anh đúng, không bắt lỗi); advantages of + V-ing và các cách viết đúng ngữ pháp
@@ -106,7 +108,7 @@ const { mucTheoTiLe } = require("./lo-trunk-bud.js");
 
 const GOI = path.join(__dirname, "..", "vendor", "homework-grading");
 const UPSTREAM = "https://tech-proxy.youpass.vn/v1/chat/completions";
-const PHIEN_BAN = "lo-trunk-doan-2026-11-14c";
+const PHIEN_BAN = "lo-trunk-doan-2026-11-14d";
 const MODEL = H.TEN_MODEL;   // 4 lượt (hoi-dong-doan.js); chuỗi này đi vào trường model của job và file bài mẫu
 const HET_GIO_MS = 150000;
 const LAN_THU = 3;
@@ -177,7 +179,7 @@ const TUAN = {
       "T6.1": "Đa dạng cấu trúc câu bằng cách đổi chủ ngữ",
       "T6.2": "Đa dạng cấu trúc câu bằng cách dùng dummy subject",
     },
-    don_vi: { "T6.1": "câu đổi chủ ngữ", "T6.2": "mục kiểm" },
+    don_vi: { "T6.1": "câu đổi chủ ngữ", "T6.2": "lần dùng" },
     ten_ngan: { "T6.1": "Đổi chủ ngữ", "T6.2": "Dummy subject" },
   },
   "TRUNK-W07": {
@@ -195,7 +197,7 @@ const CACH_TINH = {
   "TRUNK-W06": [
     "Tiêu chí lấy từ lưu ý của giáo viên tuần 6: đổi chủ ngữ và chủ ngữ giả. " + CACH_TINH_CHUNG,
     "Đổi chủ ngữ tính điểm theo lần dùng, không theo tỉ lệ: mỗi câu ngoài topic sentence có chủ ngữ là V-ing hoặc danh từ chỉ vật, việc, tổ chức là một lần dùng, được 4 điểm, tối đa 8 điểm. Mỗi lần dùng sai (chủ ngữ sai dạng, hoặc FV không hoà hợp về số hay về nghĩa) trừ 3 điểm. Điểm quy ra mức theo đúng thang 8 ở trên: dùng đúng một lần là 4 điểm, xếp Khá vì node này gộp Sai nhiều vào Khá; dùng hai lần, sai một là 8 trừ 3 còn 5 điểm, Khá; chưa đổi câu nào là 0 điểm, Chưa ứng dụng được.",
-    "Dummy subject: topic sentence có ba mục (có dummy subject, đúng cấu trúc, nêu đúng việc X mang lại cái lợi). Không có dummy subject thì cả ba mục trượt và node tối đa Sai nhiều, vì đề yêu cầu. Mỗi câu There are, It is khác trong đoạn là thêm một mục.",
+    "Dummy subject cũng tính điểm theo lần dùng: topic sentence viết bằng dummy subject là một lần dùng, mỗi câu There are, It is khác trong đoạn là thêm một lần dùng. Mỗi lần dùng được 4 điểm, tối đa 8 điểm; mỗi lần dùng sai cấu trúc trừ 3 điểm. Dùng đúng một lần là 4 điểm, xếp Khá; dùng từ hai lần và không sai là 8 điểm, Tốt; chưa dùng lần nào là 0 điểm, Chưa ứng dụng được.",
   ],
   "TRUNK-W07": [
     "Tiêu chí lấy từ lưu ý của giáo viên tuần 7: bắt đầu câu bằng cụm giới từ và hạn chế lỗi quy chụp. " + CACH_TINH_CHUNG,
@@ -880,25 +882,31 @@ function tinhW6(doan, doc) {
   const si = doc.si || [];
   const ts = doc.ts || {};
   const gan = [];
-  // T6.2: topic sentence ba mục, có dummy subject là cửa; cộng mỗi câu dummy khác trong đoạn
+  // T6.2 (14-11, user: "phần dummy subject sửa thành tính theo điểm đi"): mỗi câu dùng dummy subject là một LẦN DÙNG, tính điểm
+  // như T6.1 (diemLanDung). Topic sentence viết bằng dummy subject là một lần dùng, đúng khi đúng cấu trúc (dung_khuon);
+  // y_chinh không còn tính ở node này. Trần "topic sentence không dùng dummy thì tối đa Sai nhiều" đã gỡ: topic sentence
+  // không dùng thì chỉ là thiếu lần dùng đó, kèm một dòng nhắc (phu, không tính điểm) vì đề vẫn yêu cầu.
   const viTs = coChu(ts.trich) ? viTri(doan, ts.trich) : -1;
   const viSi1 = si[0] ? viTri(doan, si[0].core) : Infinity;
   const coDummy = viTs >= 0 && viTs <= viSi1 && ts.co_dummy === true;
   const giaiTs = coChu(ts.trich) ? ts.giai_thich : "Đoạn chưa có topic sentence.";
-  const t62 = [
-    muc(coDummy, "Topic sentence dùng dummy subject (There are…, It is…)", { trich: ts.trich }),
-    muc(coDummy && ts.dung_khuon === true, "Đúng cấu trúc: There are several advantages to (doing) sth, It is beneficial for sb to do sth"),
-    muc(coDummy && ts.y_chinh === true, "Nêu đúng việc X mang lại cái lợi, cùng chiều với 2 supporting idea"),
-  ];
-  // Cả ba mục chung một câu nên lời giải và bản sửa chỉ gắn vào mục trượt đầu tiên, khỏi lặp ba lần trong nhận xét.
-  const truotDau = t62.find((m) => !m.ok);
-  if (truotDau) Object.assign(truotDau, { sua: ts.sua, giai: giaiTs });
-  if (!coDummy) t62.slice(1).forEach((m) => { m.giai = "Không tính vì topic sentence chưa dùng dummy subject."; });
-  t62.forEach((m) => gan.push(["T6.2", m, "ts"]));
+  const t62 = [];
+  if (coDummy) {
+    const okTs = ts.dung_khuon === true;
+    const m = muc(okTs, "Topic sentence dùng dummy subject (There are…, It is…)", { trich: ts.trich, sua: okTs ? "" : ts.sua, giai: okTs ? "" : giaiTs });
+    t62.push(m); gan.push(["T6.2", m, "ts"]);
+  }
   (doc.dummy_khac || []).forEach((x) => {
     const m = muc(x.dung, "Câu dummy subject khác: " + (x.kieu === "it" ? "It is" : "There be"), { trich: x.trich, sua: x.sua, giai: x.giai_thich });
     t62.push(m); gan.push(["T6.2", m, { viTri: viTri(doan, x.trich) }]);
   });
+  let khongDungT62 = null;
+  if (!t62.length && KHONG_DUNG_MUC_0) {
+    khongDungT62 = muc(false, "Chưa dùng dummy subject lần nào (đề yêu cầu topic sentence viết bằng There are…, It is…)", { trich: ts.trich, sua: ts.sua, giai: giaiTs });
+    t62.push(khongDungT62); gan.push(["T6.2", khongDungT62, "ts"]);
+  } else if (!coDummy && t62.length) {
+    gan.push(["T6.2", muc(false, "Topic sentence chưa dùng dummy subject (đề yêu cầu There are…, It is…)", { trich: ts.trich, sua: ts.sua, giai: giaiTs, phu: true }), "ts"]);
+  }
   // T6.1: mỗi câu đổi chủ ngữ là một mục
   const doi = doc.doi_chu_ngu || [];
   const t61 = doi.map((x) => muc(x.dung, "Chủ ngữ " + (x.kieu === "ving" ? "V-ing" : "danh từ") + (coChu(x.chu_ngu) ? ": " + x.chu_ngu : ""), { trich: x.trich, sua: x.sua, giai: x.giai_thich }));
@@ -911,7 +919,7 @@ function tinhW6(doan, doc) {
   }
   const nodes = [
     ketNode(key, "T6.1", t61, t61.length ? { diem: diemLanDung(t61.filter((m) => m !== khongDung)) } : null),
-    ketNode(key, "T6.2", t62, coDummy ? null : { tran: 1, lyDo: "Đề yêu cầu topic sentence viết bằng dummy subject nên tối đa Sai nhiều." }),
+    ketNode(key, "T6.2", t62, t62.length ? { diem: diemLanDung(t62.filter((m) => m !== khongDungT62)) } : null),
   ];
   return { nodes, gan, capDoanThem: khongDung ? [["T6.1", khongDung, true]] : [] };
 }

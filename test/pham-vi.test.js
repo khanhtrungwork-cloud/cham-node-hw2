@@ -91,7 +91,7 @@ const NGOAI = [["TRUNK", 8], ["TRUNK", 9], ["BUD", 4], ["BUD", 5], ["BUD", 6], [
     assert.ok(gui.every((x) => !x.includes("ĐỀ CŨ TRONG JOB")), "không đọc đề trong job");
     assert.match(kq.model, /^lo-trunk-doan-/);
     // T6.1 tính điểm theo lần dùng (nguồn 12-11): 4 điểm mỗi lần, tối đa 8, sai một lần trừ 3. Từ nguồn 14-11 hai node tính điểm gộp Sai nhiều vào Khá: đổi đúng 1 câu = 4/8 = Khá.
-    assert.deepEqual(kq.results.map((r) => [yc.learning_outcomes[r.idx - 1].code, r.level]), [["T6.1", 2], ["T6.2", 3]], "đổi đúng 1 câu là 4/8 điểm, T6.1 ra Khá vì node tính điểm gộp Sai nhiều vào Khá");
+    assert.deepEqual(kq.results.map((r) => [yc.learning_outcomes[r.idx - 1].code, r.level]), [["T6.1", 2], ["T6.2", 2]], "đổi đúng 1 câu là 4/8 điểm nên T6.1 ra Khá; T6.2 cũng tính điểm (nguồn 14-11): chỉ topic sentence dùng dummy subject là một lần dùng, 4/8 điểm, Khá");
     assert.match(kq.results[0].comment, /^1 lần dùng: 4\/8 điểm\./, "nhận xét T6.1 phải in số lần dùng và điểm");
   });
   await ca("đầu vào chấm trọn bài câu rời ROOT tuần 1 với model giả: mỗi LO ra mức, LO lạ để trống", async () => {

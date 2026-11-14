@@ -294,7 +294,8 @@ const doc7 = (o) => Object.assign({
   await ca('tuần 6: đoạn đủ ra Tốt cả hai node, đúng số mục', () => {
     assert.deepEqual(D.kiem('TRUNK-W06', doc6(), DOAN6), []);
     const kq = D.tinh('TRUNK-W06', DOAN6, doc6(), spec('TRUNK-W06'));
-    assert.deepEqual(kq.nodes.map((n) => [n.ma, n.dat, n.tong, n.muc]), [['T6.1', 3, 3, 3], ['T6.2', 3, 3, 3]]);
+    // T6.2 từ 14-11 tính điểm theo lần dùng: đoạn mẫu chỉ có topic sentence dùng dummy subject, một lần dùng đúng là 4 điểm, Khá
+    assert.deepEqual(kq.nodes.map((n) => [n.ma, n.dat, n.tong, n.muc]), [['T6.1', 3, 3, 3], ['T6.2', 1, 1, D.GOP_SAI_NHIEU_VAO_KHA ? 2 : 1]]);
     assert.ok(Array.isArray(kq.cach_tinh) && kq.cach_tinh.length, 'trang chấm thử cần cach_tinh');
   });
   await ca('tuần 6: T6.1 đổi 1 câu là 4 điểm, xếp Khá vì node tính điểm gộp Sai nhiều vào Khá (14-11), không đổi câu nào là 0 điểm mức 0 kèm gợi ý, không null', () => {
@@ -335,28 +336,43 @@ const doc7 = (o) => Object.assign({
       const n7 = nodeCua(D.tinh('TRUNK-W07', DOAN7, d7, spec('TRUNK-W07')), 'T7.2');
       assert.deepEqual([n7.diem, n7.muc], [diem, muc], 'T7.2 ' + k);
     });
-    // T6.2, T7.1 vẫn theo tỉ lệ mục, không mang điểm
+    // T7.1 vẫn theo tỉ lệ mục, không mang điểm; T6.2 từ 14-11 cũng tính điểm theo lần dùng
     const kq6 = D.tinh('TRUNK-W06', DOAN6, doc6(), spec('TRUNK-W06'));
     const kq7 = D.tinh('TRUNK-W07', DOAN7, doc7(), spec('TRUNK-W07'));
-    assert.equal(nodeCua(kq6, 'T6.2').diem, undefined);
+    assert.deepEqual([nodeCua(kq6, 'T6.2').diem, nodeCua(kq6, 'T6.2').diem_toi_da, nodeCua(kq6, 'T6.2').don_vi], [4, 8, 'lần dùng']);
     assert.equal(nodeCua(kq7, 'T7.1').diem, undefined);
     assert.ok(kq6.cach_tinh.some((t) => /4 điểm/.test(t) && /trừ 3 điểm/.test(t)) && kq7.cach_tinh.some((t) => /4 điểm/.test(t) && /trừ 3 điểm/.test(t)), 'cách tính nói luật điểm');
   });
-  await ca('tuần 6: T6.2 không có dummy subject thì cả ba mục trượt và mức 0; sai cấu trúc thì 2/3 là Khá; câu dummy khác là thêm mục', () => {
-    const t = (ts, them) => nodeCua(D.tinh('TRUNK-W06', DOAN6, doc6(Object.assign({ ts: Object.assign({}, doc6().ts, ts) }, them)), spec('TRUNK-W06')), 'T6.2');
-    const khong = t({ co_dummy: false, dung_khuon: false, y_chinh: false, sua: 'There are several advantages to studying online.' });
-    assert.deepEqual([khong.dat, khong.tong, khong.muc], [0, 3, 0]);
-    assert.equal(khong.muc_kiem.filter((m) => m.sua).length, 1, 'bản sửa chỉ gắn một lần');
-    // model lỡ ghi y_chinh true khi không có dummy: code vẫn không tính
-    assert.equal(t({ co_dummy: false, dung_khuon: false, y_chinh: true }).dat, 0);
-    const saiKhuon = t({ dung_khuon: false });
-    assert.deepEqual([saiKhuon.dat, saiKhuon.muc], [2, 2]);
-    const them = t({}, { dummy_khac: [{ trich: 'online courses cost less', kieu: 'there', dung: false, sua: 'x', giai_thich: 'x' }] });
-    assert.deepEqual([them.dat, them.tong], [3, 4]);
-    // bốn câu dummy đúng không cứu được topic sentence thiếu dummy: đề bắt buộc
-    const cuu = t({ co_dummy: false, dung_khuon: false, y_chinh: false }, { dummy_khac: [1, 2, 3, 4].map(() => ({ trich: 'online courses cost less', kieu: 'there', dung: true, sua: '', giai_thich: 'x' })) });
-    assert.deepEqual([cuu.dat, cuu.tong, cuu.muc], [4, 7, 1]);
-    assert.match(cuu.chan, /tối đa Sai nhiều/);
+  await ca('tuần 6: T6.2 tính điểm theo lần dùng (14-11): topic sentence dummy là một lần dùng, đúng khi đúng cấu trúc; câu dummy khác là thêm lần dùng; không dùng là 0 điểm', () => {
+    const kqCua = (ts, them) => D.tinh('TRUNK-W06', DOAN6, doc6(Object.assign({ ts: Object.assign({}, doc6().ts, ts) }, them)), spec('TRUNK-W06'));
+    const t = (ts, them) => nodeCua(kqCua(ts, them), 'T6.2');
+    const khac = (dung) => ({ trich: 'online courses cost less', kieu: 'there', dung, sua: dung ? '' : 'x', giai_thich: 'x' });
+    const KHA = D.GOP_SAI_NHIEU_VAO_KHA ? 2 : 1;
+    // không dùng lần nào: một mục "chưa dùng" kèm bản sửa topic sentence, 0 điểm, mức 0, nằm ở hàng topic sentence
+    const kqKhong = kqCua({ co_dummy: false, dung_khuon: false, y_chinh: false, sua: 'There are several advantages to studying online.' });
+    const khong = nodeCua(kqKhong, 'T6.2');
+    assert.deepEqual([khong.dat, khong.tong, khong.diem, khong.lan_dung, khong.muc, khong.nhan], [0, 1, 0, 0, 0, 'Chưa ứng dụng được']);
+    assert.match(khong.muc_kiem[0].chu, /Chưa dùng dummy subject lần nào/);
+    assert.match(khong.muc_kiem[0].sua, /There are several advantages/);
+    assert.equal(kqKhong.hang.find((h) => h.vai === 'ts').nhom['T6.2'].length, 1);
+    // model lỡ ghi dung_khuon true khi không có dummy: code vẫn không tính là một lần dùng
+    assert.equal(t({ co_dummy: false, dung_khuon: true, y_chinh: true }).lan_dung, 0);
+    // topic sentence có dummy mà sai cấu trúc: một lần dùng sai, 4 − 3 = 1 điểm, mức 0
+    const saiKhuon = t({ dung_khuon: false, sua: 'There are several advantages to studying online.' });
+    assert.deepEqual([saiKhuon.diem, saiKhuon.lan_dung, saiKhuon.lan_sai, saiKhuon.muc], [1, 1, 1, 0]);
+    assert.ok(saiKhuon.muc_kiem[0].sua, 'lần dùng sai phải kèm bản sửa');
+    // đúng cấu trúc nhưng chưa nêu cái lợi (y_chinh false): vẫn là một lần dùng đúng, node này không còn xét ý chính
+    assert.deepEqual([t({ y_chinh: false }).diem, t({ y_chinh: false }).muc], [4, KHA]);
+    // topic sentence đúng + một câu dummy khác: đúng thì 8 điểm Tốt, sai thì 8 − 3 = 5 điểm Khá
+    assert.deepEqual([t({}, { dummy_khac: [khac(true)] }).diem, t({}, { dummy_khac: [khac(true)] }).muc], [8, 3]);
+    const them = t({}, { dummy_khac: [khac(false)] });
+    assert.deepEqual([them.dat, them.tong, them.diem, them.muc], [1, 2, 5, 2]);
+    // topic sentence không dùng dummy nhưng đoạn có hai câu dummy đúng: 8 điểm Tốt, không còn trần; có một dòng nhắc không tính điểm
+    const kqCuu = kqCua({ co_dummy: false, dung_khuon: false, y_chinh: false, sua: 'There are several advantages to studying online.' }, { dummy_khac: [khac(true), khac(true)] });
+    const cuu = nodeCua(kqCuu, 'T6.2');
+    assert.deepEqual([cuu.dat, cuu.tong, cuu.diem, cuu.muc, cuu.chan], [2, 2, 8, 3, '']);
+    const nhac = kqCuu.hang.find((h) => h.vai === 'ts').nhom['T6.2'];
+    assert.ok(nhac.length === 1 && nhac[0].phu === true && /chưa dùng dummy subject/.test(nhac[0].chu), 'thiếu dòng nhắc topic sentence chưa dùng dummy');
   });
   await ca('tuần 6: topic sentence không đứng đầu đoạn thì không tính dummy subject', () => {
     const d = doc6(); d.ts.trich = 'online courses cost less than traditional classes.';
